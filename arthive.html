@@ -22,6 +22,7 @@
     <link href="css/icomoon.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- Custom CSS for Grid Galleries -->
     <style>
         .gallery-container {
             margin-top: 30px;
@@ -221,7 +222,7 @@
     <div class="container">
         <a class="navbar-brand" href="index.html">Clark</a>
         <button aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation"
-                class="navbar-toggler jsстоя-nav-toggle fh5co-nav-toggle" data-target="#ftco-nav"
+                class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" data-target="#ftco-nav"
                 data-toggle="collapse" type="button">
             <span class="oi oi-menu"></span> Menu
         </button>
@@ -251,7 +252,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 ftco-animate">
-                <p>The "Arthive" project was a school assignment from Esprit aimed at creating a desktop application using C++ and Qt. Our goal was to build a robust tool with validation techniques and marketing strategies to promote it. Competing against 300 other projects, Arthive was selected as a top 10 candidate for the Ball de Projet Esprit 2024, ultimately finishing as the 2nd-best project at its level. Technologies used include C++, Qt, CSS, and Python. Below, you’ll find two galleries showcasing the application development and the artist prediction feature, followed by a carousel highlighting key milestones.</p>
+                <p>The "Arthive" project was a school assignment from Esprit aimed at creating a desktop application using C++ and Qt. Our goal was to build a robust tool with validation techniques and marketing strategies to promote it. Competing against 300 other projects, Arthive was selected as a top 10 candidate for the Ball de Projet Esprit 2024, ultimately finishing as the 2nd-best project at its level. Technologies used include C++, Qt, CSS, and Python. Below, you’ll find two galleries: one showcasing the application development and another highlighting the artist prediction feature.</p>
             </div>
         </div>
         <div class="row">
@@ -314,10 +315,11 @@
                             <div class="thumbnail-grid" id="artist-thumbnail-grid">
                                 <img class="thumbnail active" src="images/artist_prediction1.png" data-src="images/artist_prediction1.png" data-title="Prediction Model" data-desc="Overview of the artist prediction algorithm in Python" alt="Thumbnail 1">
                                 <img class="thumbnail" src="images/artist_prediction2.png" data-src="images/artist_prediction2.png" data-title="Training Data" data-desc="Sample dataset used for training the model" alt="Thumbnail 2">
-                                <img class="thumbnail" src="images/artist_prediction3.png" data-src="images/artist_prediction3.png" data-title="Prediction Results" data-desc="Visual results of artist predictions" alt="Thumbnail 3">
-                                <img class="thumbnail" src="images/artist_prediction4.png" data-src="images/artist_prediction4.png" data-title="Qt Integration" data-desc="Artist prediction integrated into the Qt app" alt="Thumbnail 4">
-                                <img class="thumbnail" src="images/artist_prediction5.png" data-src="images/artist_prediction5.png" data-title="Feature Demo" data-desc="Artist prediction integrated into the Qt app" alt="Thumbnail 5">
+                                <img class="thumbnail" src="images/artist_prediction3.png" data-src="images/artist_prediction3.png" data-title="Training Data" data-desc="Visual results of artist predictions" alt="Thumbnail 3">
+                                <img class="thumbnail" src="images/artist_prediction4.png" data-src="images/artist_prediction4.png" data-title="Training Data" data-desc="Artist prediction integrated into the Qt app" alt="Thumbnail 4">
+                                <img class="thumbnail" src="images/artist_prediction5.png" data-src="images/artist_prediction5.png" data-title="Training Data" data-desc="Artist prediction integrated into the Qt app" alt="Thumbnail 5">
                                 <img class="thumbnail" src="images/artist_prediction6.png" data-src="images/artist_prediction6.png" data-title="Prediction Output" data-desc="Artist prediction integrated into the Qt app" alt="Thumbnail 6">
+
                             </div>
                             <button class="arrow-btn arrow-right" id="artist-scroll-right">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -326,78 +328,6 @@
                             </button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 ftco-animate">
-                <div id="carouselExampleCaptions" class="relative" data-twe-carousel-init data-twe-carousel-slide>
-                    <div class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
-                         data-twe-carousel-indicators>
-                        <button type="button" data-twe-target="#carouselExampleCaptions" data-twe-slide-to="0"
-                                data-twe-carousel-active
-                                class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                                aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-twe-target="#carouselExampleCaptions" data-twe-slide-to="1"
-                                class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                                aria-label="Slide 2"></button>
-                        <button type="button" data-twe-target="#carouselExampleCaptions" data-twe-slide-to="2"
-                                class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                                aria-label="Slide 3"></button>
-                    </div>
-                    <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-                        <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                             data-twe-carousel-active data-twe-carousel-item style="backface-visibility: hidden">
-                            <div class="relative overflow-hidden bg-cover bg-no-repeat" style="background-position: 50%">
-                                <img src="images/arthive1.png" class="block w-full" alt="Initial Design" />
-                                <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-black bg-fixed opacity-50"></div>
-                            </div>
-                            <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                                <h5 class="text-xl">Initial Design Phase</h5>
-                                <p>Conceptual sketches and early planning for Arthive.</p>
-                            </div>
-                        </div>
-                        <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                             data-twe-carousel-item style="backface-visibility: hidden">
-                            <div class="relative overflow-hidden bg-cover bg-no-repeat" style="background-position: 50%">
-                                <img src="images/arthive5.png" class="block w-full" alt="Final Application" />
-                                <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-black bg-fixed opacity-50"></div>
-                            </div>
-                            <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                                <h5 class="text-xl">Final Application</h5>
-                                <p>The completed desktop application ready for use.</p>
-                            </div>
-                        </div>
-                        <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                             data-twe-carousel-item style="backface-visibility: hidden">
-                            <div class="relative overflow-hidden bg-cover bg-no-repeat" style="background-position: 50%">
-                                <img src="images/artist_prediction4.png" class="block w-full" alt="Artist Prediction Integration" />
-                                <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-black bg-fixed opacity-50"></div>
-                            </div>
-                            <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                                <h5 class="text-xl">Artist Prediction Integration</h5>
-                                <p>Showcasing the Python-based prediction feature in Qt.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-                            type="button" data-twe-target="#carouselExampleCaptions" data-twe-slide="prev">
-                        <span class="inline-block h-8 w-8">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-                            </svg>
-                        </span>
-                        <span class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
-                    </button>
-                    <button class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-                            type="button" data-twe-target="#carouselExampleCaptions" data-twe-slide="next">
-                        <span class="inline-block h-8 w-8">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                            </svg>
-                        </span>
-                        <span class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
-                    </button>
                 </div>
             </div>
         </div>
@@ -470,14 +400,6 @@
 <script src="js/scrollax.min.js"></script>
 <script src="js/main.js"></script>
 
-<!-- Tailwind Elements Script -->
-<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
-<script>
-    // Initialization for Tailwind Elements Carousel
-    const { Carousel, initTWE } = window.TWE;
-    initTWE({ Carousel });
-</script>
-
 <!-- Grid Gallery Scripts -->
 <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -521,7 +443,7 @@
         const artistScrollLeftBtn = document.getElementById('artist-scroll-left');
         const artistScrollRightBtn = document.getElementById('artist-scroll-right');
 
-        artistThumbnails.forEach(Carouselthumbnail => {
+        artistThumbnails.forEach(thumbnail => {
             thumbnail.addEventListener('click', function () {
                 artistThumbnails.forEach(thumb => thumb.classList.remove('active'));
                 this.classList.add('active');
