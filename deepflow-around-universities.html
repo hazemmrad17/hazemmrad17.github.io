@@ -1,60 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>DeepFlow Around Universities Event - Hazem's Portfolio</title>
+    <title>Hazem's Portfolio</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
     <link href="css/open-iconic-bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
+
     <link href="css/owl.carousel.min.css" rel="stylesheet">
     <link href="css/owl.theme.default.min.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
+
     <link href="css/aos.css" rel="stylesheet">
+
     <link href="css/ionicons.min.css" rel="stylesheet">
+
     <link href="css/flaticon.css" rel="stylesheet">
     <link href="css/icomoon.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- PDF.js Styles -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf_viewer.css">
 
-    <!-- Custom CSS for PDF Viewer -->
+    <!-- Custom CSS for Issuu Viewer -->
     <style>
-        .pdf-viewer-container {
+        .issuu-viewer-container {
             margin-top: 30px;
             padding: 20px;
             background: #f8f9fa;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            border: 2px solid transparent;
+            background-clip: padding-box;
+            position: relative;
             overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        #pdf-viewer {
-            width: 100%;
-            height: 600px;
-            border: none;
-            border-radius: 5px;
+
+        .issuu-viewer-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
         }
-        #toolbarContainer {
+
+        .issuu-viewer-container::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #ffbd39, #e6a732);
+            border-radius: 17px;
+            z-index: -1;
+        }
+
+        .issuu-viewer-header {
             background: #fff;
+            padding: 10px 20px;
             border-bottom: 1px solid #e6e6e6;
-            padding: 10px;
+            border-radius: 10px 10px 0 0;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-        }
-        .toolbarButton {
-            color: #ffbd39;
-        }
-        .toolbarButton:hover {
-            color: #e6a732;
-        }
-        #pageNumber, #pageCount {
             font-family: 'Poppins', sans-serif;
+            font-size: 16px;
             color: #333;
+            text-align: center;
         }
+
+        .issuu-viewer-header span {
+            color: #ffbd39;
+            font-weight: 500;
+        }
+
+        .issuu-viewer {
+            width: 100%;
+            height: 600px; /* Adjustable height */
+            border: none;
+            border-radius: 0 0 10px 10px;
+        }
+
         @media (max-width: 767.98px) {
-            #pdf-viewer {
+            .issuu-viewer {
                 height: 400px;
+            }
+            .issuu-viewer-container {
+                padding: 15px;
+            }
+            .issuu-viewer-header {
+                font-size: 14px;
+                padding: 8px 15px;
             }
         }
     </style>
@@ -95,13 +129,17 @@
         </div>
         <div class="row">
             <div class="col-md-12 ftco-animate">
-                <p>This project involved creating a cohesive visual identity for the "DeepFlow Around Universities" event, aimed at engaging university students with AI and technology. Below, you’ll find a detailed PDF document showcasing the branding process, designs, and event highlights. Use the controls to navigate through the pages and explore the full scope of this project.</p>
+                <p>This project involved creating a cohesive visual identity for the "DeepFlow Around Universities" event, aimed at engaging university students with AI and technology. Below, you’ll find a detailed document showcasing the branding process, designs, and event highlights. Flip through the pages to explore the full scope of this project.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 ftco-animate">
-                <div class="pdf-viewer-container">
-                    <div id="pdf-viewer"></div>
+                <div class="issuu-viewer-container">
+                    <div class="issuu-viewer-header">
+                        Project Documentation - <span>DeepFlow Around Universities</span>
+                    </div>
+                    <!-- Replace with your Issuu embed code -->
+                    <div data-paperturn="embed-v1" style="width: 100%; max-width: 100%; height: 408px;"><iframe src="https://heyzine.com/flip-book/4cde9c2329.html" width="100%" height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen style="border: 0px; display: block; background-color: #DCCFC7"></iframe></div><script src="https://heyzine.com/flip-book/4cde9c2329.html"></script>
                 </div>
             </div>
         </div>
@@ -173,37 +211,5 @@
 <script src="js/jquery.animateNumber.min.js"></script>
 <script src="js/scrollax.min.js"></script>
 <script src="js/main.js"></script>
-
-<!-- PDF.js Scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf_viewer.min.js"></script>
-<script>
-    // Ensure PDF.js worker is loaded
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js';
-
-    // Load and render the PDF
-    const url = './pdfs/around-universities.pdf'; // Updated path with './' for clarity
-    const container = document.getElementById('pdf-viewer');
-    let pdfViewer;
-
-    pdfjsLib.getDocument(url).promise.then(pdfDoc => {
-        // Initialize the PDF viewer
-        pdfViewer = new pdfjsViewer.PDFViewer({
-            container: container,
-            textLayerMode: 1, // Enable text layer for better accessibility
-        });
-        pdfViewer.setDocument(pdfDoc);
-    }).catch(error => {
-        console.error('Error loading PDF:', error);
-        container.innerHTML = '<p style="color: red;">Failed to load PDF. Please check the file path or try again later.</p>';
-    });
-
-    // Resize viewer on window resize
-    window.addEventListener('resize', () => {
-        if (pdfViewer) {
-            pdfViewer.currentScaleValue = 'auto';
-        }
-    });
-</script>
 </body>
 </html>
