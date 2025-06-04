@@ -22,7 +22,6 @@
     <link href="css/icomoon.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-
     <!-- Custom CSS for Grid Galleries -->
     <style>
         .gallery-container {
@@ -184,6 +183,43 @@
             margin-left: 10px;
         }
 
+        .video-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .video-container video {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .video-caption {
+            margin-top: 15px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .video-caption h5 {
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+
+        .video-caption p {
+            font-size: 14px;
+            color: #ccc;
+            margin: 0;
+        }
+
+        .section-subheading {
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
         @media (max-width: 767.98px) {
             .gallery-container {
                 padding: 15px;
@@ -212,6 +248,18 @@
             .arrow-btn svg {
                 width: 15px;
                 height: 15px;
+            }
+            .video-container video {
+                max-height: 300px;
+            }
+            .video-caption h5 {
+                font-size: 16px;
+            }
+            .video-caption p {
+                font-size: 12px;
+            }
+            .section-subheading {
+                font-size: 20px;
             }
         }
     </style>
@@ -253,11 +301,13 @@
         </div>
         <div class="row">
             <div class="col-md-12 ftco-animate">
-                <p>The "Matchupz" project aimed to create an engaging sports management experience with innovative mechanics. Below, you’ll find a gallery with a main image and thumbnails showcasing the game development process. Click a thumbnail or use the arrows to view each image and its details.</p>
+                <p>The "Matchupz" project aimed to create an engaging sports management experience with innovative mechanics. Below, you’ll find a gallery with a main image and thumbnails showcasing the game development process, followed by a demo video demonstrating the application in action. Click a thumbnail or use the arrows to view each image and its details.</p>
+                <p><strong>Recognition:</strong> The Matchupz project was selected among the top 10 projects for the Projet Intégré (PI-Dev) for 3rd-year students at ESPRIT's Bal de Projet 2025. It will compete for a prize, focusing on innovative solutions contributing to the Sustainable Development Goals (SDGs).</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 ftco-animate">
+                <h3 class="section-subheading">Project Gallery</h3>
                 <div class="gallery-container">
                     <div class="gallery-header">
                         Project Gallery - <span>Matchupz</span>
@@ -290,6 +340,29 @@
                                     <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
                                 </svg>
                             </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 ftco-animate">
+                <h3 class="section-subheading">Demo Video</h3>
+                <p>This demo video showcases the core functionalities of the Matchupz application, including its interactive sports management interface and real-time analysis tools. It highlights key features such as team formation planning, player tracking, and performance analytics, providing a glimpse into the user experience (approximately 3 minutes).</p>
+                <div class="gallery-container">
+                    <div class="gallery-header">
+                        Demo Video - <span>Matchupz</span>
+                    </div>
+                    <div class="gallery-grid">
+                        <div class="video-container">
+                            <video controls>
+                                <source src="videos/Matchupz2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-caption">
+                                <h5>Matchupz Demo</h5>
+                                <p>Demonstration of the Matchupz application in action.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -330,6 +403,42 @@
                             <button class="arrow-btn arrow-right" id="football-scroll-right">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 ftco-animate">
+                <div class="gallery-container">
+                    <div class="gallery-header">
+                        In-App Features - <span>Matchupz Analysis Tools</span>
+                    </div>
+                    <div class="gallery-grid">
+                        <div class="main-image-container">
+                            <img id="inapp-main-image" class="main-image" src="images/1_1.png" alt="Formations Maker">
+                            <div class="main-caption" id="inapp-main-caption">
+                                <h5>Formations Maker</h5>
+                                <p>Designing and visualizing team formations for strategic planning.</p>
+                            </div>
+                        </div>
+                        <div class="thumbnail-container">
+                            <button class="arrow-btn arrow-left" id="inapp-scroll-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                                </svg>
+                            </button>
+                            <div class="thumbnail-grid" id="inapp-thumbnail-grid">
+                                <img class="thumbnail active" src="images/1_1.png" data-src="images/1_1.png" data-title="Formations Builder" data-desc="Designing and visualizing team formations for strategic planning" alt="Thumbnail 1">
+                                <img class="thumbnail" src="images/2_2.png" data-src="images/2_2.png" data-title="Players Tracker" data-desc="Displaying real-time analytics and insights for team performance" alt="Thumbnail 2">
+                                <img class="thumbnail" src="images/3_3.png" data-src="images/3_3.png" data-title="Venue Recommendation" data-desc="Sports Venue Recommendation System via (Crtierias)" alt="Thumbnail 3">
+                                <img class="thumbnail" src="images/4_4.png" data-src="images/4_4.png" data-title="Equipment Detector" data-desc="Detecting different equipment and adding it to inventory" alt="Thumbnail 4">
+                            </div>
+                            <button class="arrow-btn arrow-right" id="inapp-scroll-right">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M8.59 16.59L10 18l-6-6 6-6-1.41 1.41L13.17 12z"/>
                                 </svg>
                             </button>
                         </div>
@@ -470,6 +579,37 @@
 
         footballScrollRightBtn.addEventListener('click', function () {
             footballThumbnailGrid.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        });
+
+        // In-App Features Gallery
+        const inappThumbnails = document.querySelectorAll('#inapp-thumbnail-grid .thumbnail');
+        const inappMainImage = document.getElementById('inapp-main-image');
+        const inappMainCaption = document.getElementById('inapp-main-caption');
+        const inappThumbnailGrid = document.getElementById('inapp-thumbnail-grid');
+        const inappScrollLeftBtn = document.getElementById('inapp-scroll-left');
+        const inappScrollRightBtn = document.getElementById('inapp-scroll-right');
+
+        inappThumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', function () {
+                inappThumbnails.forEach(thumb => thumb.classList.remove('active'));
+                this.classList.add('active');
+
+                const src = this.getAttribute('data-src');
+                const title = this.getAttribute('data-title');
+                const desc = this.getAttribute('data-desc');
+
+                inappMainImage.src = src;
+                inappMainImage.alt = title;
+                inappMainCaption.innerHTML = `<h5>${title}</h5><p>${desc}</p>`;
+            });
+        });
+
+        inappScrollLeftBtn.addEventListener('click', function () {
+            inappThumbnailGrid.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        });
+
+        inappScrollRightBtn.addEventListener('click', function () {
+            inappThumbnailGrid.scrollBy({ left: scrollAmount, behavior: 'smooth' });
         });
     });
 </script>
