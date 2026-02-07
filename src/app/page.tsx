@@ -221,7 +221,7 @@ export default function Home() {
                     label="Resume.pdf"
                     icon={FileText}
                     onClick={() => {
-                      setBrowserUrl("/hazem_mrad_cv-9.pdf");
+                      setBrowserUrl("/hazem_mrad_cv.pdf");
                       toggleWindow("browser", true);
                     }}
                     color="text-red-400"
