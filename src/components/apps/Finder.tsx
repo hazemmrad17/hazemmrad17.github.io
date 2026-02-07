@@ -290,15 +290,17 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                                 name: "Building LLM Applications With Prompt Engineering",
                                 issuer: "NVIDIA",
                                 date: "Jan 2025",
-                                id: "g-2IIRd1RO6ZWcYuaAXLtA",
+                                id: "3YlMsPazQQeGHpQSCAKtiQ",
+                                link: "https://learn.nvidia.com/certificates?id=3YlMsPazQQeGHpQSCAKtiQ",
                                 skills: ["Prompt Engineering", "LLM", "Agentic AI"],
-                                icon: "/images/nvidia_logo.png" // Placeholder or generic icon
+                                icon: "/images/nvidia_logo.png"
                             },
                             {
                                 name: "Evaluation and Light Customization of Large Language Models",
                                 issuer: "NVIDIA",
                                 date: "Jan 2025",
-                                id: "M9kdR7yQQ5WiuvosdW_R4g",
+                                id: "hvaVnKPgSZesiGC_3YfDCA",
+                                link: "https://learn.nvidia.com/certificates?id=hvaVnKPgSZesiGC_3YfDCA",
                                 skills: ["Large Language Models (LLM)"],
                                 icon: "/images/nvidia_logo.png"
                             },
@@ -306,7 +308,8 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                                 name: "Rapid Application Development with Large Language Models (LLMs)",
                                 issuer: "NVIDIA",
                                 date: "Jan 2025",
-                                id: "4SmAhElMQZySoTzOylVCxA",
+                                id: "QCaSp38fQkqdkc43uh_P6g",
+                                link: "https://learn.nvidia.com/certificates?id=QCaSp38fQkqdkc43uh_P6g",
                                 skills: ["LLM", "Agentic AI"],
                                 icon: "/images/nvidia_logo.png"
                             },
@@ -314,7 +317,8 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                                 name: "Building Transformer-Based Natural Language Processing Applications",
                                 issuer: "NVIDIA",
                                 date: "Jan 2025",
-                                id: "pF329a7-SwSyOeTLS-WONQ",
+                                id: "7frdMLXwQRW2vRQtmOREKA",
+                                link: "https://learn.nvidia.com/certificates?id=7frdMLXwQRW2vRQtmOREKA",
                                 skills: ["LLM", "Agentic AI"],
                                 icon: "/images/nvidia_logo.png"
                             },
@@ -322,7 +326,8 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                                 name: "Fundamentals of Deep Learning",
                                 issuer: "NVIDIA",
                                 date: "Jan 2024",
-                                id: "03291cd8e8a64c52b794431c4909045d",
+                                id: "yDs0KhrJSxqQMT3umJhk_g",
+                                link: "https://learn.nvidia.com/certificates?id=yDs0KhrJSxqQMT3umJhk_g",
                                 skills: ["Deep Learning"],
                                 icon: "/images/nvidia_logo.png"
                             },
@@ -330,22 +335,25 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                                 name: "Front End Development Libraries",
                                 issuer: "freeCodeCamp",
                                 date: "Jun 2023",
+                                link: "https://www.freecodecamp.org/certification/hazemmrad/front-end-development-libraries",
                                 icon: "https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
                             },
                             {
                                 name: "Responsive Web Design",
                                 issuer: "freeCodeCamp",
                                 date: "Jun 2023",
+                                link: "https://www.freecodecamp.org/certification/hazemmrad/responsive-web-design",
                                 icon: "https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
                             }
                         ].map((cert, i) => (
-                            <div
+                            <button
                                 key={i}
-                                className="group flex flex-col p-4 rounded-xl bg-white/5 border border-white/5 hover:border-blue-500/30 transition-all"
+                                onClick={() => cert.link && window.open(cert.link, "_blank")}
+                                className="group flex flex-col p-4 rounded-xl bg-white/5 border border-white/5 hover:border-blue-500/30 transition-all text-left w-full cursor-pointer hover:bg-white/10"
                             >
-                                <div className="flex items-start justify-between mb-2">
+                                <div className="flex items-start justify-between mb-2 w-full">
                                     <div className="flex gap-4">
-                                        <div className="w-10 h-10 rounded bg-zinc-800 flex items-center justify-center p-2">
+                                        <div className="w-10 h-10 rounded bg-zinc-800 flex items-center justify-center p-2 shrink-0">
                                             {cert.issuer === "NVIDIA" ? (
                                                 <div className="text-[10px] font-bold text-emerald-500">NVIDIA</div>
                                             ) : (
@@ -366,7 +374,7 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                                         ))}
                                     </div>
                                 )}
-                            </div>
+                            </button>
                         ))}
                     </div>
                 );
