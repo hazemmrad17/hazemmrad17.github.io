@@ -1,0 +1,21 @@
+:root{
+  /* Primary accent (replaces --_color---orange1) */
+  --_color---orange1: #d4a84b; /* warm gold */
+
+  /* Secondary accent (replaces --_color---blue) */
+  --_color---blue: #2e54fe;   /* original blue */
+
+  /* Text + neutrals */
+  --_color---grey: #000000;   /* pure black */
+  --_color---bg-warm: #faf6ef; /* original warm background */
+  --_color---bg-grey: #f4f4f4; /* original grey background */
+}
+
+/* Some Webflow styles hardcode colors; provide common overrides */
+.body{background-color: var(--_color---bg-warm) !important;}
+.body.work{background-color: var(--_color---bg-grey) !important;}
+.top-glow{box-shadow: inset 0 2px 30px #e8c878c4, inset 0 2px 130px 8px #d4a84b7d !important;}
+
+/* Force loader intro background — Webflow IX2 applies inline orange without this */
+.orange-intro{background-color: var(--_color---grey) !important;}
+

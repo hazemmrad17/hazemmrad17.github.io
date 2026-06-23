@@ -1,0 +1,30 @@
+/* Ensure mirrored content is visible once Webflow boots */
+html.w-mod-ix3 .container-loader {
+  pointer-events: none;
+}
+
+/* Hero name text replacing Lottie animation */
+.hero-name-text {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.08em;
+  width: 100%;
+  pointer-events: none;
+}
+
+.hero-first-name,
+.hero-last-name {
+  font-family: Goga, Arial, sans-serif;
+  font-size: 18vw;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: var(--_color---orange1);
+  display: inline-block;
+}
+
+.hero-last-name {
+  opacity: 0.45;
+}
+
