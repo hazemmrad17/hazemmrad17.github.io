@@ -3,7 +3,7 @@ import { ABOUT_FOUC } from "@/lib/fouc-styles";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About - Hazem Mrad | Web & Brand Design Specialist",
+  title: "About - Hazem Mrad | AI Engineering · Design · Branding",
 };
 
 export default function Page() {
