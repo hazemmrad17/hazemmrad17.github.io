@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
+import { LocaleProvider } from "@/components/LocaleProvider";
 
 export const metadata: Metadata = {
-  title: "Hazem Mrad | AI Engineering · Design · Branding",
+  title: "Hazem Mrad | Multi-Disciplinary AI Engineer · Designer · Developer",
   description:
     "AI Engineering student specializing in full-stack development, brand identity, and creative design — bridging code, design, and AI.",
 };
@@ -44,7 +45,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body suppressHydrationWarning>
-        {children}
+        <LocaleProvider>{children}</LocaleProvider>
         <Script
           src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6966d53c7b70efaabd0a64ff"
           strategy="beforeInteractive"

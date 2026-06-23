@@ -28,3 +28,27 @@ html.w-mod-ix3 .container-loader {
   opacity: 0.45;
 }
 
+/* Locale toggle button - matches nav-social-link styling */
+.locale-toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: inherit;
+  display: block;
+  padding: 8px 10px;
+  font-size: 1.1rem;
+  -webkit-backdrop-filter: blur(11px);
+  backdrop-filter: blur(11px);
+  color: var(--_color---grey);
+  border-radius: 5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s cubic-bezier(.292, 1.932, .281, .996);
+}
+
+.locale-toggle-btn:hover {
+  color: var(--_color---bg-warm);
+  background-color: #68686882;
+  transform: scale(.9);
+}
