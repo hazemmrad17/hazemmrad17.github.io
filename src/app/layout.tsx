@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import { LocaleProvider } from "@/components/LocaleProvider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Hazem Mrad | Multi-Disciplinary AI Engineer · Designer · Developer",
@@ -46,6 +47,7 @@ export default function RootLayout({
       </head>
       <body suppressHydrationWarning>
         <LocaleProvider>{children}</LocaleProvider>
+        <SpeedInsights />
         <Script
           src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6966d53c7b70efaabd0a64ff"
           strategy="beforeInteractive"
