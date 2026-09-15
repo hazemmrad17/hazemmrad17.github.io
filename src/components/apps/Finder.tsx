@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { Play } from "lucide-react";
 import {
     User,
     Briefcase,
@@ -130,6 +131,14 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                     <div className="grid grid-cols-2 gap-4">
                         {[
                             {
+                                title: "Typhoon",
+                                tags: ["Flood Risk", "AI", "3D Map"],
+                                image: "/images/typhoon1.png",
+                                link: "https://typhoon-rose.vercel.app",
+                                external: true,
+                                desc: "Full-stack flood-risk diagnostic platform for French addresses. 3D city map, real-time Géorisques/Vigicrues/open-data aggregation and AI-generated expert reports."
+                            },
+                            {
                                 title: "MatchupZ",
                                 tags: ["AI", "YOLOv11", "Next.js"],
                                 image: "/images/matchupz1.png",
@@ -138,6 +147,7 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                             },
                             {
                                 title: "Dourbia Rebrand",
+                                external: false,
                                 tags: ["Design", "Branding"],
                                 image: "/images/dourbia1.png",
                                 link: "/legacy_portfolio/dourbia.html",
@@ -145,6 +155,7 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                             },
                             {
                                 title: "DeepFlow",
+                                external: false,
                                 tags: ["AI", "Software"],
                                 image: "/images/deepflow_rebrand.png",
                                 link: "/legacy_portfolio/deepflow.html",
@@ -152,6 +163,7 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                             },
                             {
                                 title: "ArtHive",
+                                external: false,
                                 tags: ["Web", "Community"],
                                 image: "/images/project-3.jpg",
                                 link: "/legacy_portfolio/arthive.html",
@@ -160,7 +172,7 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                         ].map((project, i) => (
                             <div
                                 key={i}
-                                onClick={() => onOpenProject(project.link)}
+                                onClick={() => project.external ? window.open(project.link, "_blank") : onOpenProject(project.link)}
                                 className="group rounded-xl bg-white/5 overflow-hidden border border-white/5 hover:border-blue-500/30 transition-all cursor-pointer block"
                             >
                                 <div className="h-24 w-full bg-zinc-800 overflow-hidden">
@@ -177,6 +189,18 @@ export default function FinderApp({ onOpenProject }: FinderProps) {
                                         ))}
                                     </div>
                                     <p className="text-xs text-zinc-500 leading-relaxed line-clamp-2">{project.desc}</p>
+                                    {project.external && (
+                                        <a
+                                            href={project.link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            onClick={(e) => e.stopPropagation()}
+                                            className="mt-3 inline-flex items-center gap-1.5 text-[11px] font-semibold text-orange-400 hover:text-orange-300 bg-orange-500/10 hover:bg-orange-500/20 px-2.5 py-1 rounded-full transition-all"
+                                        >
+                                            <Play size={10} fill="currentColor" />
+                                            See it live
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         ))}
