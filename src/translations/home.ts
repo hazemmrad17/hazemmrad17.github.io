@@ -115,7 +115,7 @@ export const homeContent = {
             <p class="body-copy home-work">Creating high-end and beautiful websites built to perform and convert.</p>
           </div>
           <div class="cont-imgs-service">
-            <div class="mask-img-service"><img src="/images/home-work1.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work1-p-500.jpg 500w, /images/home-work1.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/real-estate1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
@@ -123,7 +123,7 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/home-work2.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work2-p-500.jpg 500w, /images/home-work2.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/saas1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
@@ -131,7 +131,7 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service hide"><img src="/images/home-work3.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work3-p-500.jpg 500w, /images/home-work3.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service hide"><img src="/images/travel1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
           </div>
         </li>
         <li class="service-wrapper">
@@ -150,7 +150,7 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/home-work7.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work7-p-500.jpg 500w, /images/home-work7.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/yield-poster-1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
@@ -158,8 +158,8 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/home-work8.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work8-p-500.jpg 500w, /images/home-work8.jpg 800w" alt="" class="img-service"></div>
-            <div class="mask-img-service hide"><img src="/images/home-work9.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work9-p-500.jpg 500w, /images/home-work9.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/matchupz1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service hide"><img src="/images/typhoon-3.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
           </div>
         </li>
         <li class="service-wrapper">
@@ -171,7 +171,7 @@ export const homeContent = {
             <p class="body-copy home-work">Building AI-powered applications, pipelines, and automation scripts — turning complex problems into intelligent, scalable solutions.</p>
           </div>
           <div class="cont-imgs-service">
-            <div class="mask-img-service hide"><img src="/images/home-work4.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work4-p-500.jpg 500w, /images/home-work4.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service hide"><img src="/images/typhoon-1.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
@@ -179,8 +179,8 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/home-work5.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work5-p-500.jpg 500w, /images/home-work5.jpg 800w" alt="" class="img-service"></div>
-            <div class="mask-img-service"><img src="/images/home-work6.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work6-p-500.jpg 500w, /images/home-work6.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/vital1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/dourbia-banners.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
@@ -460,7 +460,7 @@ export const homeContent = {
             <p class="body-copy home-work">Des sites web haut de gamme qui performent et convertissent.</p>
           </div>
           <div class="cont-imgs-service">
-            <div class="mask-img-service"><img src="/images/home-work1.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work1-p-500.jpg 500w, /images/home-work1.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/real-estate1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
@@ -468,7 +468,7 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/home-work2.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work2-p-500.jpg 500w, /images/home-work2.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/saas1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
@@ -476,7 +476,7 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service hide"><img src="/images/home-work3.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work3-p-500.jpg 500w, /images/home-work3.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service hide"><img src="/images/travel1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
           </div>
         </li>
         <li class="service-wrapper">
@@ -495,7 +495,7 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/home-work7.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work7-p-500.jpg 500w, /images/home-work7.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/yield-poster-1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
@@ -503,8 +503,8 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/home-work8.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work8-p-500.jpg 500w, /images/home-work8.jpg 800w" alt="" class="img-service"></div>
-            <div class="mask-img-service hide"><img src="/images/home-work9.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work9-p-500.jpg 500w, /images/home-work9.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/matchupz1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service hide"><img src="/images/typhoon-3.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
           </div>
         </li>
         <li class="service-wrapper">
@@ -516,7 +516,7 @@ export const homeContent = {
             <p class="body-copy home-work">Apps IA, pipelines et automation — des solutions intelligentes et évolutives.</p>
           </div>
           <div class="cont-imgs-service">
-            <div class="mask-img-service hide"><img src="/images/home-work4.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work4-p-500.jpg 500w, /images/home-work4.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service hide"><img src="/images/typhoon-1.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
@@ -524,8 +524,8 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/home-work5.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work5-p-500.jpg 500w, /images/home-work5.jpg 800w" alt="" class="img-service"></div>
-            <div class="mask-img-service"><img src="/images/home-work6.jpg" loading="lazy" sizes="100vw" srcset="/images/home-work6-p-500.jpg 500w, /images/home-work6.jpg 800w" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/vital1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/dourbia-banners.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
