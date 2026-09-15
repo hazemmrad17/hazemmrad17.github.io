@@ -18,3 +18,26 @@
 
 /* Force loader intro background — Webflow IX2 applies inline orange without this */
 .orange-intro{background-color: var(--_color---grey) !important;}
+
+/* Typhoon project images — 3 across in one row, then 2 larger ones side by side.
+   Six columns let row 1 hold three items (2 cols each) and row 2 hold two (3 cols each). */
+#typhoon .cont-project-imgs {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+#typhoon .img-project {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+#w-node-typhoon-cover, #w-node-typhoon-cover-fr,
+#w-node-typhoon-1, #w-node-typhoon-1-fr,
+#w-node-typhoon-2, #w-node-typhoon-2-fr {
+  grid-area: span 1 / span 2 / span 1 / span 2;
+}
+
+#w-node-typhoon-3, #w-node-typhoon-3-fr,
+#w-node-typhoon-4, #w-node-typhoon-4-fr {
+  grid-area: span 1 / span 3 / span 1 / span 3;
+}

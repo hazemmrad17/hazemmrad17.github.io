@@ -71,6 +71,15 @@ export const workContent = {
         <ul role="list" class="wrapper-work-nav w-list-unstyled">
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
+            <a href="#typhoon" class="link-wrapper-project w-inline-block">
+              <div class="nav-dot"></div>
+              <div class="project-cont-nav">
+                <div>Typhoon</div><img src="/images/typhoon-3.png" loading="lazy" alt="" class="img-project-nav">
+              </div>
+            </a>
+          </li>
+          <li class="wrapper-nav-work">
+            <div class="nav-dot off"></div>
             <a href="#yield" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -132,20 +141,47 @@ export const workContent = {
               </div>
             </a>
           </li>
-          <li class="wrapper-nav-work">
-            <div class="nav-dot off"></div>
-            <a href="#typhoon" class="link-wrapper-project w-inline-block">
-              <div class="nav-dot"></div>
-              <div class="project-cont-nav">
-                <div>Typhoon</div><img src="/images/typhoon-3.png" loading="lazy" alt="" class="img-project-nav">
-              </div>
-            </a>
-          </li>
         </ul>
       </div>
       <div class="main-wrapper-work">
         <div class="header-work-copy">
           <h1 class="text-headline-work"><span class="text-span-6">T--.</span>Multi-disciplinary work across code, design &amp; AI</h1><img src="/images/folder-juanmora.webp" loading="lazy" alt="" class="folder-work">
+        </div>
+        <div id="typhoon" class="main-project-wrapper">
+          <div class="cont-project-content">
+            <div id="w-node-typhoon-first" class="content-project-info first">
+              <h3 class="headline-project">Typhoon<br>Climate Risk Intelligence Platform</h3>
+              <div class="pill-year">2026</div>
+              <div class="dot-project"></div>
+              <div class="cont-cta-work">
+                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">View project</div>
+                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                </a>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Challenge:</p>
+              <p class="body-copy black">Give insurers a precise, auditable climate-risk score for any French address in minutes — crossing official data (Géorisques, BDNB, IGN) with generative AI to measure risk before the disaster strikes, across flood, seismic, radon and land-movement hazards.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Services:</p>
+              <div class="pill-services-cont">
+                <div class="pill-service">Full-Stack Development</div>
+                <div class="pill-service">AI Engineering</div>
+                <div class="pill-service">3D Map Visualization</div>
+                <div class="pill-service">PDF Reporting</div>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Role:</p>
+              <p class="body-copy black">Full-Stack AI Engineer — built the platform end to end: Mapbox 3D map engine with building extrusions, multi-hazard risk scoring from Géorisques data, generative-AI recommendations, flood simulation timeline, batch portfolio diagnostics, and automated PDF report generation.</p>
+            </div>
+          </div>
+          <div class="cont-project-imgs"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-cover" sizes="100vw" alt="" class="img-project"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-1" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-2" sizes="100vw" alt="" class="img-project small">
+<img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-3" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-4" sizes="100vw" alt="" class="img-project small">
+          </div>
         </div>
         <div id="yield" class="main-project-wrapper">
           <div class="cont-project-content">
@@ -371,42 +407,6 @@ export const workContent = {
 <img src="/images/dourbia-stationery.webp" loading="lazy" id="w-node-dourbia-5" sizes="100vw" alt="" class="img-project"><img src="/images/dourbia-tshirt.webp" loading="lazy" id="w-node-dourbia-6" sizes="100vw" alt="" class="img-project">
           </div>
         </div>
-        <div id="typhoon" class="main-project-wrapper">
-          <div class="cont-project-content">
-            <div id="w-node-typhoon-first" class="content-project-info first">
-              <h3 class="headline-project">Typhoon<br>Climate Risk Intelligence Platform</h3>
-              <div class="pill-year">2026</div>
-              <div class="dot-project"></div>
-              <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
-                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">View project</div>
-                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                </a>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Give insurers a precise, auditable climate-risk score for any French address in minutes — crossing official data (Géorisques, BDNB, IGN) with generative AI to measure risk before the disaster strikes, across flood, seismic, radon and land-movement hazards.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Services:</p>
-              <div class="pill-services-cont">
-                <div class="pill-service">Full-Stack Development</div>
-                <div class="pill-service">AI Engineering</div>
-                <div class="pill-service">3D Map Visualization</div>
-                <div class="pill-service">PDF Reporting</div>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Role:</p>
-              <p class="body-copy black">Full-Stack AI Engineer — built the platform end to end: Mapbox 3D map engine with building extrusions, multi-hazard risk scoring from Géorisques data, generative-AI recommendations, flood simulation timeline, batch portfolio diagnostics, and automated PDF report generation.</p>
-            </div>
-          </div>
-          <div class="cont-project-imgs"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-cover" sizes="100vw" alt="" class="img-project"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-1" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-2" sizes="100vw" alt="" class="img-project small">
-<img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-3" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-4" sizes="100vw" alt="" class="img-project small">
-          </div>
-        </div>
         <div id="matchupz" class="main-project-wrapper">
           <div class="cont-project-content">
             <div id="w-node-matchupz-first" class="content-project-info first">
@@ -588,6 +588,15 @@ export const workContent = {
         <ul role="list" class="wrapper-work-nav w-list-unstyled">
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
+            <a href="#typhoon" class="link-wrapper-project w-inline-block">
+              <div class="nav-dot"></div>
+              <div class="project-cont-nav">
+                <div>Typhoon</div><img src="/images/typhoon-3.png" loading="lazy" alt="" class="img-project-nav">
+              </div>
+            </a>
+          </li>
+          <li class="wrapper-nav-work">
+            <div class="nav-dot off"></div>
             <a href="#yield" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -649,20 +658,47 @@ export const workContent = {
               </div>
             </a>
           </li>
-          <li class="wrapper-nav-work">
-            <div class="nav-dot off"></div>
-            <a href="#typhoon" class="link-wrapper-project w-inline-block">
-              <div class="nav-dot"></div>
-              <div class="project-cont-nav">
-                <div>Typhoon</div><img src="/images/typhoon-3.png" loading="lazy" alt="" class="img-project-nav">
-              </div>
-            </a>
-          </li>
         </ul>
       </div>
       <div class="main-wrapper-work">
         <div class="header-work-copy">
           <h1 class="text-headline-work"><span class="text-span-6">T--.</span>Travail multidisciplinaire : code, design &amp; IA</h1><img src="/images/folder-juanmora.webp" loading="lazy" alt="" class="folder-work">
+        </div>
+        <div id="typhoon" class="main-project-wrapper">
+          <div class="cont-project-content">
+            <div id="w-node-typhoon-first-fr" class="content-project-info first">
+              <h3 class="headline-project">Typhoon<br>Plateforme d&rsquo;Intelligence du Risque Climatique</h3>
+              <div class="pill-year">2026</div>
+              <div class="dot-project"></div>
+              <div class="cont-cta-work">
+                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">Voir le projet</div>
+                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                </a>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Défi :</p>
+              <p class="body-copy black">Donner aux assureurs un score de risque climatique précis et auditable pour n&rsquo;importe quelle adresse en France, en quelques minutes — en croisant les données officielles (Géorisques, BDNB, IGN) avec l&rsquo;IA générative pour mesurer le risque avant le sinistre : inondation, sismique, radon, mouvements de terrain.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Services :</p>
+              <div class="pill-services-cont">
+                <div class="pill-service">Développement Full-Stack</div>
+                <div class="pill-service">Ingénierie IA</div>
+                <div class="pill-service">Visualisation Carto 3D</div>
+                <div class="pill-service">Rapports PDF</div>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Rôle :</p>
+              <p class="body-copy black">Ingénieur Full-Stack IA — construction de la plateforme de bout en bout : moteur cartographique Mapbox 3D avec extrusions de bâtiments, scoring multi-aléas depuis Géorisques, recommandations par IA générative, timeline de simulation d&rsquo;inondation, diagnostics de portefeuille en lot et génération automatique de rapports PDF.</p>
+            </div>
+          </div>
+          <div class="cont-project-imgs"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-cover-fr" sizes="100vw" alt="" class="img-project"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-1-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-2-fr" sizes="100vw" alt="" class="img-project small">
+<img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-3-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-4-fr" sizes="100vw" alt="" class="img-project small">
+          </div>
         </div>
         <div id="yield" class="main-project-wrapper">
           <div class="cont-project-content">
@@ -886,42 +922,6 @@ export const workContent = {
           <div class="cont-project-imgs"><img src="/images/dourbia-logo.webp" loading="lazy" id="w-node-dourbia-cover" sizes="100vw" alt="" class="img-project"><img src="/images/dourbia-banners.webp" loading="lazy" id="w-node-dourbia-1" sizes="100vw" alt="" class="img-project small"><img src="/images/dourbia-app-icon.webp" loading="lazy" id="w-node-dourbia-2" sizes="100vw" alt="" class="img-project small">
 <img src="/images/dourbia-pole-banner.webp" loading="lazy" id="w-node-dourbia-3" sizes="100vw" alt="" class="img-project small"><img src="/images/dourbia-business-card.webp" loading="lazy" id="w-node-dourbia-4" sizes="100vw" alt="" class="img-project small">
 <img src="/images/dourbia-stationery.webp" loading="lazy" id="w-node-dourbia-5" sizes="100vw" alt="" class="img-project"><img src="/images/dourbia-tshirt.webp" loading="lazy" id="w-node-dourbia-6" sizes="100vw" alt="" class="img-project">
-          </div>
-        </div>
-        <div id="typhoon" class="main-project-wrapper">
-          <div class="cont-project-content">
-            <div id="w-node-typhoon-first-fr" class="content-project-info first">
-              <h3 class="headline-project">Typhoon<br>Plateforme d&rsquo;Intelligence du Risque Climatique</h3>
-              <div class="pill-year">2026</div>
-              <div class="dot-project"></div>
-              <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
-                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">Voir le projet</div>
-                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                </a>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Défi :</p>
-              <p class="body-copy black">Donner aux assureurs un score de risque climatique précis et auditable pour n&rsquo;importe quelle adresse en France, en quelques minutes — en croisant les données officielles (Géorisques, BDNB, IGN) avec l&rsquo;IA générative pour mesurer le risque avant le sinistre : inondation, sismique, radon, mouvements de terrain.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Services :</p>
-              <div class="pill-services-cont">
-                <div class="pill-service">Développement Full-Stack</div>
-                <div class="pill-service">Ingénierie IA</div>
-                <div class="pill-service">Visualisation Carto 3D</div>
-                <div class="pill-service">Rapports PDF</div>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Ingénieur Full-Stack IA — construction de la plateforme de bout en bout : moteur cartographique Mapbox 3D avec extrusions de bâtiments, scoring multi-aléas depuis Géorisques, recommandations par IA générative, timeline de simulation d&rsquo;inondation, diagnostics de portefeuille en lot et génération automatique de rapports PDF.</p>
-            </div>
-          </div>
-          <div class="cont-project-imgs"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-cover-fr" sizes="100vw" alt="" class="img-project"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-1-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-2-fr" sizes="100vw" alt="" class="img-project small">
-<img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-3-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-4-fr" sizes="100vw" alt="" class="img-project small">
           </div>
         </div>
         <div id="matchupz" class="main-project-wrapper">
