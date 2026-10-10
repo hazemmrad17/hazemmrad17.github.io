@@ -19,6 +19,18 @@
 /* Force loader intro background — Webflow IX2 applies inline orange without this */
 .orange-intro{background-color: var(--_color---grey) !important;}
 
+/* Bill Autopsy gallery: 2 x 2 instead of 4 across */
+#bill-autopsy .cont-project-imgs {
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: ". ." ". .";
+}
+
+@media screen and (max-width: 479px) {
+  #bill-autopsy .cont-project-imgs {
+    display: flex;
+  }
+}
+
 /* Typhoon project images — 3 across in one row, then 2 larger ones side by side.
    Six columns let row 1 hold three items (2 cols each) and row 2 hold two (3 cols each). */
 #typhoon .cont-project-imgs {
@@ -39,5 +51,11 @@
 
 #w-node-typhoon-3, #w-node-typhoon-3-fr,
 #w-node-typhoon-4, #w-node-typhoon-4-fr {
+  grid-area: span 1 / span 3 / span 1 / span 3;
+}
+
+/* Row 3: two equal large panes, full-width halves like row 2 */
+#w-node-typhoon-5, #w-node-typhoon-5-fr,
+#w-node-typhoon-6, #w-node-typhoon-6-fr {
   grid-area: span 1 / span 3 / span 1 / span 3;
 }

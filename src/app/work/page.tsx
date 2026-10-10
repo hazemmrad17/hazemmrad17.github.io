@@ -4,7 +4,7 @@ import { workContent } from "@/translations/work";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Work - Hazem Mrad | Multi-Disciplinary AI Engineer · Designer · Developer",
+  title: "Work - Hazem Mrad | Forward Deployed AI Engineer",
 };
 
 export default function Page() {

@@ -41,9 +41,7 @@ export const workContent = {
       <li class="cont-social-link">
         <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="nav-social-link">in</a>
       </li>
-      <li class="cont-social-link">
-        <a href="https://www.behance.net/hazemmrad1" target="_blank" class="nav-social-link">Be</a>
-      </li>
+      <!-- Behance removed: AI positioning -->
       <li class="cont-social-link">
         <a href="https://github.com/hazemmrad17" target="_blank" class="nav-social-link">Gh</a>
       </li>
@@ -56,7 +54,7 @@ export const workContent = {
     </div>
     <div class="container-loader">
       <div data-wf-target="[[[&quot;696eed615f5a313a402b81ee&quot;,&quot;4fe41dad-7af4-b545-7f92-3530e9c28de0&quot;],[]]]" class="orange-intro">
-        <div class="cont-juan-intro">
+        <div class="cont-hm-intro">
           <div class="nav-name-jm intro">Hazem</div>
           <div class="dot-jm intro"></div>
           <div class="nav-name-jm intro">Mrad</div>
@@ -145,7 +143,7 @@ export const workContent = {
       </div>
       <div class="main-wrapper-work">
         <div class="header-work-copy">
-          <h1 class="text-headline-work"><span class="text-span-6">T--.</span>Multi-disciplinary work across code, design &amp; AI</h1><img src="/images/folder-juanmora.webp" loading="lazy" alt="" class="folder-work">
+          <h1 class="text-headline-work"><span class="text-span-6">T--.</span>Multi-disciplinary work across code, design &amp; AI</h1><img src="/images/folder-hm.webp" loading="lazy" alt="" class="folder-work">
         </div>
         <div id="typhoon" class="main-project-wrapper">
           <div class="cont-project-content">
@@ -154,7 +152,7 @@ export const workContent = {
               <div class="pill-year">2026</div>
               <div class="dot-project"></div>
               <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                <a data-wf--cta-big--variant="work" href="https://github.com/hazemmrad17/typhoon" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
                   <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
                   <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">View project</div>
                   <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
@@ -163,7 +161,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Give insurers a precise, auditable climate-risk score for any French address in minutes — crossing official data (Géorisques, BDNB, IGN) with generative AI to measure risk before the disaster strikes, across flood, seismic, radon and land-movement hazards.</p>
+              <p class="body-copy black">Give insurers a precise, auditable climate-risk score for any French address in minutes: crossing official data (Géorisques, BDNB, IGN) with generative AI to measure risk before the disaster strikes, across flood, seismic, radon and land-movement hazards.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services:</p>
@@ -176,11 +174,12 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Role:</p>
-              <p class="body-copy black">Full-Stack AI Engineer — built the platform end to end: Mapbox 3D map engine with building extrusions, multi-hazard risk scoring from Géorisques data, generative-AI recommendations, flood simulation timeline, batch portfolio diagnostics, and automated PDF report generation.</p>
+              <p class="body-copy black">Full-Stack AI Engineer: built the platform end to end: Mapbox 3D map engine with building extrusions, multi-hazard risk scoring from Géorisques data, generative-AI recommendations, flood simulation timeline, batch portfolio diagnostics, and automated PDF report generation.</p>
             </div>
           </div>
-          <div class="cont-project-imgs"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-cover" sizes="100vw" alt="" class="img-project"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-1" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-2" sizes="100vw" alt="" class="img-project small">
-<img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-3" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-4" sizes="100vw" alt="" class="img-project small">
+          <div class="cont-project-imgs"><img src="/images/typhoon-dashboard.png" loading="lazy" id="w-node-typhoon-cover" sizes="100vw" alt="Typhoon portfolio risk dashboard" class="img-project"><img src="/images/typhoon-flood-map.png" loading="lazy" id="w-node-typhoon-1" sizes="100vw" alt="Typhoon flood scenario simulation" class="img-project small"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-2" sizes="100vw" alt="" class="img-project small">
+<img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-3" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-4" sizes="100vw" alt="" class="img-project small">
+<img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-5" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-6" sizes="100vw" alt="" class="img-project small">
           </div>
         </div>
         <div id="yield" class="main-project-wrapper">
@@ -239,7 +238,7 @@ export const workContent = {
               <div class="pill-year">2025</div>
               <div class="dot-project"></div>
               <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                <a data-wf--cta-big--variant="work" href="https://github.com/hazemmrad17/alia" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
                   <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
                   <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">View project</div>
                   <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
@@ -282,7 +281,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Build a SaaS platform that analyzes and visualizes billing data — turning complex financial information into actionable insights through an intuitive CRM interface.</p>
+              <p class="body-copy black">Build a SaaS platform that analyzes and visualizes billing data: turning complex financial information into actionable insights through an intuitive CRM interface.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services:</p>
@@ -317,7 +316,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Design a CRM tailored for real estate professionals — managing properties, client relationships, and sales pipelines in one cohesive platform.</p>
+              <p class="body-copy black">Design a CRM tailored for real estate professionals: managing properties, client relationships, and sales pipelines in one cohesive platform.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services:</p>
@@ -352,7 +351,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Build an AI-powered travel CRM platform during an AI engineering internship — integrating intelligent trip planning, itinerary management, and client engagement features for a seamless travel experience.</p>
+              <p class="body-copy black">Build an AI-powered travel CRM platform during an AI engineering internship: integrating intelligent trip planning, itinerary management, and client engagement features for a seamless travel experience.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services:</p>
@@ -364,7 +363,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Role:</p>
-              <p class="body-copy black">AI Engineering Intern — contributed to the development of an intelligent travel CRM, working on AI features, data pipelines, and user-facing CRM interfaces for ctravel.</p>
+              <p class="body-copy black">AI Engineering Intern: contributed to the development of an intelligent travel CRM, working on AI features, data pipelines, and user-facing CRM interfaces for ctravel.</p>
             </div>
           </div>
           <div class="cont-project-imgs three-items"><img src="/images/travel1.webp" loading="lazy" id="w-node-travel-cover" sizes="100vw" alt="" class="img-project small"><img src="/images/travel2.webp" loading="lazy" id="w-node-travel-2" sizes="100vw" alt="" class="img-project small"><img src="/images/travel3.webp" loading="lazy" id="w-node-travel-3" sizes="100vw" alt="" class="img-project small">
@@ -399,7 +398,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Role:</p>
-              <p class="body-copy black">Brand &amp; Visual Designer — developed the complete visual identity system including logo, stationery, apparel, banners, and app icon, establishing a cohesive brand presence for a tourism tech startup in Tunisia.</p>
+              <p class="body-copy black">Brand &amp; Visual Designer: developed the complete visual identity system including logo, stationery, apparel, banners, and app icon, establishing a cohesive brand presence for a tourism tech startup in Tunisia.</p>
             </div>
           </div>
           <div class="cont-project-imgs"><img src="/images/dourbia-logo.webp" loading="lazy" id="w-node-dourbia-cover" sizes="100vw" alt="" class="img-project"><img src="/images/dourbia-banners.webp" loading="lazy" id="w-node-dourbia-1" sizes="100vw" alt="" class="img-project small"><img src="/images/dourbia-app-icon.webp" loading="lazy" id="w-node-dourbia-2" sizes="100vw" alt="" class="img-project small">
@@ -410,7 +409,7 @@ export const workContent = {
         <div id="matchupz" class="main-project-wrapper">
           <div class="cont-project-content">
             <div id="w-node-matchupz-first" class="content-project-info first">
-              <h3 class="headline-project">Matchupz<br>Academic Project — 2nd Place Bal de Projet 2025</h3>
+              <h3 class="headline-project">Matchupz<br>Academic Project: 2nd Place Bal de Projet 2025</h3>
               <div class="pill-year">2025</div>
               <div class="dot-project"></div>
               <div class="cont-cta-work">
@@ -423,7 +422,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Design and develop an academic project at ESPRIT that stands out — achieving 2nd place at Bal de Projet 2025 with a compelling concept, polished execution, and strong presentation.</p>
+              <p class="body-copy black">Design and develop an academic project at ESPRIT that stands out: achieving 2nd place at Bal de Projet 2025 with a compelling concept, polished execution, and strong presentation.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services:</p>
@@ -435,7 +434,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Role:</p>
-              <p class="body-copy black">Designer &amp; Developer — contributed to the end-to-end design and development of Matchupz, an award-winning academic project recognized at ESPRIT's Bal de Projet 2025 competition.</p>
+              <p class="body-copy black">Designer &amp; Developer: contributed to the end-to-end design and development of Matchupz, an award-winning academic project recognized at ESPRIT's Bal de Projet 2025 competition.</p>
             </div>
           </div>
           <div class="cont-project-imgs"><img src="/images/matchupz3.webp" loading="lazy" id="w-node-matchupz-cover" sizes="100vw" alt="" class="img-project"><img src="/images/matchupz2.webp" loading="lazy" id="w-node-matchupz-1" sizes="100vw" alt="" class="img-project small"><img src="/images/matchupz1.webp" loading="lazy" id="w-node-matchupz-2" sizes="100vw" alt="" class="img-project small">
@@ -465,22 +464,22 @@ export const workContent = {
       <div class="main-wrapper-footer">
         <div class="wrapper-content-footer _1">
           <div class="wrapper-column">
-            <h3 class="body-footer fade">Website made using:</h3>
+            <h3 class="body-footer fade">Core stack:</h3>
             <ul role="list" class="list-footer w-list-unstyled">
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Figma</h4>
+                <h4 class="body-footer right">Python</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Webflow</h4>
+                <h4 class="body-footer right">Next.js</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">GSAP</h4>
+                <h4 class="body-footer right">LLM APIs</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">AE/Lottie</h4>
+                <h4 class="body-footer right">RAG &amp; Agents</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Lennis Scroll</h4>
+                <h4 class="body-footer right">Data Pipelines</h4>
               </li>
             </ul>
           </div>
@@ -493,23 +492,21 @@ export const workContent = {
               <li class="wrapper-item-column">
                 <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="footer-social-link">Linkedin</a>
               </li>
-              <li class="wrapper-item-column">
-                <a href="https://www.behance.net/hazemmrad1" target="_blank" class="footer-social-link">Behance</a>
-              </li>
+              <!-- Behance removed -->
             </ul>
           </div>
         </div>
         <div class="wrapper-content-footer _2">
-          <h2 class="name-footer">Hazem</h2><img src="/images/juan-mora-logo-footer.svg" loading="lazy" alt="" class="image-4">
+          <h2 class="name-footer">Hazem</h2><img src="/images/hm-logo-footer.svg" loading="lazy" alt="" class="image-4">
           <h2 class="name-footer right">Mrad</h2>
         </div>
         <div class="wrapper-content-footer">
-          <h3 class="body-footer big">AI Engineering Student · Dev &amp; Branding &amp; Design  <span class="text-span-4">2026</span></h3>
+          <h3 class="body-footer big">Forward Deployed AI Engineer · Applied AI · Production Delivery  <span class="text-span-4">2026</span></h3>
           <h3 class="body-footer big">Hazem Mrad <span class="text-span-3">[Open to Opportunities]</span></h3>
         </div>
       </div>
       <div class="video-cont-footer footer">
-        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="portfolio2025/video/juan-video-loading.jpg">
+        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="videos-work/hm-video-loading.jpg">
             <source src="/videos-work/young-man-typing-laptop.mp4" type="video/mp4">
           </video></div>
       </div>
@@ -558,9 +555,7 @@ export const workContent = {
       <li class="cont-social-link">
         <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="nav-social-link">in</a>
       </li>
-      <li class="cont-social-link">
-        <a href="https://www.behance.net/hazemmrad1" target="_blank" class="nav-social-link">Be</a>
-      </li>
+      <!-- Behance removed: AI positioning -->
       <li class="cont-social-link">
         <a href="https://github.com/hazemmrad17" target="_blank" class="nav-social-link">Gh</a>
       </li>
@@ -573,7 +568,7 @@ export const workContent = {
     </div>
     <div class="container-loader">
       <div data-wf-target="[[[&quot;696eed615f5a313a402b81ee&quot;,&quot;4fe41dad-7af4-b545-7f92-3530e9c28de0&quot;],[]]]" class="orange-intro">
-        <div class="cont-juan-intro">
+        <div class="cont-hm-intro">
           <div class="nav-name-jm intro">Hazem</div>
           <div class="dot-jm intro"></div>
           <div class="nav-name-jm intro">Mrad</div>
@@ -662,7 +657,7 @@ export const workContent = {
       </div>
       <div class="main-wrapper-work">
         <div class="header-work-copy">
-          <h1 class="text-headline-work"><span class="text-span-6">T--.</span>Travail multidisciplinaire : code, design &amp; IA</h1><img src="/images/folder-juanmora.webp" loading="lazy" alt="" class="folder-work">
+          <h1 class="text-headline-work"><span class="text-span-6">T--.</span>Travail multidisciplinaire : code, design &amp; IA</h1><img src="/images/folder-hm.webp" loading="lazy" alt="" class="folder-work">
         </div>
         <div id="typhoon" class="main-project-wrapper">
           <div class="cont-project-content">
@@ -671,7 +666,7 @@ export const workContent = {
               <div class="pill-year">2026</div>
               <div class="dot-project"></div>
               <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                <a data-wf--cta-big--variant="work" href="https://github.com/hazemmrad17/typhoon" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
                   <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
                   <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">Voir le projet</div>
                   <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
@@ -680,7 +675,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Défi :</p>
-              <p class="body-copy black">Donner aux assureurs un score de risque climatique précis et auditable pour n&rsquo;importe quelle adresse en France, en quelques minutes — en croisant les données officielles (Géorisques, BDNB, IGN) avec l&rsquo;IA générative pour mesurer le risque avant le sinistre : inondation, sismique, radon, mouvements de terrain.</p>
+              <p class="body-copy black">Donner aux assureurs un score de risque climatique précis et auditable pour n&rsquo;importe quelle adresse en France, en quelques minutes: en croisant les données officielles (Géorisques, BDNB, IGN) avec l&rsquo;IA générative pour mesurer le risque avant le sinistre : inondation, sismique, radon, mouvements de terrain.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services :</p>
@@ -693,11 +688,12 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Ingénieur Full-Stack IA — construction de la plateforme de bout en bout : moteur cartographique Mapbox 3D avec extrusions de bâtiments, scoring multi-aléas depuis Géorisques, recommandations par IA générative, timeline de simulation d&rsquo;inondation, diagnostics de portefeuille en lot et génération automatique de rapports PDF.</p>
+              <p class="body-copy black">Ingénieur Full-Stack IA: construction de la plateforme de bout en bout : moteur cartographique Mapbox 3D avec extrusions de bâtiments, scoring multi-aléas depuis Géorisques, recommandations par IA générative, timeline de simulation d&rsquo;inondation, diagnostics de portefeuille en lot et génération automatique de rapports PDF.</p>
             </div>
           </div>
-          <div class="cont-project-imgs"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-cover-fr" sizes="100vw" alt="" class="img-project"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-1-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-2-fr" sizes="100vw" alt="" class="img-project small">
-<img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-3-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-4-fr" sizes="100vw" alt="" class="img-project small">
+          <div class="cont-project-imgs"><img src="/images/typhoon-dashboard.png" loading="lazy" id="w-node-typhoon-cover-fr" sizes="100vw" alt="Tableau de bord du risque portefeuille Typhoon" class="img-project"><img src="/images/typhoon-flood-map.png" loading="lazy" id="w-node-typhoon-1-fr" sizes="100vw" alt="Simulation de scénario d'inondation Typhoon" class="img-project small"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-2-fr" sizes="100vw" alt="" class="img-project small">
+<img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-3-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-4-fr" sizes="100vw" alt="" class="img-project small">
+<img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-5-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-6-fr" sizes="100vw" alt="" class="img-project small">
           </div>
         </div>
         <div id="yield" class="main-project-wrapper">
@@ -728,7 +724,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Direction de l&rsquo;identité visuelle — publications, affiches et charte graphique.</p>
+              <p class="body-copy black">Direction de l&rsquo;identité visuelle: publications, affiches et charte graphique.</p>
             </div>
           </div>
           <div class="cont-project-imgs"><img src="/images/yield-poster-1.webp" loading="lazy" id="w-node-d58a27b9-6103-39c0-b0b8-6cda406bcb68-402b81ee" sizes="100vw" alt="" class="img-project"><img src="/images/yield-post-1.webp" loading="lazy" id="w-node-_921e00fe-4549-f680-97fe-72f51cff2bc2-402b81ee" sizes="100vw" alt="" class="img-project"><img src="/images/yield-post-2.webp" loading="lazy" id="w-node-_22b50ec1-e5ed-41b3-7a61-49b94331ef9c-402b81ee" sizes="100vw" alt="" class="img-project">
@@ -756,7 +752,7 @@ export const workContent = {
               <div class="pill-year">2025</div>
               <div class="dot-project"></div>
               <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                <a data-wf--cta-big--variant="work" href="https://github.com/hazemmrad17/alia" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
                   <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
                   <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">Voir le projet</div>
                   <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
@@ -777,7 +773,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Développement complet de l&rsquo;avatar IA — du modèle aux flux conversationnels et à l&rsquo;intégration CRM.</p>
+              <p class="body-copy black">Développement complet de l&rsquo;avatar IA: du modèle aux flux conversationnels et à l&rsquo;intégration CRM.</p>
             </div>
           </div>
           <div class="cont-project-imgs three-items"><img src="/images/vital1.webp" loading="lazy" id="w-node-_6f0d4641-7d35-6c8b-6bb9-ef9e0288730c-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/vital2.webp" loading="lazy" id="w-node-_6f0d4641-7d35-6c8b-6bb9-ef9e0288730f-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/vital3.webp" loading="lazy" id="w-node-c9b05119-c903-40f6-70c1-a4498ffa9b55-402b81ee" sizes="100vw" alt="" class="img-project small">
@@ -811,7 +807,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Direction du design et du full-stack du CRM — clarté des données, flux utilisateur et expérience SaaS.</p>
+              <p class="body-copy black">Direction du design et du full-stack du CRM: clarté des données, flux utilisateur et expérience SaaS.</p>
             </div>
           </div>
           <div class="cont-project-imgs"><img src="/images/saas1.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e192-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/saas2.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e198-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/saas3.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e196-402b81ee" sizes="100vw" alt="" class="img-project small">
@@ -834,7 +830,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Défi :</p>
-              <p class="body-copy black">Un CRM immobilier — biens, clients et pipeline de vente en une plateforme.</p>
+              <p class="body-copy black">Un CRM immobilier: biens, clients et pipeline de vente en une plateforme.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services :</p>
@@ -846,7 +842,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Design et développement complet du CRM — de la recherche utilisateur à l&rsquo;interface finale.</p>
+              <p class="body-copy black">Design et développement complet du CRM: de la recherche utilisateur à l&rsquo;interface finale.</p>
             </div>
           </div>
           <div class="cont-project-imgs three-items"><img src="/images/real-estate1.webp" loading="lazy" id="w-node-_6a9488d2-8cc0-98b9-b17f-33d4787e732d-402b81ee" sizes="100vw" alt="" class="img-project small">
@@ -869,7 +865,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Défi :</p>
-              <p class="body-copy black">Une plateforme CRM de voyage IA — planification intelligente, itinéraires et engagement client.</p>
+              <p class="body-copy black">Une plateforme CRM de voyage IA: planification intelligente, itinéraires et engagement client.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services :</p>
@@ -881,7 +877,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Stagiaire IA — fonctionnalités IA, pipelines de données et interfaces CRM.</p>
+              <p class="body-copy black">Stagiaire IA: fonctionnalités IA, pipelines de données et interfaces CRM.</p>
             </div>
           </div>
           <div class="cont-project-imgs three-items"><img src="/images/travel1.webp" loading="lazy" id="w-node-travel-cover" sizes="100vw" alt="" class="img-project small"><img src="/images/travel2.webp" loading="lazy" id="w-node-travel-2" sizes="100vw" alt="" class="img-project small"><img src="/images/travel3.webp" loading="lazy" id="w-node-travel-3" sizes="100vw" alt="" class="img-project small">
@@ -916,7 +912,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Designer Marque — logo, papeterie, bannières et icône d&rsquo;app.</p>
+              <p class="body-copy black">Designer Marque: logo, papeterie, bannières et icône d&rsquo;app.</p>
             </div>
           </div>
           <div class="cont-project-imgs"><img src="/images/dourbia-logo.webp" loading="lazy" id="w-node-dourbia-cover" sizes="100vw" alt="" class="img-project"><img src="/images/dourbia-banners.webp" loading="lazy" id="w-node-dourbia-1" sizes="100vw" alt="" class="img-project small"><img src="/images/dourbia-app-icon.webp" loading="lazy" id="w-node-dourbia-2" sizes="100vw" alt="" class="img-project small">
@@ -927,7 +923,7 @@ export const workContent = {
         <div id="matchupz" class="main-project-wrapper">
           <div class="cont-project-content">
             <div id="w-node-matchupz-first" class="content-project-info first">
-              <h3 class="headline-project">Matchupz<br>Projet Académique — 2ème Place Bal de Projet 2025</h3>
+              <h3 class="headline-project">Matchupz<br>Projet Académique: 2ème Place Bal de Projet 2025</h3>
               <div class="pill-year">2025</div>
               <div class="dot-project"></div>
               <div class="cont-cta-work">
@@ -940,7 +936,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Défi :</p>
-              <p class="body-copy black">Un projet académique ESPRIT — 2ème place au Bal de Projet 2025.</p>
+              <p class="body-copy black">Un projet académique ESPRIT: 2ème place au Bal de Projet 2025.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services :</p>
@@ -952,7 +948,7 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Designer &amp; Développeur — design et développement de Matchupz, projet primé à l&rsquo;ESPRIT.</p>
+              <p class="body-copy black">Designer &amp; Développeur: design et développement de Matchupz, projet primé à l&rsquo;ESPRIT.</p>
             </div>
           </div>
           <div class="cont-project-imgs"><img src="/images/matchupz3.webp" loading="lazy" id="w-node-matchupz-cover" sizes="100vw" alt="" class="img-project"><img src="/images/matchupz2.webp" loading="lazy" id="w-node-matchupz-1" sizes="100vw" alt="" class="img-project small"><img src="/images/matchupz1.webp" loading="lazy" id="w-node-matchupz-2" sizes="100vw" alt="" class="img-project small">
@@ -982,22 +978,22 @@ export const workContent = {
       <div class="main-wrapper-footer">
         <div class="wrapper-content-footer _1">
           <div class="wrapper-column">
-            <h3 class="body-footer fade">Site réalisé avec :</h3>
+            <h3 class="body-footer fade">Stack principale :</h3>
             <ul role="list" class="list-footer w-list-unstyled">
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Figma</h4>
+                <h4 class="body-footer right">Python</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Webflow</h4>
+                <h4 class="body-footer right">Next.js</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">GSAP</h4>
+                <h4 class="body-footer right">LLM APIs</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">AE/Lottie</h4>
+                <h4 class="body-footer right">RAG &amp; Agents</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Lennis Scroll</h4>
+                <h4 class="body-footer right">Data Pipelines</h4>
               </li>
             </ul>
           </div>
@@ -1010,23 +1006,21 @@ export const workContent = {
               <li class="wrapper-item-column">
                 <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="footer-social-link">Linkedin</a>
               </li>
-              <li class="wrapper-item-column">
-                <a href="https://www.behance.net/hazemmrad1" target="_blank" class="footer-social-link">Behance</a>
-              </li>
+              <!-- Behance removed -->
             </ul>
           </div>
         </div>
         <div class="wrapper-content-footer _2">
-          <h2 class="name-footer">Hazem</h2><img src="/images/juan-mora-logo-footer.svg" loading="lazy" alt="" class="image-4">
+          <h2 class="name-footer">Hazem</h2><img src="/images/hm-logo-footer.svg" loading="lazy" alt="" class="image-4">
           <h2 class="name-footer right">Mrad</h2>
         </div>
         <div class="wrapper-content-footer">
-          <h3 class="body-footer big">Étudiant en Ing. IA · Dev &amp; Branding &amp; Design  <span class="text-span-4">2026</span></h3>
+          <h3 class="body-footer big">Forward Deployed AI Engineer · IA Appliquée · Production  <span class="text-span-4">2026</span></h3>
           <h3 class="body-footer big">Hazem Mrad <span class="text-span-3">[Ouvert aux Opportunités]</span></h3>
         </div>
       </div>
       <div class="video-cont-footer footer">
-        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="portfolio2025/video/juan-video-loading.jpg">
+        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="videos-work/hm-video-loading.jpg">
             <source src="/videos-work/young-man-typing-laptop.mp4" type="video/mp4">
           </video></div>
       </div>

@@ -41,9 +41,7 @@ export const aboutContent = {
       <li class="cont-social-link">
         <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="nav-social-link">in</a>
       </li>
-      <li class="cont-social-link">
-        <a href="https://www.behance.net/hazemmrad1" target="_blank" class="nav-social-link">Be</a>
-      </li>
+      <!-- Behance removed: AI positioning -->
       <li class="cont-social-link">
         <a href="https://github.com/hazemmrad17" target="_blank" class="nav-social-link">Gh</a>
       </li>
@@ -53,7 +51,7 @@ export const aboutContent = {
   <main data-barba="container" class="main">
     <div class="container-loader">
       <div data-wf-target="[[[&quot;696eed5367a3d93663a17526&quot;,&quot;6e6a9285-1d66-fd20-f28c-6fecfef503c4&quot;],[]]]" class="orange-intro">
-        <div class="cont-juan-intro">
+        <div class="cont-hm-intro">
           <div class="nav-name-jm intro">Hazem</div>
           <div class="dot-jm intro"></div>
           <div class="nav-name-jm intro">Mrad</div>
@@ -76,7 +74,7 @@ export const aboutContent = {
             </div><img src="/images/webclip.png" loading="lazy" alt="" class="image-5">
             <div class="blue-dot-hero"></div>
           </div>
-          <h1 class="text-headline-about"><span class="text-span-5">----</span>AI Engineering Student · Designer based in Tunisia</h1>
+          <h1 class="text-headline-about"><span class="text-span-5">----</span>Forward Deployed AI Engineer based in Tunisia</h1>
         </div>
       </div>
     </section>
@@ -100,7 +98,7 @@ export const aboutContent = {
             <h3 class="headline-bio">Who I Am</h3>
           </div>
           <div class="cont-bio-text right">
-            <p class="body-copy">I'm Hazem Mrad — an AI Engineering student with a strong foundation in software development, visual branding, and web design.<br><br>Based in Tunisia, I blend technical depth with creative instinct to build products that feel as good as they perform — from intelligent systems to polished digital experiences.<br><br>I care about the craft at every layer: from architecture and code to typography and motion.</p>
+            <p class="body-copy">I'm Hazem Mrad, a Forward Deployed AI Engineer and AI Engineering student at ESPRIT.<br><br>Based in Tunisia, I work where AI meets real operations: I embed with users, prototype fast, and ship applied AI systems that get adopted in production, from LLM apps and RAG agents to data pipelines and full stack delivery.<br><br>I care about outcomes at every layer: from discovery and data to deployment, measurement, and handover.</p>
           </div>
         </div>
         <div class="line about"></div>
@@ -109,7 +107,7 @@ export const aboutContent = {
             <h3 class="headline-bio">Approach</h3>
           </div>
           <div class="cont-bio-text right">
-            <p class="body-copy">I start by understanding the real problem — not just the brief. I look at a product from both a user's perspective and an engineering lens, because the best solutions sit at that intersection.<br><br>From there, I help define the direction and bring ideas to life — not just to make things look better, but to make them work smarter.<br><br>Whether it's a design system, an AI feature, or a brand identity, I align the outcome with the goal — not just the specification.</p>
+            <p class="body-copy">I start by understanding the real workflow, not just the brief. I look at a problem with operators and with engineers, because the best AI solutions live at that intersection.<br><br>From there, I slice a thin prototype, test it with real users, and harden what works: evals, guardrails, monitoring, and iteration.<br><br>Whether it is a RAG assistant, a scoring pipeline, or an internal copilot, I align the build with the goal: adoption in production, not just a demo.</p>
           </div>
         </div>
         <div class="line about"></div>
@@ -118,7 +116,7 @@ export const aboutContent = {
             <h3 class="headline-bio">Philosophy</h3>
           </div>
           <div class="cont-bio-text right">
-            <p class="body-copy">I don't follow trends blindly — I use them when they serve the work. My goal is always to create something distinctive: something people remember, something that actually functions.<br><br>Every project, regardless of scale, deserves the same level of care. Thoughtful, well-crafted, built to last.<br><br>And yes — I believe curiosity is the most underrated design tool.</p>
+            <p class="body-copy">I do not chase hype. I use models where they create leverage and boring engineering where it creates reliability. My goal is always to ship something useful: something teams trust, something that keeps working.<br><br>Every deployment, regardless of scale, deserves the same rigor. Measured, maintained, built to last.<br><br>And yes, I believe ownership is the most underrated AI skill: stay until it is used.</p>
           </div>
         </div>
         <div class="line about"></div>
@@ -127,7 +125,16 @@ export const aboutContent = {
             <h3 class="headline-bio">Skills &amp; <br>Background</h3>
           </div>
           <div class="cont-bio-text right">
-            <p class="body-copy">AI Engineering · ESPRIT School of Engineering<br>Full-Stack Web Development<br>UI/UX &amp; Visual Branding<br>Behance Featured Work<br>Open to Internships &amp; Collaborations</p>
+            <p class="body-copy">Forward Deployed AI Engineering · ESPRIT School of Engineering<br>Applied AI: LLMs, RAG, Agents, Evals<br>Data Pipelines &amp; Analytics<br>Full Stack Production Delivery<br>NVIDIA DLI (6x) · Dataiku (Core + Advanced Designer)<br>Open to Applied AI &amp; Forward Deployed Internships</p>
+          </div>
+        </div>
+        <div class="line about"></div>
+        <div class="cont-bio-tem">
+          <div class="cont-bio-text">
+            <h3 class="headline-bio">Licenses &amp; <br>Certifications</h3>
+          </div>
+          <div class="cont-bio-text right">
+            <p class="body-copy">NVIDIA Deep Learning Institute: 6 completed certifications across LLMs, RAG, agents, and deep learning.<br>Dataiku: Core Designer + Advanced Designer (Sep 2026).<br>In progress: Hedera Certified Foundation (THA Academy) + AWS Certified Cloud Practitioner.</p>
           </div>
         </div>
       </div>
@@ -136,62 +143,90 @@ export const aboutContent = {
       <div class="about-news-wrapper">
         <div class="news-cont-top">
           <div class="square-news"></div>
-          <h3 class="body-copy news">News &amp; Updates</h3>
+          <h3 class="body-copy news">Licenses &amp; Certifications</h3>
         </div>
         <div class="line news"></div>
         <div class="cont-news-wrapper">
           <div class="cont-headline-news">
             <h3 class="number-news">1</h3>
-            <h3 class="headline-news">View my <br>Behance portfolio</h3>
-            <p class="body-copy news">Explore selected work and case studies on my Behance profile — branding, web design, and dev projects.</p>
-            <div class="cont-btn-news">
-              <a data-wf--cta-big--variant="base" href="https://www.behance.net/hazemmrad1" target="_blank" class="main-cont-button w-inline-block">
-                <div class="icon-wrapper-cta-first"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
-                <div class="text-wrapper-cta">Learn more</div>
-                <div class="icon-wrapper-cta"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
-              </a>
+            <h3 class="headline-news">NVIDIA <br>Deep Learning Institute</h3>
+            <img src="/images/nvidia-logo.svg" alt="NVIDIA" loading="lazy" style="height:40px;width:auto;margin:0.9rem 0">
+            <p class="body-copy news">6 completed certifications:<br>• Fundamentals of Deep Learning (Jan 2024)<br>• Building Transformer-Based NLP Applications (Jan 2025)<br>• Rapid Application Development with LLMs (Jan 2025)<br>• Evaluation and Light Customization of LLMs (Jan 2025)<br>• Building LLM Applications with Prompt Engineering (Jan 2025)<br>• Applications of AI for Anomaly Detection (Oct 2026)</p>
+            <div class="pill-services-cont" style="justify-self:start;width:100%">
+              <div class="pill-service">6 certifications</div>
+              <div class="pill-service">LLMs</div>
+              <div class="pill-service">Agentic AI</div>
+              <div class="pill-service">Deep Learning</div>
+              <div class="pill-service">Anomaly Detection</div>
             </div>
+            <a data-wf--cta-big--variant="base" href="https://www.linkedin.com/in/hazemmrad/details/certifications/" target="_blank" class="main-cont-button w-inline-block">
+              <div class="icon-wrapper-cta-first"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
+              <div class="text-wrapper-cta">Verify credentials</div>
+              <div class="icon-wrapper-cta"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
+            </a>
           </div>
-          <div data-us-project-src="https://cdn.prod.website-files.com/6966d53c7b70efaabd0a64ff/69ab566825a69a565cfb5d41_morable.json.txt" class="cont-morable"></div>
-          <div class="test w-embed w-script">
-            <script>
-  UnicornStudio.init()
-    .then((scenes) => {
-      // Scenes are ready
-    })
-    .catch((err) => {
-      console.error(err);
-    });
-</script>
-          </div>
+          <!-- no visual: text-only card -->
         </div>
         <div class="line news"></div>
         <div class="cont-news-wrapper">
           <div class="cont-headline-news">
             <h3 class="number-news">2</h3>
-            <h3 class="headline-news">Featured <br>on Behance</h3>
-            <p class="body-copy news">Check out my latest creative and technical projects — available for internship and freelance opportunities.</p>
-            <a data-wf--cta-big--variant="base" href="https://www.behance.net/hazemmrad1" target="_blank" class="main-cont-button w-inline-block">
+            <h3 class="headline-news">Dataiku <br>Core + Advanced Designer</h3>
+            <img src="/images/dataiku-logo.svg" alt="Dataiku" loading="lazy" style="height:64px;width:auto;margin:0.9rem 0">
+            <p class="body-copy news">Certified across data preparation, visual ML, and analytics workflows:<br>• Dataiku Core Designer (Sep 2026)<br>• Dataiku Advanced Designer (Sep 2026)</p>
+            <div class="pill-services-cont" style="justify-self:start;width:100%">
+              <div class="pill-service">2 certifications</div>
+              <div class="pill-service">Data Preparation</div>
+              <div class="pill-service">Visual ML</div>
+              <div class="pill-service">Tableau</div>
+            </div>
+            <a data-wf--cta-big--variant="base" href="https://www.linkedin.com/in/hazemmrad/details/certifications/" target="_blank" class="main-cont-button w-inline-block">
               <div class="icon-wrapper-cta-first"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
-              <div class="text-wrapper-cta">Learn more</div>
+              <div class="text-wrapper-cta">Verify credentials</div>
               <div class="icon-wrapper-cta"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
             </a>
           </div>
-          <div id="w-node-a8cc3bf7-e6a2-d9a3-8dca-598da0ef85fd-63a17526" style="background-color: #fff; border-radius: .5rem; min-height: 200px;"></div>
+          <!-- no visual: text-only card -->
         </div>
         <div class="line news"></div>
         <div class="cont-news-wrapper">
           <div class="cont-headline-news">
             <h3 class="number-news">3</h3>
-            <h3 class="headline-news">GitHub <br>Projects</h3>
-            <p class="body-copy news">Open-source projects spanning AI, full-stack web development, and creative tooling — built with curiosity and shipped with care.</p>
+            <h3 class="headline-news">Hedera <br>Certified Foundation</h3>
+            <img src="/images/hedera-logo.svg" alt="Hedera" loading="lazy" style="height:52px;width:auto;margin:0.9rem 0">
+            <p class="body-copy news">In progress: Hedera Certified Foundation via THA Academy (19% complete, NFT certificate track), unlocking the Developer Associate path next.</p>
+            <div class="pill-services-cont" style="justify-self:start;width:100%">
+              <div class="pill-service">In progress</div>
+              <div class="pill-service">Hedera Hashgraph</div>
+              <div class="pill-service">Smart Contracts</div>
+            </div>
             <a data-wf--cta-big--variant="base" href="https://github.com/hazemmrad17" target="_blank" class="main-cont-button w-inline-block">
               <div class="icon-wrapper-cta-first"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
-              <div class="text-wrapper-cta">Learn more</div>
+              <div class="text-wrapper-cta">See my work meanwhile</div>
               <div class="icon-wrapper-cta"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
             </a>
           </div>
-          <div id="w-node-_6a1ed807-c73e-b900-6403-161fa04ec116-63a17526" style="background-color: #fff; border-radius: .5rem; min-height: 200px;"></div>
+          <!-- no visual: text-only card -->
+        </div>
+        <div class="line news"></div>
+        <div class="cont-news-wrapper">
+          <div class="cont-headline-news">
+            <h3 class="number-news">4</h3>
+            <h3 class="headline-news">AWS <br>Cloud Practitioner</h3>
+            <img src="/images/aws-logo.svg" alt="AWS" loading="lazy" style="height:44px;width:auto;margin:0.9rem 0">
+            <p class="body-copy news">In progress: AWS Certified Cloud Practitioner (studying), building cloud fundamentals for deploying AI workloads.</p>
+            <div class="pill-services-cont" style="justify-self:start;width:100%">
+              <div class="pill-service">In progress</div>
+              <div class="pill-service">AWS Cloud</div>
+              <div class="pill-service">Cloud Fundamentals</div>
+            </div>
+            <a data-wf--cta-big--variant="base" href="https://github.com/hazemmrad17" target="_blank" class="main-cont-button w-inline-block">
+              <div class="icon-wrapper-cta-first"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
+              <div class="text-wrapper-cta">See my work meanwhile</div>
+              <div class="icon-wrapper-cta"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
+            </a>
+          </div>
+          <!-- no visual: text-only card -->
         </div>
       </div>
     </section>
@@ -199,8 +234,8 @@ export const aboutContent = {
       <div class="main-cta-wrapper">
         <div class="content-cta-wrapper">
           <div class="cta-text-wrapper">
-            <h2 class="heading-cta main">You know my story, let&rsquo;s design yours</h2>
-            <p class="body-copy-cta">Design solutions for global tech companies and growing startups.</p>
+            <h2 class="heading-cta main">You know my story, let&rsquo;s ship yours</h2>
+            <p class="body-copy-cta">Applied AI for teams that need production, not slides.</p>
           </div>
           <a href="#" class="cta-button-wrapper w-inline-block">
             <div class="cont-icon-cta"><img src="/images/arrow-grey.svg" loading="lazy" alt="" class="arrow-cta"></div>
@@ -215,22 +250,22 @@ export const aboutContent = {
       <div class="main-wrapper-footer">
         <div class="wrapper-content-footer _1">
           <div class="wrapper-column">
-            <h3 class="body-footer fade">Website made using:</h3>
+            <h3 class="body-footer fade">Core stack:</h3>
             <ul role="list" class="list-footer w-list-unstyled">
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Figma</h4>
+                <h4 class="body-footer right">Python</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Webflow</h4>
+                <h4 class="body-footer right">Next.js</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">GSAP</h4>
+                <h4 class="body-footer right">LLM APIs</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">AE/Lottie</h4>
+                <h4 class="body-footer right">RAG &amp; Agents</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Lennis Scroll</h4>
+                <h4 class="body-footer right">Data Pipelines</h4>
               </li>
             </ul>
           </div>
@@ -243,23 +278,21 @@ export const aboutContent = {
               <li class="wrapper-item-column">
                 <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="footer-social-link">Linkedin</a>
               </li>
-              <li class="wrapper-item-column">
-                <a href="https://www.behance.net/hazemmrad1" target="_blank" class="footer-social-link">Behance</a>
-              </li>
+              <!-- Behance removed -->
             </ul>
           </div>
         </div>
         <div class="wrapper-content-footer _2">
-          <h2 class="name-footer">Hazem</h2><img src="/images/juan-mora-logo-footer.svg" loading="lazy" alt="" class="image-4">
+          <h2 class="name-footer">Hazem</h2><img src="/images/hm-logo-footer.svg" loading="lazy" alt="" class="image-4">
           <h2 class="name-footer right">Mrad</h2>
         </div>
         <div class="wrapper-content-footer">
-          <h3 class="body-footer big">AI Engineering Student · Dev &amp; Branding &amp; Design  <span class="text-span-4">2026</span></h3>
+          <h3 class="body-footer big">Forward Deployed AI Engineer · Applied AI · Production Delivery  <span class="text-span-4">2026</span></h3>
           <h3 class="body-footer big">Hazem Mrad <span class="text-span-3">[Open to Opportunities]</span></h3>
         </div>
       </div>
       <div class="video-cont-footer footer">
-        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="portfolio2025/video/juan-video-loading.jpg">
+        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="videos-work/hm-video-loading.jpg">
             <source src="/videos-work/young-man-typing-laptop.mp4" type="video/mp4">
           </video></div>
       </div>
@@ -308,9 +341,7 @@ export const aboutContent = {
       <li class="cont-social-link">
         <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="nav-social-link">in</a>
       </li>
-      <li class="cont-social-link">
-        <a href="https://www.behance.net/hazemmrad1" target="_blank" class="nav-social-link">Be</a>
-      </li>
+      <!-- Behance removed: AI positioning -->
       <li class="cont-social-link">
         <a href="https://github.com/hazemmrad17" target="_blank" class="nav-social-link">Gh</a>
       </li>
@@ -320,7 +351,7 @@ export const aboutContent = {
   <main data-barba="container" class="main">
     <div class="container-loader">
       <div data-wf-target="[[[&quot;696eed5367a3d93663a17526&quot;,&quot;6e6a9285-1d66-fd20-f28c-6fecfef503c4&quot;],[]]]" class="orange-intro">
-        <div class="cont-juan-intro">
+        <div class="cont-hm-intro">
           <div class="nav-name-jm intro">Hazem</div>
           <div class="dot-jm intro"></div>
           <div class="nav-name-jm intro">Mrad</div>
@@ -343,7 +374,7 @@ export const aboutContent = {
             </div><img src="/images/webclip.png" loading="lazy" alt="" class="image-5">
             <div class="blue-dot-hero"></div>
           </div>
-          <h1 class="text-headline-about"><span class="text-span-5">----</span>Étudiant en Ingénierie IA · Designer basé en Tunisie</h1>
+          <h1 class="text-headline-about"><span class="text-span-5">----</span>Forward Deployed AI Engineer basé en Tunisie</h1>
         </div>
       </div>
     </section>
@@ -367,7 +398,7 @@ export const aboutContent = {
             <h3 class="headline-bio">Qui je suis</h3>
           </div>
           <div class="cont-bio-text right">
-            <p class="body-copy">Je suis Hazem Mrad — étudiant en IA, développeur et designer.<br><br>Basé en Tunisie, je crée des produits performants — de l&rsquo;IA aux expériences numériques.<br><br>Je soigne chaque couche : de l&rsquo;architecture au pixel.</p>
+            <p class="body-copy">Je suis Hazem Mrad, Forward Deployed AI Engineer et étudiant en IA à ESPRIT.<br><br>Basé en Tunisie, je travaille là où l’IA rencontre le réel : je m’immerge avec les utilisateurs, je prototype vite, et je livre des systèmes IA adoptés en production, des apps LLM et agents RAG aux pipelines data et au delivery full stack.<br><br>Je vise le résultat à chaque couche : de la découverte et la donnée au déploiement, à la mesure et à la transmission.</p>
           </div>
         </div>
         <div class="line about"></div>
@@ -376,7 +407,7 @@ export const aboutContent = {
             <h3 class="headline-bio">Approche</h3>
           </div>
           <div class="cont-bio-text right">
-            <p class="body-copy">Je cherche le vrai problème — pas juste le brief. J&rsquo;examine chaque projet en utilisateur et ingénieur.<br><br>Ensuite, je définis la direction et concrétise — pas pour embellir, mais pour rendre les choses plus intelligentes.<br><br>Design system, feature IA ou identité de marque, j&rsquo;aligne le résultat sur l&rsquo;objectif.</p>
+            <p class="body-copy">Je cherche le vrai workflow, pas juste le brief. J’examine chaque problème avec les opérateurs et avec les ingénieurs.<br><br>Ensuite, je découpe un prototype fin, je le teste avec de vrais utilisateurs, et je durcis ce qui marche : evals, guardrails, monitoring et itération.<br><br>Assistant RAG, pipeline de scoring ou copilote interne, j’aligne le build sur l’objectif : l’adoption en production, pas juste une démo.</p>
           </div>
         </div>
         <div class="line about"></div>
@@ -385,7 +416,7 @@ export const aboutContent = {
             <h3 class="headline-bio">Philosophie</h3>
           </div>
           <div class="cont-bio-text right">
-            <p class="body-copy">Je ne suis pas les tendances — je les utilise quand elles servent le projet. Mon objectif : créer quelque chose de distinctif et fonctionnel.<br><br>Chaque projet mérite la même attention — réfléchi, durable.<br><br>La curiosité est l&rsquo;outil de design le plus sous-estimé.</p>
+            <p class="body-copy">Je ne cours pas après la hype. J’utilise les modèles là où ils créent du levier, et l’engineering sobre là où il crée de la fiabilité. Mon objectif : livrer de l’utile, des systèmes que les équipes adoptent et qui tiennent dans le temps.<br><br>Chaque déploiement mérite la même rigueur : mesuré, maintenu, durable.<br><br>L’ownership est la qualité IA la plus sous-estimée : rester jusqu’à l’usage.</p>
           </div>
         </div>
         <div class="line about"></div>
@@ -394,7 +425,16 @@ export const aboutContent = {
             <h3 class="headline-bio">Compétences &amp; <br>Parcours</h3>
           </div>
           <div class="cont-bio-text right">
-            <p class="body-copy">Ingénierie IA · ESPRIT School of Engineering<br>Développement Web Full-Stack<br>UI/UX &amp; Branding Visuel<br>Travaux Présentés sur Behance<br>Ouvert aux Stages &amp; Collaborations</p>
+            <p class="body-copy">Forward Deployed AI Engineering · ESPRIT School of Engineering<br>IA Appliquée : LLMs, RAG, Agents, Evals<br>Pipelines Data &amp; Analytics<br>Delivery Full Stack en Production<br>NVIDIA DLI (6x) · Dataiku (Core + Advanced Designer)<br>Ouvert aux Stages IA Appliquée &amp; Déploiement</p>
+          </div>
+        </div>
+        <div class="line about"></div>
+        <div class="cont-bio-tem">
+          <div class="cont-bio-text">
+            <h3 class="headline-bio">Licences &amp; <br>Certifications</h3>
+          </div>
+          <div class="cont-bio-text right">
+            <p class="body-copy">NVIDIA Deep Learning Institute : 6 certifications complétées en LLMs, RAG, agents et deep learning.<br>Dataiku : Core Designer + Advanced Designer (Sep 2026).<br>En cours : Hedera Certified Foundation (THA Academy) + AWS Certified Cloud Practitioner.</p>
           </div>
         </div>
       </div>
@@ -403,62 +443,90 @@ export const aboutContent = {
       <div class="about-news-wrapper">
         <div class="news-cont-top">
           <div class="square-news"></div>
-          <h3 class="body-copy news">Actualités &amp; Infos</h3>
+          <h3 class="body-copy news">Licences &amp; Certifications</h3>
         </div>
         <div class="line news"></div>
         <div class="cont-news-wrapper">
           <div class="cont-headline-news">
             <h3 class="number-news">1</h3>
-            <h3 class="headline-news">Voir mon <br>portfolio Behance</h3>
-            <p class="body-copy news">Mes travaux Behance — branding, web design et développement.</p>
-            <div class="cont-btn-news">
-              <a data-wf--cta-big--variant="base" href="https://www.behance.net/hazemmrad1" target="_blank" class="main-cont-button w-inline-block">
-                <div class="icon-wrapper-cta-first"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
-                <div class="text-wrapper-cta">En savoir plus</div>
-                <div class="icon-wrapper-cta"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
-              </a>
+            <h3 class="headline-news">NVIDIA <br>Deep Learning Institute</h3>
+            <img src="/images/nvidia-logo.svg" alt="NVIDIA" loading="lazy" style="height:40px;width:auto;margin:0.9rem 0">
+            <p class="body-copy news">6 certifications complétées :<br>• Fundamentals of Deep Learning (Jan 2024)<br>• Building Transformer-Based NLP Applications (Jan 2025)<br>• Rapid Application Development with LLMs (Jan 2025)<br>• Evaluation and Light Customization of LLMs (Jan 2025)<br>• Building LLM Applications with Prompt Engineering (Jan 2025)<br>• Applications of AI for Anomaly Detection (Oct 2026)</p>
+            <div class="pill-services-cont" style="justify-self:start;width:100%">
+              <div class="pill-service">6 certifications</div>
+              <div class="pill-service">LLMs</div>
+              <div class="pill-service">Agentic AI</div>
+              <div class="pill-service">Deep Learning</div>
+              <div class="pill-service">Anomaly Detection</div>
             </div>
+            <a data-wf--cta-big--variant="base" href="https://www.linkedin.com/in/hazemmrad/details/certifications/" target="_blank" class="main-cont-button w-inline-block">
+              <div class="icon-wrapper-cta-first"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
+              <div class="text-wrapper-cta">Vérifier les certificats</div>
+              <div class="icon-wrapper-cta"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
+            </a>
           </div>
-          <div data-us-project-src="https://cdn.prod.website-files.com/6966d53c7b70efaabd0a64ff/69ab566825a69a565cfb5d41_morable.json.txt" class="cont-morable"></div>
-          <div class="test w-embed w-script">
-            <script>
-  UnicornStudio.init()
-    .then((scenes) => {
-      // Scenes are ready
-    })
-    .catch((err) => {
-      console.error(err);
-    });
-</script>
-          </div>
+          <!-- no visual: text-only card -->
         </div>
         <div class="line news"></div>
         <div class="cont-news-wrapper">
           <div class="cont-headline-news">
             <h3 class="number-news">2</h3>
-            <h3 class="headline-news">Présenté <br>sur Behance</h3>
-            <p class="body-copy news">Mes derniers projets — stages et freelance.</p>
-            <a data-wf--cta-big--variant="base" href="https://www.behance.net/hazemmrad1" target="_blank" class="main-cont-button w-inline-block">
+            <h3 class="headline-news">Dataiku <br>Core + Advanced Designer</h3>
+            <img src="/images/dataiku-logo.svg" alt="Dataiku" loading="lazy" style="height:64px;width:auto;margin:0.9rem 0">
+            <p class="body-copy news">Certifié en préparation data, ML visuel et workflows analytics :<br>• Dataiku Core Designer (Sep 2026)<br>• Dataiku Advanced Designer (Sep 2026)</p>
+            <div class="pill-services-cont" style="justify-self:start;width:100%">
+              <div class="pill-service">2 certifications</div>
+              <div class="pill-service">Préparation Data</div>
+              <div class="pill-service">ML Visuel</div>
+              <div class="pill-service">Tableau</div>
+            </div>
+            <a data-wf--cta-big--variant="base" href="https://www.linkedin.com/in/hazemmrad/details/certifications/" target="_blank" class="main-cont-button w-inline-block">
               <div class="icon-wrapper-cta-first"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
-              <div class="text-wrapper-cta">En savoir plus</div>
+              <div class="text-wrapper-cta">Vérifier les certificats</div>
               <div class="icon-wrapper-cta"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
             </a>
           </div>
-          <div id="w-node-a8cc3bf7-e6a2-d9a3-8dca-598da0ef85fd-63a17526" style="background-color: #fff; border-radius: .5rem; min-height: 200px;"></div>
+          <!-- no visual: text-only card -->
         </div>
         <div class="line news"></div>
         <div class="cont-news-wrapper">
           <div class="cont-headline-news">
             <h3 class="number-news">3</h3>
-            <h3 class="headline-news">Projets <br>GitHub</h3>
-            <p class="body-copy news">Projets open-source IA, web et outils créatifs.</p>
+            <h3 class="headline-news">Hedera <br>Certified Foundation</h3>
+            <img src="/images/hedera-logo.svg" alt="Hedera" loading="lazy" style="height:52px;width:auto;margin:0.9rem 0">
+            <p class="body-copy news">En cours : Hedera Certified Foundation via THA Academy (19% complété, parcours certifiant NFT), avant le Developer Associate.</p>
+            <div class="pill-services-cont" style="justify-self:start;width:100%">
+              <div class="pill-service">En cours</div>
+              <div class="pill-service">Hedera Hashgraph</div>
+              <div class="pill-service">Smart Contracts</div>
+            </div>
             <a data-wf--cta-big--variant="base" href="https://github.com/hazemmrad17" target="_blank" class="main-cont-button w-inline-block">
               <div class="icon-wrapper-cta-first"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
-              <div class="text-wrapper-cta">En savoir plus</div>
+              <div class="text-wrapper-cta">Voir mon travail en attendant</div>
               <div class="icon-wrapper-cta"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
             </a>
           </div>
-          <div id="w-node-_6a1ed807-c73e-b900-6403-161fa04ec116-63a17526" style="background-color: #fff; border-radius: .5rem; min-height: 200px;"></div>
+          <!-- no visual: text-only card -->
+        </div>
+        <div class="line news"></div>
+        <div class="cont-news-wrapper">
+          <div class="cont-headline-news">
+            <h3 class="number-news">4</h3>
+            <h3 class="headline-news">AWS <br>Cloud Practitioner</h3>
+            <img src="/images/aws-logo.svg" alt="AWS" loading="lazy" style="height:44px;width:auto;margin:0.9rem 0">
+            <p class="body-copy news">En cours : AWS Certified Cloud Practitioner (en préparation), pour des fondamentaux cloud solides afin de déployer des charges IA.</p>
+            <div class="pill-services-cont" style="justify-self:start;width:100%">
+              <div class="pill-service">En cours</div>
+              <div class="pill-service">AWS Cloud</div>
+              <div class="pill-service">Fondamentaux Cloud</div>
+            </div>
+            <a data-wf--cta-big--variant="base" href="https://github.com/hazemmrad17" target="_blank" class="main-cont-button w-inline-block">
+              <div class="icon-wrapper-cta-first"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
+              <div class="text-wrapper-cta">Voir mon travail en attendant</div>
+              <div class="icon-wrapper-cta"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion"></div>
+            </a>
+          </div>
+          <!-- no visual: text-only card -->
         </div>
       </div>
     </section>
@@ -466,8 +534,8 @@ export const aboutContent = {
       <div class="main-cta-wrapper">
         <div class="content-cta-wrapper">
           <div class="cta-text-wrapper">
-            <h2 class="heading-cta main">Vous connaissez mon histoire, créons la vôtre</h2>
-            <p class="body-copy-cta">Design pour entreprises et startups.</p>
+            <h2 class="heading-cta main">Vous connaissez mon histoire, lançons la vôtre</h2>
+            <p class="body-copy-cta">De l’IA appliquée pour les équipes qui veulent de la production, pas des slides.</p>
           </div>
           <a href="#" class="cta-button-wrapper w-inline-block">
             <div class="cont-icon-cta"><img src="/images/arrow-grey.svg" loading="lazy" alt="" class="arrow-cta"></div>
@@ -482,22 +550,22 @@ export const aboutContent = {
       <div class="main-wrapper-footer">
         <div class="wrapper-content-footer _1">
           <div class="wrapper-column">
-            <h3 class="body-footer fade">Site réalisé avec :</h3>
+            <h3 class="body-footer fade">Stack principale :</h3>
             <ul role="list" class="list-footer w-list-unstyled">
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Figma</h4>
+                <h4 class="body-footer right">Python</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Webflow</h4>
+                <h4 class="body-footer right">Next.js</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">GSAP</h4>
+                <h4 class="body-footer right">LLM APIs</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">AE/Lottie</h4>
+                <h4 class="body-footer right">RAG &amp; Agents</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Lennis Scroll</h4>
+                <h4 class="body-footer right">Data Pipelines</h4>
               </li>
             </ul>
           </div>
@@ -510,23 +578,21 @@ export const aboutContent = {
               <li class="wrapper-item-column">
                 <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="footer-social-link">Linkedin</a>
               </li>
-              <li class="wrapper-item-column">
-                <a href="https://www.behance.net/hazemmrad1" target="_blank" class="footer-social-link">Behance</a>
-              </li>
+              <!-- Behance removed -->
             </ul>
           </div>
         </div>
         <div class="wrapper-content-footer _2">
-          <h2 class="name-footer">Hazem</h2><img src="/images/juan-mora-logo-footer.svg" loading="lazy" alt="" class="image-4">
+          <h2 class="name-footer">Hazem</h2><img src="/images/hm-logo-footer.svg" loading="lazy" alt="" class="image-4">
           <h2 class="name-footer right">Mrad</h2>
         </div>
         <div class="wrapper-content-footer">
-          <h3 class="body-footer big">Étudiant en Ing. IA · Dev &amp; Branding &amp; Design  <span class="text-span-4">2026</span></h3>
+          <h3 class="body-footer big">Forward Deployed AI Engineer · IA Appliquée · Production  <span class="text-span-4">2026</span></h3>
           <h3 class="body-footer big">Hazem Mrad <span class="text-span-3">[Ouvert aux Opportunités]</span></h3>
         </div>
       </div>
       <div class="video-cont-footer footer">
-        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="portfolio2025/video/juan-video-loading.jpg">
+        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="videos-work/hm-video-loading.jpg">
             <source src="/videos-work/young-man-typing-laptop.mp4" type="video/mp4">
           </video></div>
       </div>

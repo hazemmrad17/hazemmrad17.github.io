@@ -4,7 +4,7 @@ import { homeContent } from "@/translations/home";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hazem Mrad | Multi-Disciplinary AI Engineer · Designer · Developer",
+  title: "Hazem Mrad | Forward Deployed AI Engineer · Applied AI & Production Delivery",
 };
 
 export default function Page() {

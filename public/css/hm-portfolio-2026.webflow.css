@@ -1433,7 +1433,7 @@
 }
 
 .img-pill-full {
-  background-image: url('../images/juan-about-hero.jpg');
+  background-image: url('../images/hazem-hero.webp');
   background-position: 50%;
   background-size: cover;
   border-radius: 10vw;
@@ -1955,7 +1955,7 @@
   inset: 0% auto auto 0%;
 }
 
-.cont-morable {
+.cont-embed {
   border-radius: .5rem;
   width: 100%;
   height: 50vw;
@@ -2177,7 +2177,7 @@
 
 .big-about-cont {
   z-index: 5;
-  background-image: url('../images/about-juan-mora.jpg');
+  background-image: url('../images/hazem-hero.webp');
   background-position: 50%;
   background-size: cover;
   width: 100vw;
@@ -2446,7 +2446,7 @@
   color: var(--_color---bg-grey);
 }
 
-.cont-juan-intro {
+.cont-hm-intro {
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
   justify-content: center;
@@ -2544,7 +2544,7 @@
   inset: 0% auto auto 0%;
 }
 
-.cont-juan-fc {
+.cont-hm-fc {
   z-index: 46;
   border-radius: .5rem;
   width: 100%;
@@ -3081,7 +3081,7 @@
     bottom: 0;
   }
 
-  .cont-morable {
+  .cont-embed {
     height: 50vh;
   }
 
@@ -3169,7 +3169,7 @@
     border-radius: 10rem;
   }
 
-  .cont-juan-fc {
+  .cont-hm-fc {
     height: 50vh;
   }
 }
@@ -3724,7 +3724,7 @@
     width: 220vw;
   }
 
-  .cont-morable {
+  .cont-embed {
     border-radius: .3rem;
   }
 
@@ -3899,7 +3899,7 @@
     display: none;
   }
 
-  .cont-juan-fc {
+  .cont-hm-fc {
     border-radius: .3rem;
   }
 }
@@ -4294,7 +4294,7 @@
     height: 9vh;
   }
 
-  .cont-morable {
+  .cont-embed {
     border-radius: .3rem;
     height: 110vw;
   }
@@ -4431,7 +4431,7 @@
     font-weight: 500;
   }
 
-  .cont-juan-fc {
+  .cont-hm-fc {
     border-radius: .3rem;
     height: 110vw;
   }

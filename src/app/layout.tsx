@@ -6,9 +6,9 @@ import ClickTracker from "@/components/ClickTracker";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "Hazem Mrad | Multi-Disciplinary AI Engineer · Designer · Developer",
+  title: "Hazem Mrad | Forward Deployed AI Engineer · Applied AI & Production Delivery",
   description:
-    "AI Engineering student specializing in full-stack development, brand identity, and creative design — bridging code, design, and AI.",
+    "Forward Deployed AI Engineer building and shipping applied AI systems: LLM apps, RAG and agents, data pipelines, and full-stack products deployed to real users.",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
         <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
         <link href="/css/webflow.css" rel="stylesheet" type="text/css" />
         <link
-          href="/css/juan-portfolio-2026.webflow.css"
+          href="/css/hm-portfolio-2026.webflow.css"
           rel="stylesheet"
           type="text/css"
         />

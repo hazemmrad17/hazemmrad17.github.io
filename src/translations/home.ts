@@ -41,9 +41,7 @@ export const homeContent = {
       <li class="cont-social-link">
         <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="nav-social-link">in</a>
       </li>
-      <li class="cont-social-link">
-        <a href="https://www.behance.net/hazemmrad1" target="_blank" class="nav-social-link">Be</a>
-      </li>
+      <!-- Behance removed: AI positioning -->
       <li class="cont-social-link">
         <a href="https://github.com/hazemmrad17" target="_blank" class="nav-social-link">Gh</a>
       </li>
@@ -53,7 +51,7 @@ export const homeContent = {
   <main data-barba="container" class="main">
     <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;efa7598b-a9cd-4f84-2bfd-e15ae61b20ee&quot;],[]]]" class="container-loader">
       <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;15d9e038-db5e-b6bf-73e5-9034d6165b09&quot;],[]]]" class="orange-intro">
-        <div class="cont-juan-intro">
+        <div class="cont-hm-intro">
           <div class="nav-name-jm intro">Hazem</div>
           <div class="dot-jm intro"></div>
           <div class="nav-name-jm intro">Mrad</div>
@@ -76,18 +74,18 @@ export const homeContent = {
       <div data-w-id="fdfeabe9-78fe-3a8d-e0df-bed432c0ca1e" class="w-layout-blockcontainer wrapper-hero-home w-container">
         <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;69d8772e-99e5-34d4-8768-578175f19981&quot;],[]]]" class="conter-content-hero">
           <div class="hero-top">
-            <h1 class="heading">AI Engineering &amp; <br>Creative Design</h1>
+            <h1 class="heading">Forward Deployed<br>AI Engineering</h1>
           </div>
           <div class="hero-bottom">
             <div class="name-mouse-lottie hero-name-text"><span class="hero-first-name">Hazem</span><span class="hero-last-name">Mrad</span></div>
-            <p class="heading right">AI Eng. Student · Dev &amp; Branding &amp; Design</p>
+            <p class="heading right">Forward Deployed AI Engineer · Applied AI · Full-Stack Delivery</p>
           </div>
         </div>
       </div>
     </div>
     <section data-nav="grey" class="section">
       <div class="click-scroll-height">          <div class="wrapper-cont-50">
-            <h1 class="click-scroll-text">3 years  making users  click   and <span class="text-span">scroll</span> my designs</h1>
+            <h1 class="click-scroll-text">3 years  shipping AI products  people actually <span class="text-span">use</span></h1>
             <div class="cont-click">
               <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;de7c1cb9-e16c-0e92-e227-ab680bfdcc65&quot;],[]]]" class="cont-hover-click"></div>
               <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;56116af0-f022-b996-69b9-116e77b954b5&quot;],[]]]" class="click-hover-huh">test<br></div>
@@ -102,23 +100,51 @@ export const homeContent = {
     </section>
     <section class="section">
       <div class="service-headline-wrapper">
-        <div class="tag-text">AI Eng. Student</div>
-        <h1 class="service-headline">I help build things at the intersection of:</h1>
+<div class="tag-text">Applied AI · Forward Deployment</div>
+          <h1 class="service-headline">AI systems, deployed to production: end to end:</h1>
       </div>
       <ul role="list" class="main-wrapper-services w-list-unstyled">
         <li class="service-wrapper">
           <div class="cont-text-service">
             <div class="cont-title-service">
               <div class="dot-project test"></div>
-              <h2 class="service-h2">Websites &amp; Landing pages</h2>
+              <h2 class="service-h2">Applied AI Systems &amp;<br>LLM Apps<br>Deployed</h2>
             </div>
-            <p class="body-copy home-work">Creating high-end and beautiful websites built to perform and convert.</p>
+            <p class="body-copy home-work">Shipping applied AI end to end: RAG, agents, LLM integration, evals, data pipelines, and the full-stack production code that runs them.</p>
+          </div>
+          <div class="cont-imgs-service">
+            <div class="mask-img-service"><img src="/images/typhoon-1.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service">
+              <div class="video-cont-p2 home">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
+                    <source src="/videos-work/alena-app-design-hm.mp4" type="video/mp4">
+                  </video></div>
+              </div>
+            </div>
+            <div class="mask-img-service"><img src="/images/vital1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/travel1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service">
+              <div class="video-cont-p2 home">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
+                    <source src="/videos-work/ape-chain-approved.mp4" type="video/mp4">
+                  </video></div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="service-wrapper">
+          <div class="cont-text-service">
+            <div class="cont-title-service">
+              <div class="dot-project test"></div>
+              <h2 class="service-h2">Data Pipelines &amp; Analytics</h2>
+            </div>
+            <p class="body-copy home-work">Turning raw data into decisions: ingestion, scoring, visualization, and analytics embedded in live workflows.</p>
           </div>
           <div class="cont-imgs-service">
             <div class="mask-img-service"><img src="/images/real-estate1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
                     <source src="/videos-work/home/home-ampli.mp4" type="video/mp4">
                   </video></div>
               </div>
@@ -126,7 +152,7 @@ export const homeContent = {
             <div class="mask-img-service"><img src="/images/saas1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
                     <source src="/videos-work/home/home-shopping.mp4" type="video/mp4">
                   </video></div>
               </div>
@@ -138,14 +164,14 @@ export const homeContent = {
           <div class="cont-text-service">
             <div class="cont-title-service">
               <div class="dot-project test"></div>
-              <h2 class="service-h2">Visual Branding</h2>
+              <h2 class="service-h2">Forward Deployment &amp; Enablement</h2>
             </div>
-            <p class="body-copy home-work">Helping brands find a distinctive visual language that truly stands out.</p>
+            <p class="body-copy home-work">Embedding with users: discovery, thin prototypes, production rollout, measurement, and handover until teams adopt it.</p>
           </div>
           <div class="cont-imgs-service">
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
                     <source src="/videos-work/home/home-ampli-brand.mp4" type="video/mp4">
                   </video></div>
               </div>
@@ -153,53 +179,13 @@ export const homeContent = {
             <div class="mask-img-service"><img src="/images/yield-poster-1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
                     <source src="/videos-work/home/home-brudget1.mp4" type="video/mp4">
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/matchupz1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/matchupz5.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service hide"><img src="/images/typhoon-3.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
-          </div>
-        </li>
-        <li class="service-wrapper">
-          <div class="cont-text-service">
-            <div class="cont-title-service">
-              <div class="dot-project test"></div>
-              <h2 class="service-h2">Product Design Enhancement<br>with Developing<br>AI Applications</h2>
-            </div>
-            <p class="body-copy home-work">Building AI-powered applications, pipelines, and automation scripts — turning complex problems into intelligent, scalable solutions.</p>
-          </div>
-          <div class="cont-imgs-service">
-            <div class="mask-img-service hide"><img src="/images/typhoon-1.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
-            <div class="mask-img-service">
-              <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
-                    <source src="/videos-work/home/home-alena.mp4" type="video/mp4">
-                  </video></div>
-              </div>
-            </div>
-            <div class="mask-img-service"><img src="/images/vital1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
-            <div class="mask-img-service"><img src="/images/dourbia-banners.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
-            <div class="mask-img-service">
-              <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
-                    <source src="/videos-work/home/home-apechain.mp4" type="video/mp4">
-                  </video></div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="service-wrapper webflow">
-          <div class="cont-text-service webflow">
-            <div class="cont-title-service webflow">
-              <h2 class="service-h2 webflow">Webflow &amp; Framer</h2><img src="/images/webflow-frame.svg" loading="lazy" alt="" class="webflow-frame"><img src="/images/framer-frame.svg" loading="lazy" alt="" class="framer-frame">
-            </div>
-            <p class="body-copy home-work webflow">Building elegant and responsive projects featuring creative micro-interactions and seamless CMS hand-off.</p>
-          </div>
-          <div class="cont-imgs-service webflow">
-            <div class="mask-img-service webflow"><img src="/images/webflow-tag-juan-mora.svg" loading="lazy" alt="" class="tag-webflow"></div>
-            <div class="mask-img-service framer"><img src="/images/framer-tag-juan-mora.svg" loading="lazy" alt="" class="tag-framer"></div>
           </div>
         </li>
       </ul>
@@ -220,42 +206,42 @@ export const homeContent = {
         <div class="bg-benefits-wrapper">
           <div class="main-cont-step1">
             <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;bf4a27c8-e0a8-d734-f1de-8376874e8588&quot;],[]]]" class="text-wrapper-align-benefit">
-              <h2 class="h2-headline-step1-1">Good design</h2>
+              <h2 class="h2-headline-step1-1">Good AI</h2>
             </div>
             <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;d3492417-3232-8879-0da3-b1d63ee4557c&quot;],[]]]" class="text-wrapper-align-benefit _2">
-              <h2 class="h2-headline-step1-2">takes time</h2>
+              <h2 class="h2-headline-step1-2">takes iteration</h2>
             </div><img src="/images/benefits-main-image.webp" loading="lazy" alt="" class="jm-siluete-img">
             <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;85865f42-2f3b-b39f-f409-6b3cba36ba49&quot;],[]]]" class="line step1"></div>
-            <h2 data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;b83787a3-8d2e-bb92-08ec-200215144fa4&quot;],[]]]" class="h2-headline-step1-3">and working with me saves it</h2>
+            <h2 data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;b83787a3-8d2e-bb92-08ec-200215144fa4&quot;],[]]]" class="h2-headline-step1-3">and working with me ships it</h2>
           </div>
           <div class="main-cont-step2">
             <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;f41af8f4-7d3a-864f-96b4-a9aedbddc4e3&quot;],[]]]" class="step2-headline-wrapper">
-              <h2 class="h2-benefit-1">People work with me because of my</h2>
-              <h2 class="h2-benefit-2">perspective + sharp instincts</h2>
+              <h2 class="h2-benefit-1">Teams deploy with me because of my</h2>
+              <h2 class="h2-benefit-2">ownership + shipping instinct</h2>
             </div>
             <div class="line-step2"></div>
             <ul data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;cff8655f-e646-0b0e-89b0-3de4583c6545&quot;],[]]]" role="list" class="list-benefits w-list-unstyled">
               <li class="item-benefits-cont">
                 <div class="text-benefit-cont"><img src="/images/check-mark-icon.svg" loading="lazy" alt="" class="check-icon">
-                  <h3 class="he-bulltet">I bring a unique blend of engineering logic and creative vision to every project.</h3>
+                  <h3 class="he-bulltet">I embed with users and ship thin prototypes in days, not decks.</h3>
                 </div>
                 <div class="line-benefit"></div>
               </li>
               <li class="item-benefits-cont">
                 <div class="text-benefit-cont"><img src="/images/check-mark-icon.svg" loading="lazy" alt="" class="check-icon">
-                  <h3 class="he-bulltet">I care about the full stack — from system architecture to final pixel.</h3>
+                  <h3 class="he-bulltet">I own full-stack delivery: from data pipeline and model to API and production UI.</h3>
                 </div>
                 <div class="line-benefit"></div>
               </li>
               <li class="item-benefits-cont">
                 <div class="text-benefit-cont"><img src="/images/check-mark-icon.svg" loading="lazy" alt="" class="check-icon">
-                  <h3 class="he-bulltet">I define scalable design systems that keep your product consistent and maintainable.</h3>
+                  <h3 class="he-bulltet">I measure with evals and real usage, then harden, monitor, and iterate.</h3>
                 </div>
                 <div class="line-benefit"></div>
               </li>
               <li class="item-benefits-cont">
                 <div class="text-benefit-cont"><img src="/images/check-mark-icon.svg" loading="lazy" alt="" class="check-icon">
-                  <h3 class="he-bulltet">I align technical requirements with design goals to ship things that actually work.</h3>
+                  <h3 class="he-bulltet">I stay until adoption: rollout, enablement, and handover that sticks.</h3>
                 </div>
                 <div class="line-benefit"></div>
               </li>
@@ -277,8 +263,8 @@ export const homeContent = {
       <div class="main-cta-wrapper">
         <div class="content-cta-wrapper">
           <div class="cta-text-wrapper">
-            <h2 class="heading-cta main">Let&rsquo;s build something people remember</h2>
-            <p class="body-copy-cta">from global tech companies to growing startups.</p>
+            <h2 class="heading-cta main">Let&rsquo;s deploy AI that delivers</h2>
+            <p class="body-copy-cta">from pilots to production with real users.</p>
           </div>
           <a href="#" class="cta-button-wrapper w-inline-block">
             <div class="cont-icon-cta"><img src="/images/arrow-grey.svg" loading="lazy" alt="" class="arrow-cta"></div>
@@ -293,22 +279,22 @@ export const homeContent = {
       <div class="main-wrapper-footer">
         <div class="wrapper-content-footer _1">
           <div class="wrapper-column">
-            <h3 class="body-footer fade">Website made using:</h3>
+            <h3 class="body-footer fade">Core stack:</h3>
             <ul role="list" class="list-footer w-list-unstyled">
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Figma</h4>
+                <h4 class="body-footer right">Python</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Webflow</h4>
+                <h4 class="body-footer right">Next.js</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">GSAP</h4>
+                <h4 class="body-footer right">LLM APIs</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">AE/Lottie</h4>
+                <h4 class="body-footer right">RAG &amp; Agents</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Lennis Scroll</h4>
+                <h4 class="body-footer right">Data Pipelines</h4>
               </li>
             </ul>
           </div>
@@ -321,23 +307,21 @@ export const homeContent = {
               <li class="wrapper-item-column">
                 <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="footer-social-link">Linkedin</a>
               </li>
-              <li class="wrapper-item-column">
-                <a href="https://www.behance.net/hazemmrad1" target="_blank" class="footer-social-link">Behance</a>
-              </li>
+              <!-- Behance removed -->
             </ul>
           </div>
         </div>
         <div class="wrapper-content-footer _2">
-          <h2 class="name-footer">Hazem</h2><img src="/images/juan-mora-logo-footer.svg" loading="lazy" alt="" class="image-4">
+          <h2 class="name-footer">Hazem</h2><img src="/images/hm-logo-footer.svg" loading="lazy" alt="" class="image-4">
           <h2 class="name-footer right">Mrad</h2>
         </div>
         <div class="wrapper-content-footer">
-          <h3 class="body-footer big">AI Engineering Student · Dev &amp; Branding &amp; Design  <span class="text-span-4">2026</span></h3>
+          <h3 class="body-footer big">Forward Deployed AI Engineer · Applied AI · Production Delivery  <span class="text-span-4">2026</span></h3>
           <h3 class="body-footer big">Hazem Mrad <span class="text-span-3">[Open to Opportunities]</span></h3>
         </div>
       </div>
       <div class="video-cont-footer footer">
-        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="portfolio2025/video/juan-video-loading.jpg">
+        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="videos-work/hm-video-loading.jpg">
             <source src="/videos-work/young-man-typing-laptop.mp4" type="video/mp4">
           </video></div>
       </div>
@@ -386,9 +370,7 @@ export const homeContent = {
       <li class="cont-social-link">
         <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="nav-social-link">in</a>
       </li>
-      <li class="cont-social-link">
-        <a href="https://www.behance.net/hazemmrad1" target="_blank" class="nav-social-link">Be</a>
-      </li>
+      <!-- Behance removed: AI positioning -->
       <li class="cont-social-link">
         <a href="https://github.com/hazemmrad17" target="_blank" class="nav-social-link">Gh</a>
       </li>
@@ -398,7 +380,7 @@ export const homeContent = {
   <main data-barba="container" class="main">
     <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;efa7598b-a9cd-4f84-2bfd-e15ae61b20ee&quot;],[]]]" class="container-loader">
       <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;15d9e038-db5e-b6bf-73e5-9034d6165b09&quot;],[]]]" class="orange-intro">
-        <div class="cont-juan-intro">
+        <div class="cont-hm-intro">
           <div class="nav-name-jm intro">Hazem</div>
           <div class="dot-jm intro"></div>
           <div class="nav-name-jm intro">Mrad</div>
@@ -421,18 +403,18 @@ export const homeContent = {
       <div data-w-id="fdfeabe9-78fe-3a8d-e0df-bed432c0ca1e" class="w-layout-blockcontainer wrapper-hero-home w-container">
         <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;69d8772e-99e5-34d4-8768-578175f19981&quot;],[]]]" class="conter-content-hero">
           <div class="hero-top">
-            <h1 class="heading">Ingénierie IA &amp; <br>Design Créatif</h1>
+            <h1 class="heading">Ingénierie IA<br>déployée sur le terrain</h1>
           </div>
           <div class="hero-bottom">
             <div class="name-mouse-lottie hero-name-text"><span class="hero-first-name">Hazem</span><span class="hero-last-name">Mrad</span></div>
-            <p class="heading right">Étudiant Ing. IA · Dev &amp; Branding &amp; Design</p>
+            <p class="heading right">Forward Deployed AI Engineer · IA Appliquée · Delivery Full-Stack</p>
           </div>
         </div>
       </div>
     </div>
     <section data-nav="grey" class="section">
       <div class="click-scroll-height">          <div class="wrapper-cont-50">
-            <h1 class="click-scroll-text">3 ans à faire  click et  scroll   mes <span class="text-span">designs</span></h1>
+            <h1 class="click-scroll-text">3 ans  à livrer des produits IA  que les gens <span class="text-span">utilisent</span></h1>
             <div class="cont-click">
               <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;de7c1cb9-e16c-0e92-e227-ab680bfdcc65&quot;],[]]]" class="cont-hover-click"></div>
               <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;56116af0-f022-b996-69b9-116e77b954b5&quot;],[]]]" class="click-hover-huh">test<br></div>
@@ -447,23 +429,51 @@ export const homeContent = {
     </section>
     <section class="section">
       <div class="service-headline-wrapper">
-        <div class="tag-text">Étudiant Ing. IA</div>
-        <h1 class="service-headline">À l&rsquo;intersection de :</h1>
+<div class="tag-text">IA Appliquée · Déploiement Terrain</div>
+          <h1 class="service-headline">Des systèmes IA déployés en production: de bout en bout :</h1>
       </div>
       <ul role="list" class="main-wrapper-services w-list-unstyled">
         <li class="service-wrapper">
           <div class="cont-text-service">
             <div class="cont-title-service">
               <div class="dot-project test"></div>
-              <h2 class="service-h2">Sites Web &amp; Pages de Vente</h2>
+              <h2 class="service-h2">Ingénierie IA &amp;<br>Apps LLM<br>Déployées</h2>
             </div>
-            <p class="body-copy home-work">Des sites web haut de gamme qui performent et convertissent.</p>
+            <p class="body-copy home-work">De l’IA appliquée de bout en bout: RAG, agents, intégration LLM, evals, pipelines de données et code full-stack en production.</p>
+          </div>
+          <div class="cont-imgs-service">
+            <div class="mask-img-service"><img src="/images/typhoon-1.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service">
+              <div class="video-cont-p2 home">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
+                    <source src="/videos-work/alena-app-design-hm.mp4" type="video/mp4">
+                  </video></div>
+              </div>
+            </div>
+            <div class="mask-img-service"><img src="/images/vital1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/travel1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service">
+              <div class="video-cont-p2 home">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
+                    <source src="/videos-work/ape-chain-approved.mp4" type="video/mp4">
+                  </video></div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="service-wrapper">
+          <div class="cont-text-service">
+            <div class="cont-title-service">
+              <div class="dot-project test"></div>
+              <h2 class="service-h2">Pipelines Data &amp; Analytics</h2>
+            </div>
+            <p class="body-copy home-work">Transformer la donnée brute en décisions: ingestion, scoring, visualisation et analytics intégrés aux workflows réels.</p>
           </div>
           <div class="cont-imgs-service">
             <div class="mask-img-service"><img src="/images/real-estate1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
                     <source src="/videos-work/home/home-ampli.mp4" type="video/mp4">
                   </video></div>
               </div>
@@ -471,7 +481,7 @@ export const homeContent = {
             <div class="mask-img-service"><img src="/images/saas1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
                     <source src="/videos-work/home/home-shopping.mp4" type="video/mp4">
                   </video></div>
               </div>
@@ -483,14 +493,14 @@ export const homeContent = {
           <div class="cont-text-service">
             <div class="cont-title-service">
               <div class="dot-project test"></div>
-              <h2 class="service-h2">Identité de Marque</h2>
+              <h2 class="service-h2">Déploiement Terrain &amp; Adoption</h2>
             </div>
-            <p class="body-copy home-work">Un langage visuel distinctif qui fait la différence.</p>
+            <p class="body-copy home-work">Au plus près des utilisateurs: découverte, prototypes rapides, mise en production, mesure et transmission jusqu’à l’adoption.</p>
           </div>
           <div class="cont-imgs-service">
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
                     <source src="/videos-work/home/home-ampli-brand.mp4" type="video/mp4">
                   </video></div>
               </div>
@@ -498,53 +508,13 @@ export const homeContent = {
             <div class="mask-img-service"><img src="/images/yield-poster-1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
+                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
                     <source src="/videos-work/home/home-brudget1.mp4" type="video/mp4">
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/matchupz1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/matchupz5.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service hide"><img src="/images/typhoon-3.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
-          </div>
-        </li>
-        <li class="service-wrapper">
-          <div class="cont-text-service">
-            <div class="cont-title-service">
-              <div class="dot-project test"></div>
-              <h2 class="service-h2">Design de Produit &amp;<br>Développement<br>d&rsquo;Applications IA</h2>
-            </div>
-            <p class="body-copy home-work">Apps IA, pipelines et automation — des solutions intelligentes et évolutives.</p>
-          </div>
-          <div class="cont-imgs-service">
-            <div class="mask-img-service hide"><img src="/images/typhoon-1.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
-            <div class="mask-img-service">
-              <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
-                    <source src="/videos-work/home/home-alena.mp4" type="video/mp4">
-                  </video></div>
-              </div>
-            </div>
-            <div class="mask-img-service"><img src="/images/vital1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
-            <div class="mask-img-service"><img src="/images/dourbia-banners.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
-            <div class="mask-img-service">
-              <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/juan-video-loading.jpg">
-                    <source src="/videos-work/home/home-apechain.mp4" type="video/mp4">
-                  </video></div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="service-wrapper webflow">
-          <div class="cont-text-service webflow">
-            <div class="cont-title-service webflow">
-              <h2 class="service-h2 webflow">Webflow &amp; Framer</h2><img src="/images/webflow-frame.svg" loading="lazy" alt="" class="webflow-frame"><img src="/images/framer-frame.svg" loading="lazy" alt="" class="framer-frame">
-            </div>
-            <p class="body-copy home-work webflow">Projets responsives avec micro-interactions et transition CMS fluide.</p>
-          </div>
-          <div class="cont-imgs-service webflow">
-            <div class="mask-img-service webflow"><img src="/images/webflow-tag-juan-mora.svg" loading="lazy" alt="" class="tag-webflow"></div>
-            <div class="mask-img-service framer"><img src="/images/framer-tag-juan-mora.svg" loading="lazy" alt="" class="tag-framer"></div>
           </div>
         </li>
       </ul>
@@ -565,42 +535,42 @@ export const homeContent = {
         <div class="bg-benefits-wrapper">
           <div class="main-cont-step1">
             <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;bf4a27c8-e0a8-d734-f1de-8376874e8588&quot;],[]]]" class="text-wrapper-align-benefit">
-              <h2 class="h2-headline-step1-1">Un bon design</h2>
+              <h2 class="h2-headline-step1-1">Une bonne IA</h2>
             </div>
             <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;d3492417-3232-8879-0da3-b1d63ee4557c&quot;],[]]]" class="text-wrapper-align-benefit _2">
-              <h2 class="h2-headline-step1-2">prend du temps</h2>
+              <h2 class="h2-headline-step1-2">demande des itérations</h2>
             </div><img src="/images/benefits-main-image.webp" loading="lazy" alt="" class="jm-siluete-img">
             <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;85865f42-2f3b-b39f-f409-6b3cba36ba49&quot;],[]]]" class="line step1"></div>
-            <h2 data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;b83787a3-8d2e-bb92-08ec-200215144fa4&quot;],[]]]" class="h2-headline-step1-3">avec moi, gagnez du temps</h2>
+            <h2 data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;b83787a3-8d2e-bb92-08ec-200215144fa4&quot;],[]]]" class="h2-headline-step1-3">avec moi, on la livre</h2>
           </div>
           <div class="main-cont-step2">
             <div data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;f41af8f4-7d3a-864f-96b4-a9aedbddc4e3&quot;],[]]]" class="step2-headline-wrapper">
-              <h2 class="h2-benefit-1">On travaille avec moi pour ma</h2>
-              <h2 class="h2-benefit-2">perspective + instinct aigu</h2>
+              <h2 class="h2-benefit-1">On déploie avec moi pour mon</h2>
+              <h2 class="h2-benefit-2">ownership + sens du shipping</h2>
             </div>
             <div class="line-step2"></div>
             <ul data-wf-target="[[[&quot;6966d53e7b70efaabd0a6539&quot;,&quot;cff8655f-e646-0b0e-89b0-3de4583c6545&quot;],[]]]" role="list" class="list-benefits w-list-unstyled">
               <li class="item-benefits-cont">
                 <div class="text-benefit-cont"><img src="/images/check-mark-icon.svg" loading="lazy" alt="" class="check-icon">
-                  <h3 class="he-bulltet">Un mélange unique de logique d&rsquo;ingénierie et de vision créative.</h3>
+                  <h3 class="he-bulltet">Je m’immerge avec les utilisateurs et livre des prototypes en jours, pas des slides.</h3>
                 </div>
                 <div class="line-benefit"></div>
               </li>
               <li class="item-benefits-cont">
                 <div class="text-benefit-cont"><img src="/images/check-mark-icon.svg" loading="lazy" alt="" class="check-icon">
-                  <h3 class="he-bulltet">Je soigne toute la stack — de l&rsquo;architecture système au pixel final.</h3>
+                  <h3 class="he-bulltet">Je livre full-stack: du pipeline data et du modèle à l’API et à l’UI en production.</h3>
                 </div>
                 <div class="line-benefit"></div>
               </li>
               <li class="item-benefits-cont">
                 <div class="text-benefit-cont"><img src="/images/check-mark-icon.svg" loading="lazy" alt="" class="check-icon">
-                  <h3 class="he-bulltet">Des systèmes de design évolutifs qui gardent votre produit cohérent.</h3>
+                  <h3 class="he-bulltet">Je mesure avec des evals et l’usage réel, puis je durcis, supervise et itère.</h3>
                 </div>
                 <div class="line-benefit"></div>
               </li>
               <li class="item-benefits-cont">
                 <div class="text-benefit-cont"><img src="/images/check-mark-icon.svg" loading="lazy" alt="" class="check-icon">
-                  <h3 class="he-bulltet">J&rsquo;aligne le technique et le design pour livrer des projets qui marchent.</h3>
+                  <h3 class="he-bulltet">Je reste jusqu’à l’adoption: déploiement, enablement et transmission qui tiennent.</h3>
                 </div>
                 <div class="line-benefit"></div>
               </li>
@@ -622,8 +592,8 @@ export const homeContent = {
       <div class="main-cta-wrapper">
         <div class="content-cta-wrapper">
           <div class="cta-text-wrapper">
-            <h2 class="heading-cta main">Construisons quelque chose d&rsquo;inoubliable</h2>
-            <p class="body-copy-cta">Des entreprises aux startups.</p>
+            <h2 class="heading-cta main">Déployons une IA qui délivre</h2>
+            <p class="body-copy-cta">Du pilote à la production, avec de vrais utilisateurs.</p>
           </div>
           <a href="#" class="cta-button-wrapper w-inline-block">
             <div class="cont-icon-cta"><img src="/images/arrow-grey.svg" loading="lazy" alt="" class="arrow-cta"></div>
@@ -638,22 +608,22 @@ export const homeContent = {
       <div class="main-wrapper-footer">
         <div class="wrapper-content-footer _1">
           <div class="wrapper-column">
-            <h3 class="body-footer fade">Site réalisé avec :</h3>
+            <h3 class="body-footer fade">Stack principale :</h3>
             <ul role="list" class="list-footer w-list-unstyled">
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Figma</h4>
+                <h4 class="body-footer right">Python</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Webflow</h4>
+                <h4 class="body-footer right">Next.js</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">GSAP</h4>
+                <h4 class="body-footer right">LLM APIs</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">AE/Lottie</h4>
+                <h4 class="body-footer right">RAG &amp; Agents</h4>
               </li>
               <li class="wrapper-item-column">
-                <h4 class="body-footer right">Lennis Scroll</h4>
+                <h4 class="body-footer right">Data Pipelines</h4>
               </li>
             </ul>
           </div>
@@ -666,23 +636,21 @@ export const homeContent = {
               <li class="wrapper-item-column">
                 <a href="https://www.linkedin.com/in/hazemmrad" target="_blank" class="footer-social-link">Linkedin</a>
               </li>
-              <li class="wrapper-item-column">
-                <a href="https://www.behance.net/hazemmrad1" target="_blank" class="footer-social-link">Behance</a>
-              </li>
+              <!-- Behance removed -->
             </ul>
           </div>
         </div>
         <div class="wrapper-content-footer _2">
-          <h2 class="name-footer">Hazem</h2><img src="/images/juan-mora-logo-footer.svg" loading="lazy" alt="" class="image-4">
+          <h2 class="name-footer">Hazem</h2><img src="/images/hm-logo-footer.svg" loading="lazy" alt="" class="image-4">
           <h2 class="name-footer right">Mrad</h2>
         </div>
         <div class="wrapper-content-footer">
-          <h3 class="body-footer big">Étudiant en Ing. IA · Dev &amp; Branding &amp; Design  <span class="text-span-4">2026</span></h3>
+          <h3 class="body-footer big">Forward Deployed AI Engineer · IA Appliquée · Production  <span class="text-span-4">2026</span></h3>
           <h3 class="body-footer big">Hazem Mrad <span class="text-span-3">[Ouvert aux Opportunités]</span></h3>
         </div>
       </div>
       <div class="video-cont-footer footer">
-        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="portfolio2025/video/juan-video-loading.jpg">
+        <div class="video-embed w-embed"><video class="video-embed" muted="" autoplay="" loop="" playsinline="" poster="videos-work/hm-video-loading.jpg">
             <source src="/videos-work/young-man-typing-laptop.mp4" type="video/mp4">
           </video></div>
       </div>
