@@ -176,7 +176,7 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/yield-poster-1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/typhoon-dashboard.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
@@ -505,7 +505,7 @@ export const homeContent = {
                   </video></div>
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/yield-poster-1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/typhoon-dashboard.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
                 <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">

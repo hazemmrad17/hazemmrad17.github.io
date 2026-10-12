@@ -31,6 +31,18 @@
   }
 }
 
+/* Certifications (about page): chips use the same transparent-grey
+   pill styling as the CTA buttons ("Verify credentials", etc.) */
+.about-news-wrapper .pill-service {
+  background-color: #25252582;
+  border: 1px solid transparent;
+  border-radius: 5rem;
+  color: var(--_color---bg-warm);
+  padding: .8rem 1.5rem;
+  font-size: .9rem;
+  cursor: default;
+}
+
 /* Typhoon project images — 3 across in one row, then 2 larger ones side by side.
    Six columns let row 1 hold three items (2 cols each) and row 2 hold two (3 cols each). */
 #typhoon .cont-project-imgs {

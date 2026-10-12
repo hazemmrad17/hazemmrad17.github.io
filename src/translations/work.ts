@@ -78,15 +78,6 @@ export const workContent = {
           </li>
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
-            <a href="#yield" class="link-wrapper-project w-inline-block">
-              <div class="nav-dot"></div>
-              <div class="project-cont-nav">
-                <div>Yield</div><img src="/images/yield-post-1.webp" loading="lazy" alt="" class="img-project-nav">
-              </div>
-            </a>
-          </li>
-          <li class="wrapper-nav-work">
-            <div class="nav-dot off"></div>
             <a href="#vital" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -123,10 +114,19 @@ export const workContent = {
           </li>
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
-            <a href="#dourbia" class="link-wrapper-project w-inline-block">
+            <a href="#sumo" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
-                <div>Dourbia</div><img src="/images/dourbia-logo.webp" loading="lazy" alt="" class="img-project-nav">
+                <div>SUMO Traffic</div>
+              </div>
+            </a>
+          </li>
+          <li class="wrapper-nav-work">
+            <div class="nav-dot off"></div>
+            <a href="#grant-panel" class="link-wrapper-project w-inline-block">
+              <div class="nav-dot"></div>
+              <div class="project-cont-nav">
+                <div>Grant Panel</div>
               </div>
             </a>
           </li>
@@ -180,55 +180,6 @@ export const workContent = {
           <div class="cont-project-imgs"><img src="/images/typhoon-dashboard.png" loading="lazy" id="w-node-typhoon-cover" sizes="100vw" alt="Typhoon portfolio risk dashboard" class="img-project"><img src="/images/typhoon-flood-map.png" loading="lazy" id="w-node-typhoon-1" sizes="100vw" alt="Typhoon flood scenario simulation" class="img-project small"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-2" sizes="100vw" alt="" class="img-project small">
 <img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-3" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-4" sizes="100vw" alt="" class="img-project small">
 <img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-5" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-6" sizes="100vw" alt="" class="img-project small">
-          </div>
-        </div>
-        <div id="yield" class="main-project-wrapper">
-          <div class="cont-project-content">
-            <div id="w-node-_921e00fe-4549-f680-97fe-72f51cff2ba4-402b81ee" class="content-project-info first">
-              <h3 class="headline-project">Yield<br>Brand Identity &amp; Social Design</h3>
-              <div class="pill-year">2025</div>
-              <div class="dot-project"></div>
-              <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
-                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">View project</div>
-                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                </a>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Build a compelling brand identity and social media presence that cuts through the noise and establishes a recognizable visual language.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Services:</p>
-              <div class="pill-services-cont">
-                <div class="pill-service">Visual Branding</div>
-                <div class="pill-service">Social Media Design</div>
-                <div class="pill-service">Graphic Design</div>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Role:</p>
-              <p class="body-copy black">Led the complete visual identity design, creating cohesive brand assets including social media posts, promotional posters, and brand guidelines.</p>
-            </div>
-          </div>
-          <div class="cont-project-imgs"><img src="/images/yield-poster-1.webp" loading="lazy" id="w-node-d58a27b9-6103-39c0-b0b8-6cda406bcb68-402b81ee" sizes="100vw" alt="" class="img-project"><img src="/images/yield-post-1.webp" loading="lazy" id="w-node-_921e00fe-4549-f680-97fe-72f51cff2bc2-402b81ee" sizes="100vw" alt="" class="img-project"><img src="/images/yield-post-2.webp" loading="lazy" id="w-node-_22b50ec1-e5ed-41b3-7a61-49b94331ef9c-402b81ee" sizes="100vw" alt="" class="img-project">
-<img src="/images/yield-post-3.webp" loading="lazy" id="w-node-_921e00fe-4549-f680-97fe-72f51cff2bc3-402b81ee" sizes="100vw" alt="" class="img-project small">
-<div id="w-node-yield-vid-abstract" class="video-cont-p2 small">
-  <div class="code-video w-embed">
-    <video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" style="border-radius:.3rem;">
-      <source src="/videos-work/Abstract_geometric_shape_rotating_202606212348.mp4" type="video/mp4">
-    </video>
-  </div>
-</div>
-<div id="w-node-yield-vid-billboard" class="video-cont-p2">
-  <div class="code-video w-embed">
-    <video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" style="border-radius:.3rem;">
-      <source src="/videos-work/ASCII_coins_falling_billboard_202606221217.mp4" type="video/mp4">
-    </video>
-  </div>
-</div>
           </div>
         </div>
         <div id="vital" class="main-project-wrapper">
@@ -369,41 +320,82 @@ export const workContent = {
           <div class="cont-project-imgs three-items"><img src="/images/travel1.webp" loading="lazy" id="w-node-travel-cover" sizes="100vw" alt="" class="img-project small"><img src="/images/travel2.webp" loading="lazy" id="w-node-travel-2" sizes="100vw" alt="" class="img-project small"><img src="/images/travel3.webp" loading="lazy" id="w-node-travel-3" sizes="100vw" alt="" class="img-project small">
           </div>
         </div>
-        <div id="dourbia" class="main-project-wrapper">
+        <div id="sumo" class="main-project-wrapper">
           <div class="cont-project-content">
-            <div id="w-node-dourbia-first" class="content-project-info first">
-              <h3 class="headline-project">Dourbia<br>Tourism Tech Brand Identity</h3>
-              <div class="pill-year">2025</div>
+            <div id="w-node-sumo-first" class="content-project-info first">
+              <h3 class="headline-project">SUMO<br>Intelligent Traffic Management System</h3>
+              <div class="pill-year">2026 • In Progress · Dec 2026</div>
               <div class="dot-project"></div>
               <div class="cont-cta-work">
                 <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
                   <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">View project</div>
+                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">In progress</div>
                   <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
                 </a>
               </div>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Build a compelling brand identity for Dourbia, a Tunisia-based tourism tech startup that helps travelers discover and plan itineraries for archaeological sites across Tunisia with an intuitive app experience.</p>
+              <p class="body-copy black">Academic project (in progress): optimize urban signal control with SUMO simulation — combining traffic-flow analytics (congestion, queue lengths, throughput) with reinforcement-learning signal policies, evaluated against fixed-time baselines.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services:</p>
               <div class="pill-services-cont">
-                <div class="pill-service">Brand Identity</div>
-                <div class="pill-service">Logo Design</div>
-                <div class="pill-service">Print Design</div>
-                <div class="pill-service">App Icon Design</div>
+                <div class="pill-service">Traffic Simulation</div>
+                <div class="pill-service">Data Analytics</div>
+                <div class="pill-service">Reinforcement Learning</div>
+                <div class="pill-service">Python</div>
               </div>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Role:</p>
-              <p class="body-copy black">Brand &amp; Visual Designer: developed the complete visual identity system including logo, stationery, apparel, banners, and app icon, establishing a cohesive brand presence for a tourism tech startup in Tunisia.</p>
+              <p class="body-copy black">Building SUMO scenarios, data pipelines for flow metrics, RL signal-control experiments, and evaluation dashboards.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Status:</p>
+              <p class="body-copy black">Done: SUMO network + TraCI metrics pipeline. Next: RL training + eval vs fixed-time baselines. Full visuals Dec 2026.</p>
             </div>
           </div>
-          <div class="cont-project-imgs"><img src="/images/dourbia-logo.webp" loading="lazy" id="w-node-dourbia-cover" sizes="100vw" alt="" class="img-project"><img src="/images/dourbia-banners.webp" loading="lazy" id="w-node-dourbia-1" sizes="100vw" alt="" class="img-project small"><img src="/images/dourbia-app-icon.webp" loading="lazy" id="w-node-dourbia-2" sizes="100vw" alt="" class="img-project small">
-<img src="/images/dourbia-pole-banner.webp" loading="lazy" id="w-node-dourbia-3" sizes="100vw" alt="" class="img-project small"><img src="/images/dourbia-business-card.webp" loading="lazy" id="w-node-dourbia-4" sizes="100vw" alt="" class="img-project small">
-<img src="/images/dourbia-stationery.webp" loading="lazy" id="w-node-dourbia-5" sizes="100vw" alt="" class="img-project"><img src="/images/dourbia-tshirt.webp" loading="lazy" id="w-node-dourbia-6" sizes="100vw" alt="" class="img-project">
+          <div class="cont-project-imgs"><p class="body-copy black" style="border:1px dashed rgba(0,0,0,.25);border-radius:.3rem;padding:2rem;text-align:center;align-self:start;">Pipeline: Network → TraCI metrics → RL policy → Eval. Full visuals Dec 2026.</p>
+          </div>
+        </div>
+        <div id="grant-panel" class="main-project-wrapper">
+          <div class="cont-project-content">
+            <div id="w-node-grant-first" class="content-project-info first">
+              <h3 class="headline-project">Grant Panel<br>Scholarship Workflow Automation</h3>
+              <div class="pill-year">2026 • In Progress · Dec 2026</div>
+              <div class="dot-project"></div>
+              <div class="cont-cta-work">
+                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">In progress</div>
+                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                </a>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Challenge:</p>
+              <p class="body-copy black">Academic project (in progress): automate scholarship panel work with n8n — document intake and parsing, LLM-assisted triage and scoring, reviewer assignment, and status notifications, keeping human-in-the-loop decisions.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Services:</p>
+              <div class="pill-services-cont">
+                <div class="pill-service">n8n Automation</div>
+                <div class="pill-service">LLM Triage</div>
+                <div class="pill-service">Document Parsing</div>
+                <div class="pill-service">Workflow Design</div>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Role:</p>
+              <p class="body-copy black">Designing n8n pipelines for application intake, doc parsing, LLM screening and ranking, and panel review workflow.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Status:</p>
+              <p class="body-copy black">Done: n8n intake + doc parsing flow. Next: LLM scoring calibration + reviewer loop. Full visuals Dec 2026.</p>
+            </div>
+          </div>
+          <div class="cont-project-imgs"><p class="body-copy black" style="border:1px dashed rgba(0,0,0,.25);border-radius:.3rem;padding:2rem;text-align:center;align-self:start;">Pipeline: Intake → Parse → LLM triage → Review → Notify. Full visuals Dec 2026.</p>
           </div>
         </div>
         <div id="matchupz" class="main-project-wrapper">
@@ -592,15 +584,6 @@ export const workContent = {
           </li>
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
-            <a href="#yield" class="link-wrapper-project w-inline-block">
-              <div class="nav-dot"></div>
-              <div class="project-cont-nav">
-                <div>Yield</div><img src="/images/yield-post-1.webp" loading="lazy" alt="" class="img-project-nav">
-              </div>
-            </a>
-          </li>
-          <li class="wrapper-nav-work">
-            <div class="nav-dot off"></div>
             <a href="#vital" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -637,10 +620,19 @@ export const workContent = {
           </li>
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
-            <a href="#dourbia" class="link-wrapper-project w-inline-block">
+            <a href="#sumo" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
-                <div>Dourbia</div><img src="/images/dourbia-logo.webp" loading="lazy" alt="" class="img-project-nav">
+                <div>SUMO Traffic</div>
+              </div>
+            </a>
+          </li>
+          <li class="wrapper-nav-work">
+            <div class="nav-dot off"></div>
+            <a href="#grant-panel" class="link-wrapper-project w-inline-block">
+              <div class="nav-dot"></div>
+              <div class="project-cont-nav">
+                <div>Grant Panel</div>
               </div>
             </a>
           </li>
@@ -694,55 +686,6 @@ export const workContent = {
           <div class="cont-project-imgs"><img src="/images/typhoon-dashboard.png" loading="lazy" id="w-node-typhoon-cover-fr" sizes="100vw" alt="Tableau de bord du risque portefeuille Typhoon" class="img-project"><img src="/images/typhoon-flood-map.png" loading="lazy" id="w-node-typhoon-1-fr" sizes="100vw" alt="Simulation de scénario d'inondation Typhoon" class="img-project small"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-2-fr" sizes="100vw" alt="" class="img-project small">
 <img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-3-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-4-fr" sizes="100vw" alt="" class="img-project small">
 <img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-5-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-6-fr" sizes="100vw" alt="" class="img-project small">
-          </div>
-        </div>
-        <div id="yield" class="main-project-wrapper">
-          <div class="cont-project-content">
-            <div id="w-node-_921e00fe-4549-f680-97fe-72f51cff2ba4-402b81ee" class="content-project-info first">
-              <h3 class="headline-project">Yield<br>Identité de Marque &amp; Design Social</h3>
-              <div class="pill-year">2025</div>
-              <div class="dot-project"></div>
-              <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
-                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">Voir le projet</div>
-                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                </a>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Défi :</p>
-              <p class="body-copy black">Créer une identité de marque et une présence sociale qui se démarquent.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Services :</p>
-              <div class="pill-services-cont">
-                <div class="pill-service">Branding Visuel</div>
-                <div class="pill-service">Design Social</div>
-                <div class="pill-service">Design Graphique</div>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Direction de l&rsquo;identité visuelle: publications, affiches et charte graphique.</p>
-            </div>
-          </div>
-          <div class="cont-project-imgs"><img src="/images/yield-poster-1.webp" loading="lazy" id="w-node-d58a27b9-6103-39c0-b0b8-6cda406bcb68-402b81ee" sizes="100vw" alt="" class="img-project"><img src="/images/yield-post-1.webp" loading="lazy" id="w-node-_921e00fe-4549-f680-97fe-72f51cff2bc2-402b81ee" sizes="100vw" alt="" class="img-project"><img src="/images/yield-post-2.webp" loading="lazy" id="w-node-_22b50ec1-e5ed-41b3-7a61-49b94331ef9c-402b81ee" sizes="100vw" alt="" class="img-project">
-<img src="/images/yield-post-3.webp" loading="lazy" id="w-node-_921e00fe-4549-f680-97fe-72f51cff2bc3-402b81ee" sizes="100vw" alt="" class="img-project small">
-<div id="w-node-yield-vid-abstract" class="video-cont-p2 small">
-  <div class="code-video w-embed">
-    <video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" style="border-radius:.3rem;">
-      <source src="/videos-work/Abstract_geometric_shape_rotating_202606212348.mp4" type="video/mp4">
-    </video>
-  </div>
-</div>
-<div id="w-node-yield-vid-billboard" class="video-cont-p2">
-  <div class="code-video w-embed">
-    <video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" style="border-radius:.3rem;">
-      <source src="/videos-work/ASCII_coins_falling_billboard_202606221217.mp4" type="video/mp4">
-    </video>
-  </div>
-</div>
           </div>
         </div>
         <div id="vital" class="main-project-wrapper">
@@ -883,41 +826,82 @@ export const workContent = {
           <div class="cont-project-imgs three-items"><img src="/images/travel1.webp" loading="lazy" id="w-node-travel-cover" sizes="100vw" alt="" class="img-project small"><img src="/images/travel2.webp" loading="lazy" id="w-node-travel-2" sizes="100vw" alt="" class="img-project small"><img src="/images/travel3.webp" loading="lazy" id="w-node-travel-3" sizes="100vw" alt="" class="img-project small">
           </div>
         </div>
-        <div id="dourbia" class="main-project-wrapper">
+        <div id="sumo" class="main-project-wrapper">
           <div class="cont-project-content">
-            <div id="w-node-dourbia-first" class="content-project-info first">
-              <h3 class="headline-project">Dourbia<br>Identité de Marque Tourisme Tech</h3>
-              <div class="pill-year">2025</div>
+            <div id="w-node-sumo-first-fr" class="content-project-info first">
+              <h3 class="headline-project">SUMO<br>Gestion Intelligente du Trafic</h3>
+              <div class="pill-year">2026 • En cours · Déc 2026</div>
               <div class="dot-project"></div>
               <div class="cont-cta-work">
                 <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
                   <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">Voir le projet</div>
+                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">En cours</div>
                   <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
                 </a>
               </div>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Défi :</p>
-              <p class="body-copy black">Une identité de marque pour Dourbia, startup tunisienne de tourisme tech.</p>
+              <p class="body-copy black">Projet académique (en cours) : optimiser la signalisation urbaine avec la simulation SUMO — en combinant l&rsquo;analytique des flux (congestion, files d&rsquo;attente, débit) avec des politiques de feux par reinforcement learning, évaluées contre des plans à temps fixe.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services :</p>
               <div class="pill-services-cont">
-                <div class="pill-service">Identité de Marque</div>
-                <div class="pill-service">Logo</div>
-                <div class="pill-service">Design Print</div>
-                <div class="pill-service">Icône d&rsquo;App</div>
+                <div class="pill-service">Simulation Trafic</div>
+                <div class="pill-service">Analytique Data</div>
+                <div class="pill-service">Reinforcement Learning</div>
+                <div class="pill-service">Python</div>
               </div>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Designer Marque: logo, papeterie, bannières et icône d&rsquo;app.</p>
+              <p class="body-copy black">Construction des scénarios SUMO, pipelines data pour les métriques de flux, expériences RL pour le contrôle des feux et tableaux d&rsquo;évaluation.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Statut :</p>
+              <p class="body-copy black">Fait : réseau SUMO + pipeline de métriques TraCI. Suite : entraînement RL + évaluation vs temps fixe. Visuels complets Déc 2026.</p>
             </div>
           </div>
-          <div class="cont-project-imgs"><img src="/images/dourbia-logo.webp" loading="lazy" id="w-node-dourbia-cover" sizes="100vw" alt="" class="img-project"><img src="/images/dourbia-banners.webp" loading="lazy" id="w-node-dourbia-1" sizes="100vw" alt="" class="img-project small"><img src="/images/dourbia-app-icon.webp" loading="lazy" id="w-node-dourbia-2" sizes="100vw" alt="" class="img-project small">
-<img src="/images/dourbia-pole-banner.webp" loading="lazy" id="w-node-dourbia-3" sizes="100vw" alt="" class="img-project small"><img src="/images/dourbia-business-card.webp" loading="lazy" id="w-node-dourbia-4" sizes="100vw" alt="" class="img-project small">
-<img src="/images/dourbia-stationery.webp" loading="lazy" id="w-node-dourbia-5" sizes="100vw" alt="" class="img-project"><img src="/images/dourbia-tshirt.webp" loading="lazy" id="w-node-dourbia-6" sizes="100vw" alt="" class="img-project">
+          <div class="cont-project-imgs"><p class="body-copy black" style="border:1px dashed rgba(0,0,0,.25);border-radius:.3rem;padding:2rem;text-align:center;align-self:start;">Pipeline : Réseau → métriques TraCI → politique RL → Éval. Visuels complets Déc 2026.</p>
+          </div>
+        </div>
+        <div id="grant-panel" class="main-project-wrapper">
+          <div class="cont-project-content">
+            <div id="w-node-grant-first-fr" class="content-project-info first">
+              <h3 class="headline-project">Grant Panel<br>Automatisation des Bourses</h3>
+              <div class="pill-year">2026 • En cours · Déc 2026</div>
+              <div class="dot-project"></div>
+              <div class="cont-cta-work">
+                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">En cours</div>
+                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                </a>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Défi :</p>
+              <p class="body-copy black">Projet académique (en cours) : automatiser le travail du jury des bourses avec n8n — réception et parsing des dossiers, tri et scoring assistés par LLM, affectation des évaluateurs et notifications, avec décision humaine conservée.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Services :</p>
+              <div class="pill-services-cont">
+                <div class="pill-service">Automatisation n8n</div>
+                <div class="pill-service">Tri LLM</div>
+                <div class="pill-service">Parsing Documents</div>
+                <div class="pill-service">Workflow</div>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Rôle :</p>
+              <p class="body-copy black">Conception des pipelines n8n : intake des candidatures, parsing documentaire, screening et classement LLM, workflow de revue du jury.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Statut :</p>
+              <p class="body-copy black">Fait : intake n8n + parsing documentaire. Suite : calibration du scoring LLM + boucle évaluateurs. Visuels complets Déc 2026.</p>
+            </div>
+          </div>
+          <div class="cont-project-imgs"><p class="body-copy black" style="border:1px dashed rgba(0,0,0,.25);border-radius:.3rem;padding:2rem;text-align:center;align-self:start;">Pipeline : Intake → Parsing → Tri LLM → Revue → Notification. Visuels complets Déc 2026.</p>
           </div>
         </div>
         <div id="matchupz" class="main-project-wrapper">
