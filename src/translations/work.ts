@@ -69,6 +69,15 @@ export const workContent = {
         <ul role="list" class="wrapper-work-nav w-list-unstyled">
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
+            <a href="#grant-panel" class="link-wrapper-project w-inline-block">
+              <div class="nav-dot"></div>
+              <div class="project-cont-nav">
+                <div>Grant Panel</div><img src="/images/grant-panel-1.png" loading="lazy" alt="" class="img-project-nav">
+              </div>
+            </a>
+          </li>
+          <li class="wrapper-nav-work">
+            <div class="nav-dot off"></div>
             <a href="#typhoon" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -123,15 +132,6 @@ export const workContent = {
           </li>
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
-            <a href="#grant-panel" class="link-wrapper-project w-inline-block">
-              <div class="nav-dot"></div>
-              <div class="project-cont-nav">
-                <div>Grant Panel</div>
-              </div>
-            </a>
-          </li>
-          <li class="wrapper-nav-work">
-            <div class="nav-dot off"></div>
             <a href="#matchupz" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -144,6 +144,46 @@ export const workContent = {
       <div class="main-wrapper-work">
         <div class="header-work-copy">
           <h1 class="text-headline-work"><span class="text-span-6">T--.</span>Multi-disciplinary work across code, design &amp; AI</h1><img src="/images/folder-hm.webp" loading="lazy" alt="" class="folder-work">
+        </div>
+        <div id="grant-panel" class="main-project-wrapper">
+          <div class="cont-project-content">
+            <div id="w-node-grant-first" class="content-project-info first">
+              <h3 class="headline-project">Grant Panel<br>Scholarship Workflow Automation</h3>
+              <div class="pill-year">Sep 2026 – Oct 2026</div>
+              <div class="dot-project"></div>
+              <div class="cont-cta-work">
+                <a data-wf--cta-big--variant="work" href="https://github.com/Esprit-School-of-Engineering-5DS8/grant-panel-automation" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">View project</div>
+                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                </a>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Challenge:</p>
+              <p class="body-copy black">Academic project for Yale University: automate the Fellowship Board grant panel with n8n — document intake and parsing, LLM-assisted triage and scoring, reviewer assignment, and status notifications, keeping human-in-the-loop decisions.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Services:</p>
+              <div class="pill-services-cont">
+                <div class="pill-service">n8n Automation</div>
+                <div class="pill-service">LLM Triage</div>
+                <div class="pill-service">Document Parsing</div>
+                <div class="pill-service">Workflow Design</div>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Role:</p>
+              <p class="body-copy black">Designing n8n pipelines for application intake, doc parsing, LLM screening and ranking, and panel review workflow.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Status:</p>
+              <p class="body-copy black">Delivered: document intake + parsing, multi-agent evaluation pipeline, LLM scoring calibration, and the reviewer loop — end to end in n8n.</p>
+            </div>
+          </div>
+          <div class="cont-project-imgs"><img src="/images/grant-panel-1.png" loading="lazy" id="w-node-grant-cover" sizes="100vw" alt="Yale Fellowship Board grant panel dashboard" class="img-project"><img src="/images/grant-panel-2.png" loading="lazy" id="w-node-grant-1" sizes="100vw" alt="Candidate review table" class="img-project small"><img src="/images/grant-panel-3.png" loading="lazy" id="w-node-grant-2" sizes="100vw" alt="n8n multi-agent evaluation pipeline" class="img-project small">
+<img src="/images/grant-panel-4.png" loading="lazy" id="w-node-grant-3" sizes="100vw" alt="Yale University applicant portal" class="img-project small">
+          </div>
         </div>
         <div id="typhoon" class="main-project-wrapper">
           <div class="cont-project-content">
@@ -177,9 +217,9 @@ export const workContent = {
               <p class="body-copy black">Full-Stack AI Engineer: built the platform end to end: Mapbox 3D map engine with building extrusions, multi-hazard risk scoring from Géorisques data, generative-AI recommendations, flood simulation timeline, batch portfolio diagnostics, and automated PDF report generation.</p>
             </div>
           </div>
-          <div class="cont-project-imgs"><img src="/images/typhoon-dashboard.png" loading="lazy" id="w-node-typhoon-cover" sizes="100vw" alt="Typhoon portfolio risk dashboard" class="img-project"><img src="/images/typhoon-flood-map.png" loading="lazy" id="w-node-typhoon-1" sizes="100vw" alt="Typhoon flood scenario simulation" class="img-project small"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-2" sizes="100vw" alt="" class="img-project small">
-<img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-3" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-4" sizes="100vw" alt="" class="img-project small">
-<img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-5" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-6" sizes="100vw" alt="" class="img-project small">
+          <div class="cont-project-imgs"><img src="/images/typhoon-flood-map.png" loading="lazy" id="w-node-typhoon-1" sizes="100vw" alt="Typhoon flood scenario simulation" class="img-project small"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-2" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-3" sizes="100vw" alt="" class="img-project small">
+<img src="/images/typhoon-dashboard.png" loading="lazy" id="w-node-typhoon-cover" sizes="100vw" alt="Typhoon portfolio risk dashboard" class="img-project">
+<img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-4" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-5" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-6" sizes="100vw" alt="" class="img-project small">
           </div>
         </div>
         <div id="vital" class="main-project-wrapper">
@@ -247,7 +287,7 @@ export const workContent = {
               <p class="body-copy black">Led product design and full-stack development of the billing analytics CRM, focusing on data clarity, user workflows, and a seamless SaaS experience.</p>
             </div>
           </div>
-          <div class="cont-project-imgs"><img src="/images/saas1.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e192-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/saas2.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e198-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/saas3.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e196-402b81ee" sizes="100vw" alt="" class="img-project small">
+          <div class="cont-project-imgs"><img src="/images/saas1.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e192-402b81ee" sizes="100vw" alt="Bill Autopsy billing analytics dashboard" class="img-project"><img src="/images/saas2.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e198-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/saas3.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e196-402b81ee" sizes="100vw" alt="" class="img-project small">
 <img src="/images/saas4.webp" loading="lazy" id="w-node-saas4" sizes="100vw" alt="" class="img-project small">
           </div>
         </div>
@@ -357,45 +397,6 @@ export const workContent = {
             </div>
           </div>
           <div class="cont-project-imgs"><p class="body-copy black" style="border:1px dashed rgba(0,0,0,.25);border-radius:.3rem;padding:2rem;text-align:center;align-self:start;">Pipeline: Network → TraCI metrics → RL policy → Eval. Full visuals Dec 2026.</p>
-          </div>
-        </div>
-        <div id="grant-panel" class="main-project-wrapper">
-          <div class="cont-project-content">
-            <div id="w-node-grant-first" class="content-project-info first">
-              <h3 class="headline-project">Grant Panel<br>Scholarship Workflow Automation</h3>
-              <div class="pill-year">2026 • In Progress · Dec 2026</div>
-              <div class="dot-project"></div>
-              <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
-                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">In progress</div>
-                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                </a>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Academic project (in progress): automate scholarship panel work with n8n — document intake and parsing, LLM-assisted triage and scoring, reviewer assignment, and status notifications, keeping human-in-the-loop decisions.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Services:</p>
-              <div class="pill-services-cont">
-                <div class="pill-service">n8n Automation</div>
-                <div class="pill-service">LLM Triage</div>
-                <div class="pill-service">Document Parsing</div>
-                <div class="pill-service">Workflow Design</div>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Role:</p>
-              <p class="body-copy black">Designing n8n pipelines for application intake, doc parsing, LLM screening and ranking, and panel review workflow.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Status:</p>
-              <p class="body-copy black">Done: n8n intake + doc parsing flow. Next: LLM scoring calibration + reviewer loop. Full visuals Dec 2026.</p>
-            </div>
-          </div>
-          <div class="cont-project-imgs"><p class="body-copy black" style="border:1px dashed rgba(0,0,0,.25);border-radius:.3rem;padding:2rem;text-align:center;align-self:start;">Pipeline: Intake → Parse → LLM triage → Review → Notify. Full visuals Dec 2026.</p>
           </div>
         </div>
         <div id="matchupz" class="main-project-wrapper">
@@ -575,6 +576,15 @@ export const workContent = {
         <ul role="list" class="wrapper-work-nav w-list-unstyled">
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
+            <a href="#grant-panel" class="link-wrapper-project w-inline-block">
+              <div class="nav-dot"></div>
+              <div class="project-cont-nav">
+                <div>Grant Panel</div><img src="/images/grant-panel-1.png" loading="lazy" alt="" class="img-project-nav">
+              </div>
+            </a>
+          </li>
+          <li class="wrapper-nav-work">
+            <div class="nav-dot off"></div>
             <a href="#typhoon" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -629,15 +639,6 @@ export const workContent = {
           </li>
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
-            <a href="#grant-panel" class="link-wrapper-project w-inline-block">
-              <div class="nav-dot"></div>
-              <div class="project-cont-nav">
-                <div>Grant Panel</div>
-              </div>
-            </a>
-          </li>
-          <li class="wrapper-nav-work">
-            <div class="nav-dot off"></div>
             <a href="#matchupz" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -650,6 +651,46 @@ export const workContent = {
       <div class="main-wrapper-work">
         <div class="header-work-copy">
           <h1 class="text-headline-work"><span class="text-span-6">T--.</span>Travail multidisciplinaire : code, design &amp; IA</h1><img src="/images/folder-hm.webp" loading="lazy" alt="" class="folder-work">
+        </div>
+        <div id="grant-panel" class="main-project-wrapper">
+          <div class="cont-project-content">
+            <div id="w-node-grant-first-fr" class="content-project-info first">
+              <h3 class="headline-project">Grant Panel<br>Automatisation des Bourses</h3>
+              <div class="pill-year">Sep 2026 – Oct 2026</div>
+              <div class="dot-project"></div>
+              <div class="cont-cta-work">
+                <a data-wf--cta-big--variant="work" href="https://github.com/Esprit-School-of-Engineering-5DS8/grant-panel-automation" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">Voir le projet</div>
+                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                </a>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Défi :</p>
+              <p class="body-copy black">Projet académique pour l'Université Yale : automatiser le jury des bourses avec n8n — réception et parsing des dossiers, tri et scoring assistés par LLM, affectation des évaluateurs et notifications, avec décision humaine conservée.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Services :</p>
+              <div class="pill-services-cont">
+                <div class="pill-service">Automatisation n8n</div>
+                <div class="pill-service">Tri LLM</div>
+                <div class="pill-service">Parsing Documents</div>
+                <div class="pill-service">Workflow</div>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Rôle :</p>
+              <p class="body-copy black">Conception des pipelines n8n : intake des candidatures, parsing documentaire, screening et classement LLM, workflow de revue du jury.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Statut :</p>
+              <p class="body-copy black">Livré : intake n8n + parsing documentaire, pipeline d'évaluation multi-agents, calibration du scoring LLM et boucle évaluateurs — de bout en bout.</p>
+            </div>
+          </div>
+          <div class="cont-project-imgs"><img src="/images/grant-panel-1.png" loading="lazy" id="w-node-grant-cover-fr" sizes="100vw" alt="Tableau de bord du grant panel Yale Fellowship Board" class="img-project"><img src="/images/grant-panel-2.png" loading="lazy" id="w-node-grant-1-fr" sizes="100vw" alt="Table de revue des candidats" class="img-project small"><img src="/images/grant-panel-3.png" loading="lazy" id="w-node-grant-2-fr" sizes="100vw" alt="Pipeline d'évaluation multi-agents n8n" class="img-project small">
+<img src="/images/grant-panel-4.png" loading="lazy" id="w-node-grant-3-fr" sizes="100vw" alt="Portail candidat de l'Université Yale" class="img-project small">
+          </div>
         </div>
         <div id="typhoon" class="main-project-wrapper">
           <div class="cont-project-content">
@@ -683,9 +724,9 @@ export const workContent = {
               <p class="body-copy black">Ingénieur Full-Stack IA: construction de la plateforme de bout en bout : moteur cartographique Mapbox 3D avec extrusions de bâtiments, scoring multi-aléas depuis Géorisques, recommandations par IA générative, timeline de simulation d&rsquo;inondation, diagnostics de portefeuille en lot et génération automatique de rapports PDF.</p>
             </div>
           </div>
-          <div class="cont-project-imgs"><img src="/images/typhoon-dashboard.png" loading="lazy" id="w-node-typhoon-cover-fr" sizes="100vw" alt="Tableau de bord du risque portefeuille Typhoon" class="img-project"><img src="/images/typhoon-flood-map.png" loading="lazy" id="w-node-typhoon-1-fr" sizes="100vw" alt="Simulation de scénario d'inondation Typhoon" class="img-project small"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-2-fr" sizes="100vw" alt="" class="img-project small">
-<img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-3-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-4-fr" sizes="100vw" alt="" class="img-project small">
-<img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-5-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-6-fr" sizes="100vw" alt="" class="img-project small">
+          <div class="cont-project-imgs"><img src="/images/typhoon-flood-map.png" loading="lazy" id="w-node-typhoon-1-fr" sizes="100vw" alt="Simulation de scénario d'inondation Typhoon" class="img-project small"><img src="/images/typhoon-1.png" loading="lazy" id="w-node-typhoon-2-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-2.png" loading="lazy" id="w-node-typhoon-3-fr" sizes="100vw" alt="" class="img-project small">
+<img src="/images/typhoon-dashboard.png" loading="lazy" id="w-node-typhoon-cover-fr" sizes="100vw" alt="Tableau de bord du risque portefeuille Typhoon" class="img-project">
+<img src="/images/typhoon-3.png" loading="lazy" id="w-node-typhoon-4-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-4.png" loading="lazy" id="w-node-typhoon-5-fr" sizes="100vw" alt="" class="img-project small"><img src="/images/typhoon-5.png" loading="lazy" id="w-node-typhoon-6-fr" sizes="100vw" alt="" class="img-project small">
           </div>
         </div>
         <div id="vital" class="main-project-wrapper">
@@ -753,7 +794,7 @@ export const workContent = {
               <p class="body-copy black">Direction du design et du full-stack du CRM: clarté des données, flux utilisateur et expérience SaaS.</p>
             </div>
           </div>
-          <div class="cont-project-imgs"><img src="/images/saas1.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e192-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/saas2.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e198-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/saas3.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e196-402b81ee" sizes="100vw" alt="" class="img-project small">
+          <div class="cont-project-imgs"><img src="/images/saas1.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e192-402b81ee" sizes="100vw" alt="Bill Autopsy billing analytics dashboard" class="img-project"><img src="/images/saas2.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e198-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/saas3.webp" loading="lazy" id="w-node-dea3e635-b140-b8ce-726d-5cc1faf3e196-402b81ee" sizes="100vw" alt="" class="img-project small">
 <img src="/images/saas4.webp" loading="lazy" id="w-node-saas4" sizes="100vw" alt="" class="img-project small">
           </div>
         </div>
@@ -863,45 +904,6 @@ export const workContent = {
             </div>
           </div>
           <div class="cont-project-imgs"><p class="body-copy black" style="border:1px dashed rgba(0,0,0,.25);border-radius:.3rem;padding:2rem;text-align:center;align-self:start;">Pipeline : Réseau → métriques TraCI → politique RL → Éval. Visuels complets Déc 2026.</p>
-          </div>
-        </div>
-        <div id="grant-panel" class="main-project-wrapper">
-          <div class="cont-project-content">
-            <div id="w-node-grant-first-fr" class="content-project-info first">
-              <h3 class="headline-project">Grant Panel<br>Automatisation des Bourses</h3>
-              <div class="pill-year">2026 • En cours · Déc 2026</div>
-              <div class="dot-project"></div>
-              <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
-                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">En cours</div>
-                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                </a>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Défi :</p>
-              <p class="body-copy black">Projet académique (en cours) : automatiser le travail du jury des bourses avec n8n — réception et parsing des dossiers, tri et scoring assistés par LLM, affectation des évaluateurs et notifications, avec décision humaine conservée.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Services :</p>
-              <div class="pill-services-cont">
-                <div class="pill-service">Automatisation n8n</div>
-                <div class="pill-service">Tri LLM</div>
-                <div class="pill-service">Parsing Documents</div>
-                <div class="pill-service">Workflow</div>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Conception des pipelines n8n : intake des candidatures, parsing documentaire, screening et classement LLM, workflow de revue du jury.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Statut :</p>
-              <p class="body-copy black">Fait : intake n8n + parsing documentaire. Suite : calibration du scoring LLM + boucle évaluateurs. Visuels complets Déc 2026.</p>
-            </div>
-          </div>
-          <div class="cont-project-imgs"><p class="body-copy black" style="border:1px dashed rgba(0,0,0,.25);border-radius:.3rem;padding:2rem;text-align:center;align-self:start;">Pipeline : Intake → Parsing → Tri LLM → Revue → Notification. Visuels complets Déc 2026.</p>
           </div>
         </div>
         <div id="matchupz" class="main-project-wrapper">

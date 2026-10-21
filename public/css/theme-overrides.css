@@ -19,16 +19,26 @@
 /* Force loader intro background — Webflow IX2 applies inline orange without this */
 .orange-intro{background-color: var(--_color---grey) !important;}
 
-/* Bill Autopsy gallery: 2 x 2 instead of 4 across */
-#bill-autopsy .cont-project-imgs {
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: ". ." ". .";
+/* Bill Autopsy + Grant Panel galleries — full-width cover, then 3 equal panes.
+   Six columns: cover spans all 6, row 2 items span 2 each. */
+#bill-autopsy .cont-project-imgs,
+#grant-panel .cont-project-imgs {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
 }
 
-@media screen and (max-width: 479px) {
-  #bill-autopsy .cont-project-imgs {
-    display: flex;
-  }
+#w-node-dea3e635-b140-b8ce-726d-5cc1faf3e192-402b81ee,
+#w-node-grant-cover, #w-node-grant-cover-fr {
+  grid-area: span 1 / span 6 / span 1 / span 6;
+}
+
+#w-node-dea3e635-b140-b8ce-726d-5cc1faf3e198-402b81ee,
+#w-node-dea3e635-b140-b8ce-726d-5cc1faf3e196-402b81ee,
+#w-node-saas4,
+#w-node-grant-1, #w-node-grant-1-fr,
+#w-node-grant-2, #w-node-grant-2-fr,
+#w-node-grant-3, #w-node-grant-3-fr {
+  grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
 /* Certifications (about page): chips use the same transparent-grey
@@ -43,11 +53,12 @@
   cursor: default;
 }
 
-/* Typhoon project images — 3 across in one row, then 2 larger ones side by side.
-   Six columns let row 1 hold three items (2 cols each) and row 2 hold two (3 cols each). */
+/* Typhoon gallery — 3-1-3: three panes, the portfolio-risk dashboard as a
+   full-width row of its own, then three more panes. Six columns: smalls span 2
+   each (3 per row), cover spans all 6. */
 #typhoon .cont-project-imgs {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
 }
 
 #typhoon .img-project {
@@ -55,19 +66,15 @@
   object-fit: cover;
 }
 
-#w-node-typhoon-cover, #w-node-typhoon-cover-fr,
 #w-node-typhoon-1, #w-node-typhoon-1-fr,
-#w-node-typhoon-2, #w-node-typhoon-2-fr {
+#w-node-typhoon-2, #w-node-typhoon-2-fr,
+#w-node-typhoon-3, #w-node-typhoon-3-fr,
+#w-node-typhoon-4, #w-node-typhoon-4-fr,
+#w-node-typhoon-5, #w-node-typhoon-5-fr,
+#w-node-typhoon-6, #w-node-typhoon-6-fr {
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
-#w-node-typhoon-3, #w-node-typhoon-3-fr,
-#w-node-typhoon-4, #w-node-typhoon-4-fr {
-  grid-area: span 1 / span 3 / span 1 / span 3;
-}
-
-/* Row 3: two equal large panes, full-width halves like row 2 */
-#w-node-typhoon-5, #w-node-typhoon-5-fr,
-#w-node-typhoon-6, #w-node-typhoon-6-fr {
-  grid-area: span 1 / span 3 / span 1 / span 3;
+#w-node-typhoon-cover, #w-node-typhoon-cover-fr {
+  grid-area: span 1 / span 6 / span 1 / span 6;
 }
