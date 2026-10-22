@@ -53,6 +53,30 @@
   cursor: default;
 }
 
+/* Vital Laboratoire gallery — 2 large panes on top, then 3 equal panes. */
+#vital .cont-project-imgs {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+#w-node-vital-hero, #w-node-vital-stats {
+  grid-area: span 1 / span 3 / span 1 / span 3;
+}
+
+#w-node-vital-levels,
+#w-node-vital-langs,
+#w-node-vital-tickets {
+  grid-area: span 1 / span 2 / span 1 / span 2;
+}
+
+/* Home services strip: photos inside the video-style container keep its size + radius (.3rem) */
+.video-cont-p2.home img.service-photo {
+  border-radius: .3rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Typhoon gallery — 3-1-3: three panes, the portfolio-risk dashboard as a
    full-width row of its own, then three more panes. Six columns: smalls span 2
    each (3 per row), cover spans all 6. */

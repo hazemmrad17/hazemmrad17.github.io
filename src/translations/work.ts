@@ -90,7 +90,7 @@ export const workContent = {
             <a href="#vital" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
-                <div>Vital Laboratoire</div><img src="/images/vital1.webp" loading="lazy" alt="" class="img-project-nav">
+                <div>Vital Laboratoire</div><img src="/images/vital-1.png" loading="lazy" alt="" class="img-project-nav">
               </div>
             </a>
           </li>
@@ -253,7 +253,8 @@ export const workContent = {
               <p class="body-copy black">End-to-end development of the AI avatar system, from model integration and conversation flow design to healthcare-specific UX and CRM integration.</p>
             </div>
           </div>
-          <div class="cont-project-imgs three-items"><img src="/images/vital1.webp" loading="lazy" id="w-node-_6f0d4641-7d35-6c8b-6bb9-ef9e0288730c-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/vital2.webp" loading="lazy" id="w-node-_6f0d4641-7d35-6c8b-6bb9-ef9e0288730f-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/vital3.webp" loading="lazy" id="w-node-c9b05119-c903-40f6-70c1-a4498ffa9b55-402b81ee" sizes="100vw" alt="" class="img-project small">
+          <div class="cont-project-imgs"><img src="/images/vital-1.png" loading="lazy" id="w-node-vital-hero" sizes="100vw" alt="ALIA avatar medical session" class="img-project"><img src="/images/vital-4.png" loading="lazy" id="w-node-vital-stats" sizes="100vw" alt="Delegate training performance dashboard" class="img-project">
+<img src="/images/vital-2.png" loading="lazy" id="w-node-vital-levels" sizes="100vw" alt="Interview training level selection" class="img-project small"><img src="/images/vital-3.png" loading="lazy" id="w-node-vital-langs" sizes="100vw" alt="Language selection" class="img-project small"><img src="/images/vital-5.png" loading="lazy" id="w-node-vital-tickets" sizes="100vw" alt="Support tickets panel" class="img-project small">
           </div>
         </div>
         <div id="bill-autopsy" class="main-project-wrapper">
@@ -597,7 +598,7 @@ export const workContent = {
             <a href="#vital" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
-                <div>Vital Laboratoire</div><img src="/images/vital1.webp" loading="lazy" alt="" class="img-project-nav">
+                <div>Vital Laboratoire</div><img src="/images/vital-1.png" loading="lazy" alt="" class="img-project-nav">
               </div>
             </a>
           </li>
@@ -760,7 +761,8 @@ export const workContent = {
               <p class="body-copy black">Développement complet de l&rsquo;avatar IA: du modèle aux flux conversationnels et à l&rsquo;intégration CRM.</p>
             </div>
           </div>
-          <div class="cont-project-imgs three-items"><img src="/images/vital1.webp" loading="lazy" id="w-node-_6f0d4641-7d35-6c8b-6bb9-ef9e0288730c-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/vital2.webp" loading="lazy" id="w-node-_6f0d4641-7d35-6c8b-6bb9-ef9e0288730f-402b81ee" sizes="100vw" alt="" class="img-project small"><img src="/images/vital3.webp" loading="lazy" id="w-node-c9b05119-c903-40f6-70c1-a4498ffa9b55-402b81ee" sizes="100vw" alt="" class="img-project small">
+          <div class="cont-project-imgs"><img src="/images/vital-1.png" loading="lazy" id="w-node-vital-hero" sizes="100vw" alt="ALIA avatar medical session" class="img-project"><img src="/images/vital-4.png" loading="lazy" id="w-node-vital-stats" sizes="100vw" alt="Delegate training performance dashboard" class="img-project">
+<img src="/images/vital-2.png" loading="lazy" id="w-node-vital-levels" sizes="100vw" alt="Interview training level selection" class="img-project small"><img src="/images/vital-3.png" loading="lazy" id="w-node-vital-langs" sizes="100vw" alt="Language selection" class="img-project small"><img src="/images/vital-5.png" loading="lazy" id="w-node-vital-tickets" sizes="100vw" alt="Support tickets panel" class="img-project small">
           </div>
         </div>
         <div id="bill-autopsy" class="main-project-wrapper">

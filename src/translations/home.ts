@@ -116,18 +116,14 @@ export const homeContent = {
             <div class="mask-img-service"><img src="/images/typhoon-1.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/alena-app-design-hm.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/grant-panel-4.png" loading="lazy" sizes="100vw" alt="Yale applicant portal" class="img-service service-photo">
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/vital1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/vital-1.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service"><img src="/images/travel1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/ape-chain-approved.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/typhoon-2.png" loading="lazy" sizes="100vw" alt="Typhoon project visual" class="img-service service-photo">
               </div>
             </div>
           </div>
@@ -144,17 +140,13 @@ export const homeContent = {
             <div class="mask-img-service"><img src="/images/real-estate1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/home/home-ampli.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/grant-panel-2.png" loading="lazy" sizes="100vw" alt="Grant Panel candidate review" class="img-service service-photo">
               </div>
             </div>
             <div class="mask-img-service"><img src="/images/saas1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/home/home-shopping.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/saas2.webp" loading="lazy" sizes="100vw" alt="Bill Autopsy dashboard" class="img-service service-photo">
               </div>
             </div>
             <div class="mask-img-service hide"><img src="/images/travel1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
@@ -171,20 +163,16 @@ export const homeContent = {
           <div class="cont-imgs-service">
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/home/home-ampli-brand.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/travel2.webp" loading="lazy" sizes="100vw" alt="Travel CRM interface" class="img-service service-photo">
               </div>
             </div>
             <div class="mask-img-service"><img src="/images/typhoon-dashboard.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/home/home-brudget1.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/vital-4.png" loading="lazy" sizes="100vw" alt="Vital Laboratoire dashboard" class="img-service service-photo">
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/matchupz5.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/grant-panel-3.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service hide"><img src="/images/typhoon-3.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
           </div>
         </li>
@@ -445,18 +433,14 @@ export const homeContent = {
             <div class="mask-img-service"><img src="/images/typhoon-1.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/alena-app-design-hm.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/grant-panel-4.png" loading="lazy" sizes="100vw" alt="Yale applicant portal" class="img-service service-photo">
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/vital1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/vital-1.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service"><img src="/images/travel1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/ape-chain-approved.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/typhoon-2.png" loading="lazy" sizes="100vw" alt="Typhoon project visual" class="img-service service-photo">
               </div>
             </div>
           </div>
@@ -473,17 +457,13 @@ export const homeContent = {
             <div class="mask-img-service"><img src="/images/real-estate1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/home/home-ampli.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/grant-panel-2.png" loading="lazy" sizes="100vw" alt="Grant Panel candidate review" class="img-service service-photo">
               </div>
             </div>
             <div class="mask-img-service"><img src="/images/saas1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/home/home-shopping.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/saas2.webp" loading="lazy" sizes="100vw" alt="Bill Autopsy dashboard" class="img-service service-photo">
               </div>
             </div>
             <div class="mask-img-service hide"><img src="/images/travel1.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
@@ -500,20 +480,16 @@ export const homeContent = {
           <div class="cont-imgs-service">
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/home/home-ampli-brand.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/travel2.webp" loading="lazy" sizes="100vw" alt="Travel CRM interface" class="img-service service-photo">
               </div>
             </div>
             <div class="mask-img-service"><img src="/images/typhoon-dashboard.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service">
               <div class="video-cont-p2 home">
-                <div class="code-video w-embed"><video autoplay="" loop="" muted="" playsinline="" width="100%" height="auto" preload="metadata" poster="videos-work/hm-video-loading.jpg">
-                    <source src="/videos-work/home/home-brudget1.mp4" type="video/mp4">
-                  </video></div>
+                <img src="/images/vital-4.png" loading="lazy" sizes="100vw" alt="Vital Laboratoire dashboard" class="img-service service-photo">
               </div>
             </div>
-            <div class="mask-img-service"><img src="/images/matchupz5.webp" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
+            <div class="mask-img-service"><img src="/images/grant-panel-3.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
             <div class="mask-img-service hide"><img src="/images/typhoon-3.png" loading="lazy" sizes="100vw" alt="" class="img-service"></div>
           </div>
         </li>
