@@ -102,3 +102,34 @@
 #w-node-typhoon-cover, #w-node-typhoon-cover-fr {
   grid-area: span 1 / span 6 / span 1 / span 6;
 }
+
+/* SUMO gallery — full-width pane, a row of three (sumo-4 centred), then a full-width pane. */
+#sumo .cont-project-imgs {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+#sumo .img-project {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+#w-node-sumo-5, #w-node-sumo-5-fr {
+  grid-area: 1 / 1 / 2 / 7;
+}
+
+#w-node-sumo-2, #w-node-sumo-2-fr {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+#w-node-sumo-4, #w-node-sumo-4-fr {
+  grid-area: 2 / 3 / 3 / 5;
+}
+
+#w-node-sumo-3, #w-node-sumo-3-fr {
+  grid-area: 2 / 5 / 3 / 7;
+}
+
+#w-node-sumo-cover, #w-node-sumo-cover-fr {
+  grid-area: 3 / 1 / 4 / 7;
+}

@@ -69,6 +69,15 @@ export const workContent = {
         <ul role="list" class="wrapper-work-nav w-list-unstyled">
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
+            <a href="#sumo" class="link-wrapper-project w-inline-block">
+              <div class="nav-dot"></div>
+              <div class="project-cont-nav">
+                <div>SUMO Traffic</div><img src="/images/sumo-1.png" loading="lazy" alt="" class="img-project-nav">
+              </div>
+            </a>
+          </li>
+          <li class="wrapper-nav-work">
+            <div class="nav-dot off"></div>
             <a href="#grant-panel" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -123,15 +132,6 @@ export const workContent = {
           </li>
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
-            <a href="#sumo" class="link-wrapper-project w-inline-block">
-              <div class="nav-dot"></div>
-              <div class="project-cont-nav">
-                <div>SUMO Traffic</div>
-              </div>
-            </a>
-          </li>
-          <li class="wrapper-nav-work">
-            <div class="nav-dot off"></div>
             <a href="#matchupz" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -144,6 +144,46 @@ export const workContent = {
       <div class="main-wrapper-work">
         <div class="header-work-copy">
           <h1 class="text-headline-work"><span class="text-span-6">T--.</span>Multi-disciplinary work across code, design &amp; AI</h1><img src="/images/folder-hm.webp" loading="lazy" alt="" class="folder-work">
+        </div>
+        <div id="sumo" class="main-project-wrapper">
+          <div class="cont-project-content">
+            <div id="w-node-sumo-first" class="content-project-info first">
+              <h3 class="headline-project">SUMO<br>Intelligent Multi-Agent Traffic Management</h3>
+              <div class="pill-year">2026 · In Progress</div>
+              <div class="dot-project"></div>
+              <div class="cont-cta-work">
+                <a data-wf--cta-big--variant="work" href="https://github.com/Esprit-School-of-Engineering-5DS8/intelligent-marl-traffic" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">View project</div>
+                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                </a>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Challenge:</p>
+              <p class="body-copy black">Academic project for ESPRIT (5DS8): make urban traffic adaptive with Eclipse SUMO and Multi-Agent Reinforcement Learning — each intersection is an autonomous agent learning to cut congestion, protect pedestrians and prioritize emergency vehicles across 2x2/3x3 grids, Monaco and Tunis.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Services:</p>
+              <div class="pill-services-cont">
+                <div class="pill-service">Traffic Simulation</div>
+                <div class="pill-service">Multi-Agent RL</div>
+                <div class="pill-service">Data Science</div>
+                <div class="pill-service">Python</div>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Role:</p>
+              <p class="body-copy black">Simulation &amp; Environment Lead: SUMO network scenarios, TraCI metrics pipeline, fixed-time / Max-Pressure baselines, and the evaluation harness behind the live control-room dashboard.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Status:</p>
+              <p class="body-copy black">Done: SUMO networks (grids, Monaco, Tunis), TraCI metrics, baselines and the live dashboard. In progress: MARL benchmark vs fixed-time and Max-Pressure.</p>
+            </div>
+          </div>
+          <div class="cont-project-imgs"><img src="/images/sumo-1.png" loading="lazy" id="w-node-sumo-cover" sizes="100vw" alt="SUMO live control-room dashboard on tablet" class="img-project"><img src="/images/sumo-2.png" loading="lazy" id="w-node-sumo-2" sizes="100vw" alt="SUMO zone monitoring panel" class="img-project small"><img src="/images/sumo-3.png" loading="lazy" id="w-node-sumo-3" sizes="100vw" alt="SUMO 3D city traffic view" class="img-project small">
+<img src="/images/sumo-4.png" loading="lazy" id="w-node-sumo-4" sizes="100vw" alt="SUMO Tunis network on monitor" class="img-project small"><img src="/images/sumo-5.png" loading="lazy" id="w-node-sumo-5" sizes="100vw" alt="SUMO traffic insights dashboard" class="img-project small">
+          </div>
         </div>
         <div id="grant-panel" class="main-project-wrapper">
           <div class="cont-project-content">
@@ -225,11 +265,11 @@ export const workContent = {
         <div id="vital" class="main-project-wrapper">
           <div class="cont-project-content">
             <div id="w-node-d7ca8e57-b54f-0460-e15f-3a6110a39470-402b81ee" class="content-project-info first">
-              <h3 class="headline-project">Vital Laboratoire<br>AI Conversational Avatar</h3>
+              <h3 class="headline-project">ALIA · Vital Laboratoire<br>Conversational Avatar Platform</h3>
               <div class="pill-year">2025</div>
               <div class="dot-project"></div>
               <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="https://github.com/hazemmrad17/alia" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                <a data-wf--cta-big--variant="work" href="https://github.com/hazemmrad17/alia-portfolio" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
                   <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
                   <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">View project</div>
                   <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
@@ -238,19 +278,20 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Design and build an AI conversational avatar for Vital Laboratoire that handles client interactions naturally while maintaining brand voice and compliance in the health space.</p>
+              <p class="body-copy black">Build ALIA for Vital Laboratoire: a conversational AI avatar that greets visitors like a human front desk — answering in their language (French, Darja, English, Spanish, Italian), guiding them to the right service, and handing off to staff when needed.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services:</p>
               <div class="pill-services-cont">
                 <div class="pill-service">AI/ML Engineering</div>
                 <div class="pill-service">Conversational UI</div>
-                <div class="pill-service">CRM Development</div>
+                <div class="pill-service">Multilingual UX</div>
+                <div class="pill-service">Support Ticketing</div>
               </div>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Role:</p>
-              <p class="body-copy black">End-to-end development of the AI avatar system, from model integration and conversation flow design to healthcare-specific UX and CRM integration.</p>
+              <p class="body-copy black">End to end: avatar conversation design, multi-language flows, visitor profile updates, delegate training dashboards (sessions, scores, step-by-step performance), and a ticketing panel for support escalation.</p>
             </div>
           </div>
           <div class="cont-project-imgs"><img src="/images/vital-1.png" loading="lazy" id="w-node-vital-hero" sizes="100vw" alt="ALIA avatar medical session" class="img-project"><img src="/images/vital-4.png" loading="lazy" id="w-node-vital-stats" sizes="100vw" alt="Delegate training performance dashboard" class="img-project">
@@ -359,45 +400,6 @@ export const workContent = {
             </div>
           </div>
           <div class="cont-project-imgs three-items"><img src="/images/travel1.webp" loading="lazy" id="w-node-travel-cover" sizes="100vw" alt="" class="img-project small"><img src="/images/travel2.webp" loading="lazy" id="w-node-travel-2" sizes="100vw" alt="" class="img-project small"><img src="/images/travel3.webp" loading="lazy" id="w-node-travel-3" sizes="100vw" alt="" class="img-project small">
-          </div>
-        </div>
-        <div id="sumo" class="main-project-wrapper">
-          <div class="cont-project-content">
-            <div id="w-node-sumo-first" class="content-project-info first">
-              <h3 class="headline-project">SUMO<br>Intelligent Traffic Management System</h3>
-              <div class="pill-year">2026 • In Progress · Dec 2026</div>
-              <div class="dot-project"></div>
-              <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
-                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">In progress</div>
-                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                </a>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Challenge:</p>
-              <p class="body-copy black">Academic project (in progress): optimize urban signal control with SUMO simulation — combining traffic-flow analytics (congestion, queue lengths, throughput) with reinforcement-learning signal policies, evaluated against fixed-time baselines.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Services:</p>
-              <div class="pill-services-cont">
-                <div class="pill-service">Traffic Simulation</div>
-                <div class="pill-service">Data Analytics</div>
-                <div class="pill-service">Reinforcement Learning</div>
-                <div class="pill-service">Python</div>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Role:</p>
-              <p class="body-copy black">Building SUMO scenarios, data pipelines for flow metrics, RL signal-control experiments, and evaluation dashboards.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Status:</p>
-              <p class="body-copy black">Done: SUMO network + TraCI metrics pipeline. Next: RL training + eval vs fixed-time baselines. Full visuals Dec 2026.</p>
-            </div>
-          </div>
-          <div class="cont-project-imgs"><p class="body-copy black" style="border:1px dashed rgba(0,0,0,.25);border-radius:.3rem;padding:2rem;text-align:center;align-self:start;">Pipeline: Network → TraCI metrics → RL policy → Eval. Full visuals Dec 2026.</p>
           </div>
         </div>
         <div id="matchupz" class="main-project-wrapper">
@@ -577,6 +579,15 @@ export const workContent = {
         <ul role="list" class="wrapper-work-nav w-list-unstyled">
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
+            <a href="#sumo" class="link-wrapper-project w-inline-block">
+              <div class="nav-dot"></div>
+              <div class="project-cont-nav">
+                <div>SUMO Traffic</div><img src="/images/sumo-1.png" loading="lazy" alt="" class="img-project-nav">
+              </div>
+            </a>
+          </li>
+          <li class="wrapper-nav-work">
+            <div class="nav-dot off"></div>
             <a href="#grant-panel" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -631,15 +642,6 @@ export const workContent = {
           </li>
           <li class="wrapper-nav-work">
             <div class="nav-dot off"></div>
-            <a href="#sumo" class="link-wrapper-project w-inline-block">
-              <div class="nav-dot"></div>
-              <div class="project-cont-nav">
-                <div>SUMO Traffic</div>
-              </div>
-            </a>
-          </li>
-          <li class="wrapper-nav-work">
-            <div class="nav-dot off"></div>
             <a href="#matchupz" class="link-wrapper-project w-inline-block">
               <div class="nav-dot"></div>
               <div class="project-cont-nav">
@@ -652,6 +654,46 @@ export const workContent = {
       <div class="main-wrapper-work">
         <div class="header-work-copy">
           <h1 class="text-headline-work"><span class="text-span-6">T--.</span>Travail multidisciplinaire : code, design &amp; IA</h1><img src="/images/folder-hm.webp" loading="lazy" alt="" class="folder-work">
+        </div>
+        <div id="sumo" class="main-project-wrapper">
+          <div class="cont-project-content">
+            <div id="w-node-sumo-first-fr" class="content-project-info first">
+              <h3 class="headline-project">SUMO<br>Gestion Intelligente du Trafic Multi-Agents</h3>
+              <div class="pill-year">2026 · En cours</div>
+              <div class="dot-project"></div>
+              <div class="cont-cta-work">
+                <a data-wf--cta-big--variant="work" href="https://github.com/Esprit-School-of-Engineering-5DS8/intelligent-marl-traffic" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">Voir le projet</div>
+                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
+                </a>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Défi :</p>
+              <p class="body-copy black">Projet académique ESPRIT (5DS8) : rendre le trafic urbain adaptatif avec Eclipse SUMO et le Multi-Agent Reinforcement Learning — chaque intersection est un agent autonome qui apprend à réduire la congestion, protéger les piétons et prioriser les véhicules d&rsquo;urgence sur les grilles 2x2/3x3, Monaco et Tunis.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Services :</p>
+              <div class="pill-services-cont">
+                <div class="pill-service">Simulation Trafic</div>
+                <div class="pill-service">Multi-Agent RL</div>
+                <div class="pill-service">Data Science</div>
+                <div class="pill-service">Python</div>
+              </div>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Rôle :</p>
+              <p class="body-copy black">Lead Simulation &amp; Environnement : scénarios réseaux SUMO, pipeline de métriques TraCI, baselines temps fixe / Max-Pressure et le harnais d&rsquo;évaluation derrière le dashboard live.</p>
+            </div>
+            <div class="content-project-info">
+              <p class="body-copy title">Statut :</p>
+              <p class="body-copy black">Fait : réseaux SUMO (grilles, Monaco, Tunis), métriques TraCI, baselines et dashboard live. En cours : benchmark MARL vs temps fixe et Max-Pressure.</p>
+            </div>
+          </div>
+          <div class="cont-project-imgs"><img src="/images/sumo-1.png" loading="lazy" id="w-node-sumo-cover-fr" sizes="100vw" alt="Dashboard live de contrôle du trafic SUMO sur tablette" class="img-project"><img src="/images/sumo-2.png" loading="lazy" id="w-node-sumo-2-fr" sizes="100vw" alt="Panneau de monitoring des zones SUMO" class="img-project small"><img src="/images/sumo-3.png" loading="lazy" id="w-node-sumo-3-fr" sizes="100vw" alt="Vue 3D du trafic urbain SUMO" class="img-project small">
+<img src="/images/sumo-4.png" loading="lazy" id="w-node-sumo-4-fr" sizes="100vw" alt="Réseau SUMO de Tunis sur écran" class="img-project small"><img src="/images/sumo-5.png" loading="lazy" id="w-node-sumo-5-fr" sizes="100vw" alt="Dashboard des insights de trafic SUMO" class="img-project small">
+          </div>
         </div>
         <div id="grant-panel" class="main-project-wrapper">
           <div class="cont-project-content">
@@ -733,11 +775,11 @@ export const workContent = {
         <div id="vital" class="main-project-wrapper">
           <div class="cont-project-content">
             <div id="w-node-d7ca8e57-b54f-0460-e15f-3a6110a39470-402b81ee" class="content-project-info first">
-              <h3 class="headline-project">Vital Laboratoire<br>Avatar Conversationnel IA</h3>
+              <h3 class="headline-project">ALIA · Vital Laboratoire<br>Plateforme d'Avatar Conversationnel</h3>
               <div class="pill-year">2025</div>
               <div class="dot-project"></div>
               <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="https://github.com/hazemmrad17/alia" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
+                <a data-wf--cta-big--variant="work" href="https://github.com/hazemmrad17/alia-portfolio" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
                   <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
                   <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">Voir le projet</div>
                   <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
@@ -746,19 +788,20 @@ export const workContent = {
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Défi :</p>
-              <p class="body-copy black">Un avatar IA qui gère les interactions client naturellement, avec la voix de marque et la conformité santé.</p>
+              <p class="body-copy black">Construire ALIA pour Vital Laboratoire : un avatar conversationnel qui accueille les visiteurs comme une réception humaine — répondant dans leur langue (français, Darja, anglais, espagnol, italien), les orientant vers le bon service, avec passage à un humain si besoin.</p>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Services :</p>
               <div class="pill-services-cont">
                 <div class="pill-service">Ingénierie IA/ML</div>
                 <div class="pill-service">UI Conversationnelle</div>
-                <div class="pill-service">CRM</div>
+                <div class="pill-service">UX Multilingue</div>
+                <div class="pill-service">Tickets Support</div>
               </div>
             </div>
             <div class="content-project-info">
               <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Développement complet de l&rsquo;avatar IA: du modèle aux flux conversationnels et à l&rsquo;intégration CRM.</p>
+              <p class="body-copy black">De bout en bout : conception des conversations avatar, flux multilingues, mise à jour des profils visiteurs, tableaux de bord de formation des délégués (sessions, scores, performance par étape) et panneau de tickets pour l'escalade support.</p>
             </div>
           </div>
           <div class="cont-project-imgs"><img src="/images/vital-1.png" loading="lazy" id="w-node-vital-hero" sizes="100vw" alt="ALIA avatar medical session" class="img-project"><img src="/images/vital-4.png" loading="lazy" id="w-node-vital-stats" sizes="100vw" alt="Delegate training performance dashboard" class="img-project">
@@ -867,45 +910,6 @@ export const workContent = {
             </div>
           </div>
           <div class="cont-project-imgs three-items"><img src="/images/travel1.webp" loading="lazy" id="w-node-travel-cover" sizes="100vw" alt="" class="img-project small"><img src="/images/travel2.webp" loading="lazy" id="w-node-travel-2" sizes="100vw" alt="" class="img-project small"><img src="/images/travel3.webp" loading="lazy" id="w-node-travel-3" sizes="100vw" alt="" class="img-project small">
-          </div>
-        </div>
-        <div id="sumo" class="main-project-wrapper">
-          <div class="cont-project-content">
-            <div id="w-node-sumo-first-fr" class="content-project-info first">
-              <h3 class="headline-project">SUMO<br>Gestion Intelligente du Trafic</h3>
-              <div class="pill-year">2026 • En cours · Déc 2026</div>
-              <div class="dot-project"></div>
-              <div class="cont-cta-work">
-                <a data-wf--cta-big--variant="work" href="#" target="_blank" class="main-cont-button w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd w-inline-block">
-                  <div class="icon-wrapper-cta-first w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                  <div class="text-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd">En cours</div>
-                  <div class="icon-wrapper-cta w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"><img loading="lazy" src="/images/arrow-grey-out.svg" alt="" class="arrow-cion w-variant-948bd83d-21eb-0eb2-4275-2385c9d64bcd"></div>
-                </a>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Défi :</p>
-              <p class="body-copy black">Projet académique (en cours) : optimiser la signalisation urbaine avec la simulation SUMO — en combinant l&rsquo;analytique des flux (congestion, files d&rsquo;attente, débit) avec des politiques de feux par reinforcement learning, évaluées contre des plans à temps fixe.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Services :</p>
-              <div class="pill-services-cont">
-                <div class="pill-service">Simulation Trafic</div>
-                <div class="pill-service">Analytique Data</div>
-                <div class="pill-service">Reinforcement Learning</div>
-                <div class="pill-service">Python</div>
-              </div>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Rôle :</p>
-              <p class="body-copy black">Construction des scénarios SUMO, pipelines data pour les métriques de flux, expériences RL pour le contrôle des feux et tableaux d&rsquo;évaluation.</p>
-            </div>
-            <div class="content-project-info">
-              <p class="body-copy title">Statut :</p>
-              <p class="body-copy black">Fait : réseau SUMO + pipeline de métriques TraCI. Suite : entraînement RL + évaluation vs temps fixe. Visuels complets Déc 2026.</p>
-            </div>
-          </div>
-          <div class="cont-project-imgs"><p class="body-copy black" style="border:1px dashed rgba(0,0,0,.25);border-radius:.3rem;padding:2rem;text-align:center;align-self:start;">Pipeline : Réseau → métriques TraCI → politique RL → Éval. Visuels complets Déc 2026.</p>
           </div>
         </div>
         <div id="matchupz" class="main-project-wrapper">
